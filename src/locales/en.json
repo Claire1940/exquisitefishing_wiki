@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Exquisite Fishing Wiki - Walkthrough, Fish & Scenes",
+      "description": "Exquisite Fishing Wiki with a complete walkthrough, fish list, biome depths, gear and bait upgrades, character routes, scene requirements, and save help.",
+      "keywords": "Exquisite Fishing, walkthrough, fish list, biomes, gear, bait, scenes, save file",
+      "ogTitle": "Exquisite Fishing Wiki - Walkthrough, Fish & Scenes",
+      "ogDescription": "Exquisite Fishing Wiki with a complete walkthrough, fish list, biome depths, gear and bait upgrades, character routes, scene requirements, and save help.",
+      "twitterTitle": "Exquisite Fishing Wiki - Walkthrough, Fish & Scenes",
+      "twitterDescription": "Exquisite Fishing Wiki covering walkthroughs, fish lists, biomes, gear, bait, characters, scenes, and save file help."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Pixel Fishing Adventure",
+    "title": "Exquisite Fishing Wiki",
+    "description": "Catch and sell sea creatures, upgrade hooks and boat gear, explore deeper ocean biomes, complete the Fishipedia, and unlock mature character scenes.",
+    "getFreeCodesCTA": "View Walkthrough",
+    "playOnRobloxCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Oct 24, 2023",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "$4.99",
+        "label": "Base Price"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "3.8/5",
+        "label": "Itch Rating"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Windows PC",
+        "label": "Platform"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
+    "title": "Start Your Exquisite Fishing Adventure",
+    "description": "Dive into our complete walkthrough, full Fishipedia, ocean biome guides, and scene unlock routes for Exquisite Fishing.",
+    "joinCommunity": "Follow on X",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Exquisite Fishing Wiki",
+    "description": "Your complete resource hub for Exquisite Fishing walkthroughs, fish lists, ocean biomes, gear and bait upgrades, character routes, and scene unlock guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steam": "Steam",
+    "steamGuide": "Steam Guide",
+    "itchio": "itch.io",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Exquisite Fishing Wiki. Not affiliated with PinkySoul, the developer of Exquisite Fishing.",
+    "disclaimer": "Unofficial fan-made resource website. Exquisite Fishing is an adults-only game."
   },
   "pages": {
     "guides": {
