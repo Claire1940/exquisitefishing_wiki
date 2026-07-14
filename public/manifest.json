@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Exquisite Fishing Wiki - Walkthrough, Fish & Scenes",
+  "short_name": "Exquisite Fishing",
+  "description": "Exquisite Fishing Wiki with a complete walkthrough, fish list, biome depths, gear and bait upgrades, character routes, scene requirements, and save help.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#13A6C3",
+  "background_color": "#0C1422",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

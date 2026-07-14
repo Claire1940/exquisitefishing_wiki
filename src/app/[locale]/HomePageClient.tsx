@@ -85,7 +85,7 @@ export default function HomePageClient({
 }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.exquisitefishing.wiki";
 
   // Structured data
   const structuredData = {
@@ -95,15 +95,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "Exquisite Fishing Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Exquisite Fishing Wiki with a complete walkthrough, fish list, biome depths, gear and bait upgrades, character routes, scene requirements, and save help.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: "Exquisite Fishing - Pixel Fishing Adventure",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +114,11 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Exquisite Fishing Wiki",
+        alternateName: "Exquisite Fishing",
         url: siteUrl,
         description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Exquisite Fishing Wiki resource hub for walkthrough, fish, biomes, gear, bait, characters, scenes, and save guides",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -130,41 +130,41 @@ export default function HomePageClient({
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: "Exquisite Fishing Wiki - Pixel Fishing Adventure",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://store.steampowered.com/app/2146300/Exquisite_Fishing/",
+          "https://phracassado.itch.io/exquisite-fishing",
+          "https://x.com/PinkySoulOG",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
+        name: "Exquisite Fishing",
         gamePlatform: ["PC", "Steam"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Fishing", "Adventure", "Pixel Art", "Indie"],
         numberOfPlayers: {
           minValue: 1,
           maxValue: 1,
         },
+        datePublished: "2023-10-24",
         offers: {
           "@type": "Offer",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          url: "https://store.steampowered.com/app/2146300/Exquisite_Fishing/",
         },
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "Exquisite Fishing GAMEPLAY",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "Exquisite Fishing gameplay video showing the fishing loop, catches, gear upgrades, and ocean exploration.",
+        uploadDate: "2023-10-24",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/r1aja9_vSdg",
+        url: "https://www.youtube.com/watch?v=r1aja9_vSdg",
       },
     ],
   };
@@ -247,7 +247,7 @@ export default function HomePageClient({
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://store.steampowered.com/app/2146300/Exquisite_Fishing/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
@@ -267,24 +267,24 @@ export default function HomePageClient({
         </div>
       </section>
 
+      {/* Video Section - 紧跟 Hero 区域 */}
+      <section className="px-4 py-10 md:py-12">
+        <div className="scroll-reveal container mx-auto max-w-6xl">
+          <div className="relative overflow-hidden rounded-2xl">
+            <VideoFeature
+              videoId="r1aja9_vSdg"
+              title="Exquisite Fishing GAMEPLAY"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Latest Updates Section */}
       <LatestGuidesAccordion
         articles={latestArticles}
         locale={locale}
         max={12}
       />
-
-      {/* Video Section */}
-      <section className="px-4 py-10 md:py-12">
-        <div className="scroll-reveal container mx-auto max-w-5xl">
-          <div className="relative overflow-hidden rounded-2xl">
-            <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
