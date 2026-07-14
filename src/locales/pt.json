@@ -1,11 +1,1711 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Exquisite Fishing - Passo a passo, peixes e cenas",
+      "description": "Wiki de Exquisite Fishing com um passo a passo completo, lista de peixes, profundidades dos biomas, melhorias de equipamento e isca, rotas de personagens, requisitos de cenas e ajuda com salvamento.",
+      "keywords": "Exquisite Fishing, passo a passo, lista de peixes, biomas, equipamento, isca, cenas, arquivo de salvamento",
+      "ogTitle": "Wiki de Exquisite Fishing - Passo a passo, peixes e cenas",
+      "ogDescription": "Wiki de Exquisite Fishing com um passo a passo completo, lista de peixes, profundidades dos biomas, melhorias de equipamento e isca, rotas de personagens, requisitos de cenas e ajuda com salvamento.",
+      "twitterTitle": "Wiki de Exquisite Fishing - Passo a passo, peixes e cenas",
+      "twitterDescription": "Wiki de Exquisite Fishing cobrindo passo a passo, listas de peixes, biomas, equipamentos, iscas, personagens, cenas e ajuda com arquivos de salvamento."
+    }
+  },
   "nav": {
     "guide": "Guia",
-    "walkthrough": "Walkthrough",
+    "walkthrough": "Passo a passo",
     "catches": "Capturas",
     "equipment": "Equipamento",
     "gallery": "Galeria",
     "version": "Versão",
     "download": "Download"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Steam",
+    "switchLanguage": "Mudar idioma",
+    "switchTheme": "Mudar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo escuro",
+    "notFound": "Página não encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao início",
+    "relatedArticles": "Artigos relacionados",
+    "readMore": "Leia mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Aventura de pesca em pixel",
+    "title": "Wiki de Exquisite Fishing",
+    "description": "Capture e venda criaturas marinhas, melhore anzóis e equipamentos do barco, explore biomas oceânicos mais profundos, complete o Fishipedia e desbloqueie cenas de personagens maduros.",
+    "getFreeCodesCTA": "Ver passo a passo",
+    "playOnRobloxCTA": "Jogar no Steam",
+    "stats": {
+      "stat1": {
+        "value": "24 de out. de 2023",
+        "label": "Data de lançamento"
+      },
+      "stat2": {
+        "value": "$4.99",
+        "label": "Preço base"
+      },
+      "stat3": {
+        "value": "3.8/5",
+        "label": "Avaliação no Itch"
+      },
+      "stat4": {
+        "value": "Windows PC",
+        "label": "Plataforma"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de Exquisite Fishing",
+    "description": "Lance a isca e recolha creatures marinhas, venda capturas por gold e melhore hooks, gifts e boats para explorar biomes oceânicos mais profundos nesta aventura de pesca em pixel no Steam."
+  },
+  "tools": {
+    "title": "Exquisite Fishing",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para dominar Exquisite Fishing — walkthroughs, listas de peixes, biomes oceânicos, equipamentos, baits e desbloqueios de scenes.",
+    "cards": [
+      {
+        "icon": "Abrir Livro",
+        "title": "Guia de Iniciante de Exquisite Fishing",
+        "description": "Loop de pesca principal, primeiro gold e a rota inicial do Calm Ocean"
+      },
+      {
+        "icon": "Bússola",
+        "title": "Walkthrough de Exquisite Fishing",
+        "description": "Progressão completa do Calm Ocean até o Angler de 2.000m no Dark Ocean"
+      },
+      {
+        "icon": "Peixes",
+        "title": "Lista de Peixes de Exquisite Fishing",
+        "description": "Cada captura especial com depth, valor, hook e gift"
+      },
+      {
+        "icon": "Martelo",
+        "title": "Equipamentos de Exquisite Fishing",
+        "description": "Boats, hooks e gifts ordenados por estágio de progressão"
+      },
+      {
+        "icon": "Ondas",
+        "title": "Biomes de Exquisite Fishing",
+        "description": "Quatro áreas oceânicas, marcos de depth e custos de entrada"
+      },
+      {
+        "icon": "Gift",
+        "title": "Baits de Exquisite Fishing",
+        "description": "Configurações de hook e gift para cada creature especial"
+      },
+      {
+        "icon": "Moedas",
+        "title": "Guia de Dinheiro de Exquisite Fishing",
+        "description": "Melhor rota de gastos do Calm Ocean ao Dark Ocean"
+      },
+      {
+        "icon": "Imagens",
+        "title": "Scenes de Exquisite Fishing",
+        "description": "Checklist da gallery livre de spoilers agrupado por oceano"
+      }
+    ]
+  },
+  "modules": {
+    "exquisiteFishingBeginnerGuide": {
+      "title": "Guia de Iniciante de Exquisite Fishing",
+      "eyebrow": "Primeiros Passos",
+      "subtitle": "Aprenda o loop de pesca principal, ganhe seu primeiro gold e prepare-se para deixar o Calm Ocean.",
+      "intro": "Exquisite Fishing começa no Calm Ocean com o Regular Old Boat gratuito. Pesque e venda peixes, depois gaste seu gold nas combinações exatas de hook, gift e boat necessárias para alcançar alvos mais profundos e novas áreas oceânicas.",
+      "steps": [
+        {
+          "title": "Entrar no Calm Ocean",
+          "details": "Selecione o Regular Old Boat e comece no Calm Ocean. Esta área inicial custa 0g e contém alvos documentados entre 50m e 300m de depth.",
+          "goal": "Pratique a pesca sem gastar gold em outro oceano."
+        },
+        {
+          "title": "Lance e Guie a Isca",
+          "details": "Jogue a isca na água e guie-a em direção à depth e ao alvo que você deseja. Posicione a isca perto o suficiente para que a creature se interesse antes de iniciar a captura.",
+          "goal": "Evite desperdiçar um lançamento em alvos que não correspondem ao seu hook e gift equipados."
+        },
+        {
+          "title": "Encha o Medidor de Hook",
+          "details": "Mantenha o alvo engajado até que a barra do anzol esteja cheia. Após garantir a captura, recolha a linha de volta à superfície para concluir a tentativa.",
+          "goal": "Conclua a captura total antes de trocar de equipamento ou deixar o oceano."
+        },
+        {
+          "title": "Venda Capturas por Gold",
+          "details": "Venda peixes comuns e capturas especiais valiosas através da economia do jogo. O Gold é usado para comprar hooks, gifts, boats e acesso a áreas oceânicas posteriores.",
+          "goal": "Continue acumulando gold em vez de tentar repetidamente um alvo indisponível."
+        },
+        {
+          "title": "Foque nas Criaturas do Calm Ocean",
+          "details": "A Mermaid aparece a 50m e vale 300g com um Diamond Ring e Regular Hook. O Shark aparece a 200m e vale 2.000g com um Good Hook e Striped Pantie, enquanto o Angler aparece a 300m e vale 10.000g com uma Box of Chocolates e Regular Hook.",
+          "goal": "Use a Mermaid como o primeiro alvo especial simples e, em seguida, prepare as combinações necessárias para o Shark e o Angler."
+        },
+        {
+          "title": "Desbloqueie o Rocky Ocean",
+          "details": "Economize 1.500g para o Regular Boat e o acesso ao Rocky Ocean. Antes de prosseguir, verifique a Fishipedia e o Fish Report para revisar as capturas descobertas e identificar registros ausentes.",
+          "goal": "Entre no segundo oceano com gold suficiente sobrando para seus hooks e gifts específicos de cada alvo."
+        }
+      ]
+    },
+    "exquisiteFishingCompleteWalkthrough": {
+      "title": "Detonado Completo de Exquisite Fishing",
+      "eyebrow": "Progressão Completa",
+      "subtitle": "Siga a ordem de desbloqueio dos oceanos, prepare cada combinação de equipamento necessária e reserve gold suficiente para os próximos boats.",
+      "intro": "A rota de progressão principal cobre quatro áreas oceânicas com capturas cada vez mais profundas e valiosas. Cada estágio abaixo lista o requisito de acesso documentado, alvos importantes e as combinações de equipamentos necessárias para continuar.",
+      "stages": [
+        {
+          "step": 1,
+          "area": "Calm Ocean",
+          "access": "Regular Old Boat",
+          "cost": "0g",
+          "depthRange": "50m–300m",
+          "targets": [
+            {
+              "name": "Mermaid",
+              "depth": "50m",
+              "value": "300g",
+              "requirements": "Diamond Ring + Regular Hook"
+            },
+            {
+              "name": "Shark",
+              "depth": "200m",
+              "value": "2.000g",
+              "requirements": "Good Hook + Striped Pantie"
+            },
+            {
+              "name": "Angler",
+              "depth": "300m",
+              "value": "10.000g",
+              "requirements": "Box of Chocolates + Regular Hook"
+            }
+          ],
+          "progressionGoal": "Ganhe pelo menos 1.500g para o Regular Boat enquanto coleta os equipamentos necessários para o Rocky Ocean."
+        },
+        {
+          "step": 2,
+          "area": "Rocky Ocean",
+          "access": "Regular Boat",
+          "cost": "1.500g",
+          "depthRange": "100m–600m",
+          "targets": [
+            {
+              "name": "Octopus",
+              "depth": "100m",
+              "value": "1.500g",
+              "requirements": "Mighty Dildo + Double Shielded Hook_"
+            },
+            {
+              "name": "Anêmona",
+              "depth": "300m",
+              "value": "3.500g",
+              "requirements": "Anzol Reforçado + Caixa de Chocolates"
+            },
+            {
+              "name": "Kappa",
+              "depth": "500m",
+              "value": "7.500g",
+              "requirements": "Colar de Pérolas + Anzol Furadeira"
+            },
+            {
+              "name": "Peixe-lanterna",
+              "depth": "600m",
+              "value": "13.000g",
+              "requirements": "Rosa Vibrante + Anzol Reforçado"
+            }
+          ],
+          "progressionGoal": "Priorize as combinações de Kappa e Peixe-lanterna de maior valor, depois reserve 5.000g para o Barco Reforçado."
+        },
+        {
+          "step": 3,
+          "area": "Oceano Turbulento",
+          "access": "Barco Reforçado",
+          "cost": "5.000g",
+          "depthRange": "50m–1.000m",
+          "targets": [
+            {
+              "name": "Baleia",
+              "depth": "50m",
+              "value": "2.500g",
+              "requirements": "Calcinha Listrada + Anzol de Escudo Duplo"
+            },
+            {
+              "name": "Sereia",
+              "depth": "200m",
+              "value": "7.000g",
+              "requirements": "Anzol Reforçado + Fita Adorável"
+            },
+            {
+              "name": "Kappa",
+              "depth": "500m",
+              "value": "13.500g",
+              "requirements": "Rosa Vibrante + Anzol de Escudo Triplo"
+            },
+            {
+              "name": "Polvo",
+              "depth": "700m",
+              "value": "0g",
+              "requirements": "Anzol de Contas Anais + Colar de Pérolas"
+            },
+            {
+              "name": "Tubarão",
+              "depth": "900m",
+              "value": "24.000g",
+              "requirements": "Anel de Diamante + Super Anzol"
+            },
+            {
+              "name": "Carta do Vovô",
+              "depth": "1.000m",
+              "value": "Colecionável chave",
+              "requirements": "Alcance a localização do colecionável no fundo"
+            }
+          ],
+          "progressionGoal": "Use o Shark de 24.000g como o principal alvo de dinheiro e recupere a Grandpa's Letter antes de comprar o Golden Boat."
+        },
+        {
+          "step": 4,
+          "area": "Dark Ocean",
+          "access": "Golden Boat",
+          "cost": "8.000g",
+          "depthRange": "50m–2.000m",
+          "targets": [
+            {
+              "name": "Anemone",
+              "depth": "50m",
+              "value": "3.000g",
+              "requirements": "Vibrant Rose + Reinforced Hook"
+            },
+            {
+              "name": "Whale",
+              "depth": "200m",
+              "value": "9.000g",
+              "requirements": "Double Shielded Hook + Lovely Ribbon"
+            },
+            {
+              "name": "Shark",
+              "depth": "500m",
+              "value": "15.000g",
+              "requirements": "Piece of Cake + Drill Hook"
+            },
+            {
+              "name": "Mermaid",
+              "depth": "800m",
+              "value": "20.000g",
+              "requirements": "Super Hook + Pearl Necklace"
+            },
+            {
+              "name": "Anemone",
+              "depth": "1.000m",
+              "value": "25.000g",
+              "requirements": "Piece of Cake + Hearty Hook"
+            },
+            {
+              "name": "Kappa",
+              "depth": "1.200m",
+              "value": "30.000g",
+              "requirements": "Anal Plug Hook + Striped Pantie"
+            },
+            {
+              "name": "Octopus",
+              "depth": "1.500m",
+              "value": "35.000g",
+              "requirements": "Mighty Dildo + Anal Beads Hook"
+            },
+            {
+              "name": "Whale",
+              "depth": "1.700m",
+              "value": "40.000g",
+              "requirements": "Triple Shielded Hook + Lovely Ribbon"
+            },
+            {
+              "name": "Angler",
+              "depth": "2.000m",
+              "value": "45.000g",
+              "requirements": "Anel de Diamante + Anzol Omega"
+            }
+          ],
+          "progressionGoal": "Melhore através dos requisitos de anzol documentados e termine com o Peixe-Pescador de 2.000m, a captura listada mais profunda e de maior valor."
+        }
+      ]
+    },
+    "exquisiteFishingFishAndCreatures": {
+      "title": "Lista de Peixes e Criaturas de Exquisite Fishing",
+      "eyebrow": "Banco de Dados de Capturas",
+      "subtitle": "Compare as capturas especiais documentadas em todas as quatro áreas oceânicas e prepare o equipamento correto antes de lançar a linha.",
+      "intro": "Esta tabela de captura abrange as criaturas críticas para a progressão e os colecionáveis documentados nos oceanos Calmo, Rochoso, Turbulento e Sombrio. Use os campos de oceano, profundidade, valor, anzol e presente para planejar cada viagem de pesca.",
+      "columns": [
+        "Criatura",
+        "Oceano",
+        "Profundidade",
+        "Valor",
+        "Anzol",
+        "Presente",
+        "Tipo"
+      ],
+      "rows": [
+        {
+          "creature": "Sereia",
+          "ocean": "Oceano Calmo",
+          "depth": "50m",
+          "value": "300g",
+          "hook": "Anzol Regular",
+          "gift": "Anel de Diamante",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Tubarão",
+          "ocean": "Oceano Calmo",
+          "depth": "200m",
+          "value": "2.000g",
+          "hook": "Anzol Bom",
+          "gift": "Calcinha Listrada",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Peixe-Pescador",
+          "ocean": "Oceano Calmo",
+          "depth": "300m",
+          "value": "10.000g",
+          "hook": "Anzol Regular",
+          "gift": "Caixa de Chocolates",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Polvo",
+          "ocean": "Oceano Rochoso",
+          "depth": "100m",
+          "value": "1.500g",
+          "hook": "Anzol com Escudo Duplo",
+          "gift": "Dildo Poderoso",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Anêmona",
+          "ocean": "Oceano Rochoso",
+          "depth": "300m",
+          "value": "3.500g",
+          "hook": "Anzol Reforçado",
+          "gift": "Caixa de Chocolates",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Kappa",
+          "ocean": "Oceano Rochoso",
+          "depth": "500m",
+          "value": "7.500g",
+          "hook": "Anzol Broca",
+          "gift": "Colar de Pérolas",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Peixe-Pescador",
+          "ocean": "Oceano Rochoso",
+          "depth": "600m",
+          "value": "13.000g",
+          "hook": "Anzol Reforçado",
+          "gift": "Rosa Vibrante",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Baleia",
+          "ocean": "Oceano Turbulento",
+          "depth": "50m",
+          "value": "2.500g",
+          "hook": "Anzol com Escudo Duplo",
+          "gift": "Calcinha Listrada",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Sereia",
+          "ocean": "Oceano Turbulento",
+          "depth": "200m",
+          "value": "7.000g",
+          "hook": "Anzol Reforçado",
+          "gift": "Laço Adorável",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Kappa",
+          "ocean": "Oceano Turbulento",
+          "depth": "500m",
+          "value": "13.500g",
+          "hook": "Anzol de Escudo Triplo",
+          "gift": "Rosa Vibrante",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Polvo",
+          "ocean": "Oceano Turbulento",
+          "depth": "700m",
+          "value": "0g",
+          "hook": "Anzol de Contas Anais",
+          "gift": "Colar de Pérolas",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Tubarão",
+          "ocean": "Oceano Turbulento",
+          "depth": "900m",
+          "value": "24.000g",
+          "hook": "Super Anzol",
+          "gift": "Anel de Diamante",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Carta do Vovô",
+          "ocean": "Oceano Turbulento",
+          "depth": "1.000m",
+          "value": "Colecionável chave",
+          "hook": "Não listado",
+          "gift": "Não listado",
+          "type": "Colecionável"
+        },
+        {
+          "creature": "Anêmona",
+          "ocean": "Oceano Escuro",
+          "depth": "50m",
+          "value": "3.000g",
+          "hook": "Anzol Reforçado",
+          "gift": "Rosa Vibrante",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Baleia",
+          "ocean": "Oceano Escuro",
+          "depth": "200m",
+          "value": "9.000g",
+          "hook": "Anzol de Escudo Duplo",
+          "gift": "Fita Adorável",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Tubarão",
+          "ocean": "Oceano Sombrio",
+          "depth": "500m",
+          "value": "15.000g",
+          "hook": "Anzol de Broca",
+          "gift": "Pedaço de Bolo",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Sereia",
+          "ocean": "Oceano Sombrio",
+          "depth": "800m",
+          "value": "20.000g",
+          "hook": "Super Anzol",
+          "gift": "Colar de Pérolas",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Anêmona",
+          "ocean": "Oceano Sombrio",
+          "depth": "1.000m",
+          "value": "25.000g",
+          "hook": "Anzol Vigoroso",
+          "gift": "Pedaço de Bolo",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Kappa",
+          "ocean": "Oceano Sombrio",
+          "depth": "1.200m",
+          "value": "30.000g",
+          "hook": "Anzol Plug Anal",
+          "gift": "Calcinha Listrada",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Polvo",
+          "ocean": "Oceano Sombrio",
+          "depth": "1.500m",
+          "value": "35.000g",
+          "hook": "Anzol de Contas Anais",
+          "gift": "Dildo Poderoso",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Baleia",
+          "ocean": "Oceano Sombrio",
+          "depth": "1.700m",
+          "value": "40.000g",
+          "hook": "Anzol de Escudo Triplo",
+          "gift": "Laço Adorável",
+          "type": "Criatura especial"
+        },
+        {
+          "creature": "Angler",
+          "ocean": "Dark Ocean",
+          "depth": "2.000m",
+          "value": "45.000g",
+          "hook": "Omega Hook",
+          "gift": "Diamond Ring",
+          "type": "Criatura especial"
+        }
+      ]
+    },
+    "exquisiteFishingGearAndUpgrades": {
+      "title": "Guia de Equipamentos e Melhorias de Exquisite Fishing",
+      "eyebrow": "Progressão de Equipamento",
+      "subtitle": "Veja quais equipamentos desbloqueiam cada oceano e quais combinações de anzol e presente são necessárias para capturas importantes.",
+      "intro": "A progressão de equipamento é impulsionada pelo acesso ao oceano e requisitos de alvos. Barcos abrem novas áreas, anzóis suportam capturas cada vez mais profundas e presentes atraem criaturas especiais específicas.",
+      "categoryLabels": {
+        "Boat": "Barcos",
+        "Hook": "Anzóis",
+        "Gift": "Presentes"
+      },
+      "columnLabels": {
+        "item": "Equipamento",
+        "stage": "Estágio de Progressão",
+        "cost": "Custo",
+        "use": "Uso Documentado",
+        "targets": "Alvos Conhecidos"
+      },
+      "items": [
+        {
+          "category": "Barco",
+          "item": "Regular Old Boat",
+          "progressionStage": "Inicial",
+          "cost": "0g",
+          "documentedUse": "Dá acesso ao Calm Ocean.",
+          "knownTargets": "Mermaid, Shark e Angler"
+        },
+        {
+          "category": "Barco",
+          "item": "Regular Boat",
+          "progressionStage": "Início do jogo",
+          "cost": "1.500g",
+          "documentedUse": "Dá acesso ao Rocky Ocean.",
+          "knownTargets": "Octopus, Anemone, Kappa e Angler"
+        },
+        {
+          "category": "Barco",
+          "item": "Reinforced Boat",
+          "progressionStage": "Meio do jogo",
+          "cost": "5.000g",
+          "documentedUse": "Dá acesso ao Turbulent Ocean.",
+          "knownTargets": "Whale, Mermaid, Kappa, Octopus, Shark e Grandpa's Letter"
+        },
+        {
+          "category": "Barco",
+          "item": "Golden Boat",
+          "progressionStage": "Final do jogo",
+          "cost": "8.000g",
+          "documentedUse": "Acessa o Dark Ocean.",
+          "knownTargets": "Capturas especiais de 50m até o Angler de 2.000m"
+        },
+        {
+          "category": "Anzol",
+          "item": "Regular Hook",
+          "progressionStage": "Inicial",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Necessário para a Mermaid do Calm Ocean a 50m e o Angler a 300m.",
+          "knownTargets": "Mermaid e Angler"
+        },
+        {
+          "category": "Anzol",
+          "item": "Good Hook",
+          "progressionStage": "Início do jogo",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Necessário para o Shark do Calm Ocean a 200m.",
+          "knownTargets": "Shark"
+        },
+        {
+          "category": "Anzol",
+          "item": "Double Shielded Hook",
+          "progressionStage": "Início ao meio do jogo",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Usado para as capturas do Octopus do Rocky Ocean e da Whale nos oceanos Turbulent e Dark.",
+          "knownTargets": "Octopus e Whale"
+        },
+        {
+          "category": "Anzol",
+          "item": "Reinforced Hook",
+          "progressionStage": "Meio do jogo",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Usado para capturas de Anemone, Angler e Mermaid de 50m a 600m.",
+          "knownTargets": "Anemone, Angler e Mermaid"
+        },
+        {
+          "category": "Anzol",
+          "item": "Drill Hook",
+          "progressionStage": "Meio do jogo",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Necessário para o Kappa do Rocky Ocean e o Shark do Dark Ocean a 500m.",
+          "knownTargets": "Kappa e Shark"
+        },
+        {
+          "category": "Anzol",
+          "item": "Triple Shielded Hook",
+          "progressionStage": "Meio ao final do jogo",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Necessário para o Kappa do Turbulent Ocean e a Whale do Dark Ocean a 1.700m.",
+          "knownTargets": "Kappa e Whale"
+        },
+        {
+          "category": "Anzol",
+          "item": "Anal Beads Hook",
+          "progressionStage": "Late game",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Necessário para capturas de Octopus a 700m e 1.500m.",
+          "knownTargets": "Octopus"
+        },
+        {
+          "category": "Anzol",
+          "item": "Super Hook",
+          "progressionStage": "Late game",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Necessário para o Turbulent Ocean Shark a 900m e para a Dark Ocean Mermaid a 800m.",
+          "knownTargets": "Shark e Mermaid"
+        },
+        {
+          "category": "Anzol",
+          "item": "Hearty Hook",
+          "progressionStage": "Late game",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Necessário para a Dark Ocean Anemone a 1.000m.",
+          "knownTargets": "Anemone"
+        },
+        {
+          "category": "Anzol",
+          "item": "Anal Plug Hook",
+          "progressionStage": "Late game",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Necessário para o Dark Ocean Kappa a 1.200m.",
+          "knownTargets": "Kappa"
+        },
+        {
+          "category": "Anzol",
+          "item": "Omega Hook",
+          "progressionStage": "Endgame",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Necessário para a captura mais profunda documentada, o Dark Ocean Angler a 2.000m.",
+          "knownTargets": "Angler"
+        },
+        {
+          "category": "Presente",
+          "item": "Diamond Ring",
+          "progressionStage": "Todos os estágios",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Atrai a Calm Mermaid, o Turbulent Shark e o Dark Angler quando combinado com seus anzóis necessários.",
+          "knownTargets": "Mermaid, Shark e Angler"
+        },
+        {
+          "category": "Presente",
+          "item": "Striped Pantie",
+          "progressionStage": "Do early ao late game",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Usado para o Tubarão Calmo, Baleia Turbulenta e Kappa Sombrio.",
+          "knownTargets": "Tubarão, Baleia e Kappa"
+        },
+        {
+          "category": "Presente",
+          "item": "Caixa de Chocolates",
+          "progressionStage": "Início ao meio do jogo",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Usado para o Peixe-lanterna Calmo e Anêmona Rochosa.",
+          "knownTargets": "Peixe-lanterna e Anêmona"
+        },
+        {
+          "category": "Presente",
+          "item": "Dildo Poderoso",
+          "progressionStage": "Início ao final do jogo",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Usado para as capturas de Polvo do Oceano Rochoso e Sombrio.",
+          "knownTargets": "Polvo"
+        },
+        {
+          "category": "Presente",
+          "item": "Colar de Pérolas",
+          "progressionStage": "Meio ao final do jogo",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Usado para capturas de Kappa, Polvo e Sereia.",
+          "knownTargets": "Kappa, Polvo e Sereia"
+        },
+        {
+          "category": "Presente",
+          "item": "Rosa Vibrante",
+          "progressionStage": "Meio ao final do jogo",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Usado para capturas de Peixe-lanterna, Kappa e Anêmona.",
+          "knownTargets": "Peixe-lanterna, Kappa e Anêmona"
+        },
+        {
+          "category": "Presente",
+          "item": "Laço Adorável",
+          "progressionStage": "Meio ao final do jogo",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Usado para capturas de Sereia e Baleia nos oceanos Turbulento e Sombrio.",
+          "knownTargets": "Sereia e Baleia"
+        },
+        {
+          "category": "Presente",
+          "item": "Pedaço de Bolo",
+          "progressionStage": "Final do jogo",
+          "cost": "Preço da loja não listado",
+          "documentedUse": "Usado para o Tubarão do Oceano Sombrio e a Anêmona de 1.000m.",
+          "knownTargets": "Tubarão e Anêmona"
+        }
+      ]
+    },
+    "exquisiteFishingOceanBiomes": {
+      "title": "Guia de Biomas e Profundidades do Oceano de Exquisite Fishing",
+      "eyebrow": "Exploração do Oceano",
+      "subtitle": "Explore todas as quatro áreas de pesca, desde o gratuito Oceano Calmo até as profundezas de 2.000 metros do Oceano Escuro. Verifique o barco necessário, o custo de entrada e as principais capturas antes de iniciar cada viagem.",
+      "intro": "Exquisite Fishing contém quatro biomas oceânicos progressivamente mais difíceis. Novas áreas exigem barcos mais resistentes e anzóis e presentes cada vez mais especializados, enquanto alvos mais profundos fornecem recompensas em ouro muito maiores.",
+      "fieldLabels": {
+        "requiredBoat": "Barco Necessário",
+        "entryCost": "Custo de Entrada",
+        "depthRange": "Intervalo de Profundidade",
+        "notableCatches": "Capturas Notáveis",
+        "recommendedEquipment": "Equipamento Recomendado",
+        "importantUnlock": "Desbloqueio Importante"
+      },
+      "biomes": [
+        {
+          "name": "Oceano Calmo",
+          "progressionOrder": 1,
+          "requiredBoat": "Barco Antigo Regular",
+          "entryCost": "0g",
+          "depthRange": "50m–300m para capturas especiais",
+          "notableCatches": [
+            {
+              "name": "Sereia",
+              "depth": "50m",
+              "value": "300g"
+            },
+            {
+              "name": "Tubarão",
+              "depth": "200m",
+              "value": "2.000g"
+            },
+            {
+              "name": "Peixe-pescador",
+              "depth": "300m",
+              "value": "10.000g"
+            }
+          ],
+          "recommendedEquipment": [
+            "Anzol Regular",
+            "Anzol Bom",
+            "Anel de Diamante",
+            "Calcinha Listrada",
+            "Caixa de Chocolates"
+          ],
+          "importantUnlock": "O Peixe-pescador de 300m é o alvo de ouro mais forte no início do jogo."
+        },
+        {
+          "name": "Oceano Rochoso",
+          "progressionOrder": 2,
+          "requiredBoat": "Barco Regular",
+          "entryCost": "1.500g",
+          "depthRange": "100m–600m para capturas especiais",
+          "notableCatches": [
+            {
+              "name": "Polvo",
+              "depth": "100m",
+              "value": "1.500g"
+            },
+            {
+              "name": "Anêmona",
+              "depth": "300m",
+              "value": "3.500g"
+            },
+            {
+              "name": "Kappa",
+              "depth": "500m",
+              "value": "7.500g"
+            },
+            {
+              "name": "Peixe-lanterna",
+              "depth": "600m",
+              "value": "13.000g"
+            }
+          ],
+          "recommendedEquipment": [
+            "Anzol com Escudo Duplo",
+            "Anzol Reforçado",
+            "Anzol de Furadeira",
+            "Dildo Poderoso",
+            "Caixa de Chocolates",
+            "Colar de Pérolas",
+            "Rosa Vibrante"
+          ],
+          "importantUnlock": "Alcançar 600m libera a captura especial de maior valor do bioma."
+        },
+        {
+          "name": "Oceano Turbulento",
+          "progressionOrder": 3,
+          "requiredBoat": "Barco Reforçado",
+          "entryCost": "5.000g",
+          "depthRange": "50m–1.000m",
+          "notableCatches": [
+            {
+              "name": "Baleia",
+              "depth": "50m",
+              "value": "2.500g"
+            },
+            {
+              "name": "Sereia",
+              "depth": "200m",
+              "value": "7.000g"
+            },
+            {
+              "name": "Kappa",
+              "depth": "500m",
+              "value": "13.500g"
+            },
+            {
+              "name": "Polvo",
+              "depth": "700m",
+              "value": "0g"
+            },
+            {
+              "name": "Tubarão",
+              "depth": "900m",
+              "value": "24.000g"
+            },
+            {
+              "name": "Carta do Vovô",
+              "depth": "1.000m",
+              "value": "Item de história"
+            }
+          ],
+          "recommendedEquipment": [
+            "Anzol com Escudo Duplo",
+            "Anzol Reforçado",
+            "Anzol com Escudo Triplo",
+            "Anzol de Contas Anais",
+            "Super Anzol",
+            "Fita Adorável",
+            "Rosa Vibrante",
+            "Colar de Pérolas",
+            "Anel de Diamante"
+          ],
+          "importantUnlock": "A Carta do Vovô é encontrada a 1.000m, enquanto o Tubarão de 900m é o principal alvo de ouro."
+        },
+        {
+          "name": "Oceano Escuro",
+          "progressionOrder": 4,
+          "requiredBoat": "Barco Dourado",
+          "entryCost": "8.000g",
+          "depthRange": "50m–2.000m para capturas especiais",
+          "notableCatches": [
+            {
+              "name": "Anêmona",
+              "depth": "50m e 1.000m",
+              "value": "3.000g e 25.000g"
+            },
+            {
+              "name": "Baleia",
+              "depth": "200m e 1.700m",
+              "value": "9.000g e 40.000g"
+            },
+            {
+              "name": "Tubarão",
+              "depth": "500m",
+              "value": "15.000g"
+            },
+            {
+              "name": "Sereia",
+              "depth": "800m",
+              "value": "20.000g"
+            },
+            {
+              "name": "Kappa",
+              "depth": "1.200m",
+              "value": "30.000g"
+            },
+            {
+              "name": "Polvo",
+              "depth": "1.500m",
+              "value": "35.000g"
+            },
+            {
+              "name": "Peixe-lanterna",
+              "depth": "2.000m",
+              "value": "45.000g"
+            }
+          ],
+          "recommendedEquipment": [
+            "Anzol Reforçado",
+            "Anzol de Escudo Duplo",
+            "Anzol Furadeira",
+            "Super Anzol",
+            "Anzol Vigoroso",
+            "Anzol Plug Anal",
+            "Anzol de Contas Anais",
+            "Anzol de Escudo Triplo",
+            "Anzol Ômega"
+          ],
+          "importantUnlock": "O Peixe-lanterna de 2.000m é a captura especial listada mais profunda e valiosa."
+        }
+      ]
+    },
+    "exquisiteFishingBaitsAndCatches": {
+      "title": "Iscas e Requisitos de Captura de Exquisite Fishing",
+      "eyebrow": "Requisitos de Captura",
+      "subtitle": "Combine o anzol e o item de atração corretos antes de lançar a linha. Cada criatura pode exigir um equipamento diferente quando aparece em um oceano mais profundo.",
+      "intro": "Criaturas especiais só aparecem quando a combinação correta de equipamentos é usada na profundidade exigida. A mesma criatura pode retornar em biomas posteriores com um anzol mais forte, um presente diferente e um valor de venda muito maior.",
+      "appearanceLabels": {
+        "biome": "Bioma",
+        "depth": "Profundidade",
+        "value": "Valor",
+        "hook": "Hook",
+        "baitOrGift": "Isca / Gift"
+      },
+      "creatures": [
+        {
+          "creature": "Mermaid",
+          "appearances": [
+            {
+              "biome": "Calm Ocean",
+              "depth": "50m",
+              "value": "300g",
+              "hook": "Regular Hook",
+              "baitOrGift": "Diamond Ring"
+            },
+            {
+              "biome": "Turbulent Ocean",
+              "depth": "200m",
+              "value": "7.000g",
+              "hook": "Reinforced Hook",
+              "baitOrGift": "Lovely Ribbon"
+            },
+            {
+              "biome": "Dark Ocean",
+              "depth": "800m",
+              "value": "20.000g",
+              "hook": "Super Hook",
+              "baitOrGift": "Pearl Necklace"
+            }
+          ]
+        },
+        {
+          "creature": "Shark",
+          "appearances": [
+            {
+              "biome": "Calm Ocean",
+              "depth": "200m",
+              "value": "2.000g",
+              "hook": "Good Hook",
+              "baitOrGift": "Striped Pantie"
+            },
+            {
+              "biome": "Turbulent Ocean",
+              "depth": "900m",
+              "value": "24.000g",
+              "hook": "Super Hook",
+              "baitOrGift": "Diamond Ring"
+            },
+            {
+              "biome": "Dark Ocean",
+              "depth": "500m",
+              "value": "15.000g",
+              "hook": "Drill Hook",
+              "baitOrGift": "Piece of Cake"
+            }
+          ]
+        },
+        {
+          "creature": "Angler",
+          "appearances": [
+            {
+              "biome": "Oceano Calmo",
+              "depth": "300m",
+              "value": "10.000g",
+              "hook": "Anzol Regular",
+              "baitOrGift": "Caixa de Chocolates"
+            },
+            {
+              "biome": "Oceano Rochoso",
+              "depth": "600m",
+              "value": "13.000g",
+              "hook": "Anzol Reforçado",
+              "baitOrGift": "Rosa Vibrante"
+            },
+            {
+              "biome": "Oceano Escuro",
+              "depth": "2.000m",
+              "value": "45.000g",
+              "hook": "Anzol Ômega",
+              "baitOrGift": "Anel de Diamante"
+            }
+          ]
+        },
+        {
+          "creature": "Polvo",
+          "appearances": [
+            {
+              "biome": "Oceano Rochoso",
+              "depth": "100m",
+              "value": "1.500g",
+              "hook": "Anzol de Escudo Duplo",
+              "baitOrGift": "Dildo Poderoso"
+            },
+            {
+              "biome": "Oceano Turbulento",
+              "depth": "700m",
+              "value": "0g",
+              "hook": "Anzol de Contas Anais",
+              "baitOrGift": "Colar de Pérolas"
+            },
+            {
+              "biome": "Oceano Escuro",
+              "depth": "1.500m",
+              "value": "35.000g",
+              "hook": "Anzol de Contas Anais",
+              "baitOrGift": "Dildo Poderoso"
+            }
+          ]
+        },
+        {
+          "creature": "Anêmona",
+          "appearances": [
+            {
+              "biome": "Oceano Rochoso",
+              "depth": "300m",
+              "value": "3.500g",
+              "hook": "Anzol Reforçado",
+              "baitOrGift": "Caixa de Chocolates"
+            },
+            {
+              "biome": "Oceano Escuro",
+              "depth": "50m",
+              "value": "3.000g",
+              "hook": "Anzol Reforçado",
+              "baitOrGift": "Rosa Vibrante"
+            },
+            {
+              "biome": "Oceano Escuro",
+              "depth": "1.000m",
+              "value": "25.000g",
+              "hook": "Anzol Vigoroso",
+              "baitOrGift": "Pedaço de Bolo"
+            }
+          ]
+        },
+        {
+          "creature": "Kappa",
+          "appearances": [
+            {
+              "biome": "Oceano Rochoso",
+              "depth": "500m",
+              "value": "7.500g",
+              "hook": "Anzol Broca",
+              "baitOrGift": "Colar de Pérolas"
+            },
+            {
+              "biome": "Oceano Turbulento",
+              "depth": "500m",
+              "value": "13.500g",
+              "hook": "Anzol de Escudo Triplo",
+              "baitOrGift": "Rosa Vibrante"
+            },
+            {
+              "biome": "Oceano Escuro",
+              "depth": "1.200m",
+              "value": "30.000g",
+              "hook": "Anzol Plug Anal",
+              "baitOrGift": "Calcinha Listrada"
+            }
+          ]
+        },
+        {
+          "creature": "Baleia",
+          "appearances": [
+            {
+              "biome": "Oceano Turbulento",
+              "depth": "50m",
+              "value": "2.500g",
+              "hook": "Anzol de Escudo Duplo",
+              "baitOrGift": "Calcinha Listrada"
+            },
+            {
+              "biome": "Oceano Escuro",
+              "depth": "200m",
+              "value": "9.000g",
+              "hook": "Anzol de Escudo Duplo",
+              "baitOrGift": "Laço Adorável"
+            },
+            {
+              "biome": "Oceano Escuro",
+              "depth": "1.700m",
+              "value": "40.000g",
+              "hook": "Anzol de Escudo Triplo",
+              "baitOrGift": "Laço Adorável"
+            }
+          ]
+        }
+      ]
+    },
+    "exquisiteFishingMoneyAndShop": {
+      "title": "Guia de Dinheiro e Loja de Exquisite Fishing",
+      "eyebrow": "Gold e Upgrades",
+      "subtitle": "Acumule gold focando em capturas especiais valiosas e comprando apenas o equipamento necessário para a próxima barreira de progressão. Poupe para boats antes de comprar loadouts opcionais que não avançam a sua rota.",
+      "intro": "Peixes podem ser vendidos por gold, que é então usado para hooks, gifts, boats e outros itens da loja. Uma rota focada evita que equipamentos caros atrasem o acesso ao próximo bioma do oceano.",
+      "fieldLabels": {
+        "goal": "Objetivo",
+        "purchases": "Compras",
+        "target": "Alvo",
+        "targets": "Alvos",
+        "entryCost": "Custo de Entrada",
+        "bestTarget": "Melhor Alvo",
+        "secondaryGoal": "Objetivo Secundário",
+        "strategy": "Estratégia"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "title": "Comece com a Calm Ocean Mermaid",
+          "goal": "Crie um pequeno fundo inicial sem pagar uma taxa de entrada no oceano.",
+          "purchases": [
+            "Diamond Ring",
+            "Regular Hook"
+          ],
+          "target": {
+            "creature": "Mermaid",
+            "depth": "50m",
+            "value": "300g"
+          },
+          "strategy": "Use o Calm Ocean gratuito para aprender o loop de lançar e recolher antes de gastar gold em equipamentos mais fortes."
+        },
+        {
+          "step": 2,
+          "title": "Faça upgrade para o Calm Ocean Shark",
+          "goal": "Ganhe gold suficiente para as primeiras grandes compras da loja.",
+          "purchases": [
+            "Good Hook",
+            "Striped Pantie"
+          ],
+          "target": {
+            "creature": "Shark",
+            "depth": "200m",
+            "value": "2,000g"
+          },
+          "strategy": "O Shark paga substancialmente mais do que a Mermaid e prepara a conta para capturas mais profundas."
+        },
+        {
+          "step": 3,
+          "title": "Farme o Angler inicial",
+          "goal": "Crie a reserva financeira principal para os equipamentos e custos de entrada do Rocky Ocean.",
+          "purchases": [
+            "Box of Chocolates",
+            "Regular Hook"
+          ],
+          "target": {
+            "creature": "Angler",
+            "depth": "300m",
+            "value": "10,000g"
+          },
+          "strategy": "O Calm Ocean Angler é a captura especial de maior valor no bioma inicial e usa o Regular Hook básico."
+        },
+        {
+          "step": 4,
+          "title": "Entre no Rocky Ocean e alcance 600m",
+          "goal": "Desbloqueie uma sequência de capturas cada vez mais valiosas.",
+          "entryCost": "1,500g",
+          "targets": [
+            {
+              "creature": "Octopus",
+              "depth": "100m",
+              "value": "1.500g",
+              "requirements": "Anzol de Escudo Duplo + Dildo Poderoso"
+            },
+            {
+              "creature": "Anêmona",
+              "depth": "300m",
+              "value": "3.500g",
+              "requirements": "Anzol Reforçado + Caixa de Chocolates"
+            },
+            {
+              "creature": "Kappa",
+              "depth": "500m",
+              "value": "7.500g",
+              "requirements": "Anzol Broca + Colar de Pérolas"
+            },
+            {
+              "creature": "Peixe-lanterna",
+              "depth": "600m",
+              "value": "13.000g",
+              "requirements": "Anzol Reforçado + Rosa Vibrante"
+            }
+          ],
+          "strategy": "Priorize equipamentos que desbloqueiem mais de um alvo, especialmente o Anzol Reforçado."
+        },
+        {
+          "step": 5,
+          "title": "Economize para o Barco Reforçado",
+          "goal": "Acesse o Oceano Turbulento sem esgotar os fundos de melhoria.",
+          "entryCost": "5.000g",
+          "bestTarget": {
+            "creature": "Tubarão",
+            "depth": "900m",
+            "value": "24.000g",
+            "requirements": "Super Anzol + Anel de Diamante"
+          },
+          "secondaryGoal": {
+            "item": "Carta do Vovô",
+            "depth": "1.000m"
+          },
+          "strategy": "O Tubarão de 900m oferece o melhor pagamento em ouro listado neste bioma. Continue até 1.000m para obter o item da história após garantir a profundidade necessária."
+        },
+        {
+          "step": 6,
+          "title": "Compre o Barco Dourado e explore o Oceano Escuro",
+          "goal": "Alcance as capturas de fim de jogo que valem de 25.000g a 45.000g.",
+          "entryCost": "8.000g",
+          "targets": [
+            {
+              "creature": "Anêmona",
+              "depth": "1.000m",
+              "value": "25.000g"
+            },
+            {
+              "creature": "Kappa",
+              "depth": "1.200m",
+              "value": "30.000g"
+            },
+            {
+              "creature": "Polvo",
+              "depth": "1.500m",
+              "value": "35.000g"
+            },
+            {
+              "creature": "Baleia",
+              "depth": "1.700m",
+              "value": "40.000g"
+            },
+            {
+              "creature": "Angler",
+              "depth": "2.000m",
+              "value": "45.000g"
+            }
+          ],
+          "strategy": "Compre hooks de late-game na ordem de profundidade e reutilize gifts já comprados em oceanos anteriores sempre que a combinação exigida permitir."
+        }
+      ]
+    },
+    "exquisiteFishingAllScenes": {
+      "title": "Exquisite Fishing: Todas as Cenas e Desbloqueios da Galeria",
+      "eyebrow": "Checklist de Spoilers",
+      "subtitle": "Complete a galeria com um checklist de criaturas, profundidades e equipamentos necessários, oceano por oceano. Cada entrada está agrupada por bioma para que os desbloqueios que faltam possam ser encontrados rapidamente.",
+      "intro": "Cada cena opcional está ligada a uma combinação específica de criatura especial e equipamento. Equipe o hook e o gift listados, viaje para o oceano correto, baixe a linha até a profundidade necessária e pesque o alvo com sucesso.",
+      "fieldLabels": {
+        "requiredBoat": "Barco Necessário",
+        "entryCost": "Custo de Entrada",
+        "target": "Alvo",
+        "depth": "Profundidade",
+        "value": "Valor",
+        "hook": "Hook",
+        "gift": "Gift"
+      },
+      "biomes": [
+        {
+          "biome": "Calm Ocean",
+          "spoiler": true,
+          "requiredBoat": "Regular Old Boat",
+          "entryCost": "0g",
+          "unlocks": [
+            {
+              "target": "Mermaid",
+              "depth": "50m",
+              "value": "300g",
+              "hook": "Regular Hook",
+              "gift": "Diamond Ring",
+              "checklistLabel": "Cena da Mermaid no Calm Ocean"
+            },
+            {
+              "target": "Shark",
+              "depth": "200m",
+              "value": "2.000g",
+              "hook": "Good Hook",
+              "gift": "Striped Pantie",
+              "checklistLabel": "Cena do Shark no Calm Ocean"
+            },
+            {
+              "target": "Angler",
+              "depth": "300m",
+              "value": "10.000g",
+              "hook": "Regular Hook",
+              "gift": "Box of Chocolates",
+              "checklistLabel": "Cena do Angler no Calm Ocean"
+            }
+          ]
+        },
+        {
+          "biome": "Rocky Ocean",
+          "spoiler": true,
+          "requiredBoat": "Regular Boat",
+          "entryCost": "1.500g",
+          "unlocks": [
+            {
+              "target": "Octopus",
+              "depth": "100m",
+              "value": "1.500g",
+              "hook": "Anzol de Escudo Duplo",
+              "gift": "Dildo Poderoso",
+              "checklistLabel": "Cena do Polvo do Oceano Rochoso"
+            },
+            {
+              "target": "Anêmona",
+              "depth": "300m",
+              "value": "3.500g",
+              "hook": "Anzol Reforçado",
+              "gift": "Caixa de Chocolates",
+              "checklistLabel": "Cena da Anêmona do Oceano Rochoso"
+            },
+            {
+              "target": "Kappa",
+              "depth": "500m",
+              "value": "7.500g",
+              "hook": "Anzol Broca",
+              "gift": "Colar de Pérolas",
+              "checklistLabel": "Cena do Kappa do Oceano Rochoso"
+            },
+            {
+              "target": "Peixe-lanterna",
+              "depth": "600m",
+              "value": "13.000g",
+              "hook": "Anzol Reforçado",
+              "gift": "Rosa Vibrante",
+              "checklistLabel": "Cena do Peixe-lanterna do Oceano Rochoso"
+            }
+          ]
+        },
+        {
+          "biome": "Oceano Turbulento",
+          "spoiler": true,
+          "requiredBoat": "Barco Reforçado",
+          "entryCost": "5.000g",
+          "unlocks": [
+            {
+              "target": "Baleia",
+              "depth": "50m",
+              "value": "2.500g",
+              "hook": "Anzol de Escudo Duplo",
+              "gift": "Calcinha Listrada",
+              "checklistLabel": "Cena da Baleia do Oceano Turbulento"
+            },
+            {
+              "target": "Sereia",
+              "depth": "200m",
+              "value": "7.000g",
+              "hook": "Anzol Reforçado",
+              "gift": "Laço Adorável",
+              "checklistLabel": "Cena da Sereia do Oceano Turbulento"
+            },
+            {
+              "target": "Kappa",
+              "depth": "500m",
+              "value": "13,500g",
+              "hook": "Anzol com Escudo Triplo",
+              "gift": "Rosa Vibrante",
+              "checklistLabel": "Cena da Kappa no Oceano Turbulento"
+            },
+            {
+              "target": "Polvo",
+              "depth": "700m",
+              "value": "0g",
+              "hook": "Anzol de Contas Anais",
+              "gift": "Colar de Pérolas",
+              "checklistLabel": "Cena do Polvo no Oceano Turbulento"
+            },
+            {
+              "target": "Tubarão",
+              "depth": "900m",
+              "value": "24,000g",
+              "hook": "Super Anzol",
+              "gift": "Anel de Diamante",
+              "checklistLabel": "Cena do Tubarão no Oceano Turbulento"
+            },
+            {
+              "target": "Carta do Vovô",
+              "depth": "1,000m",
+              "value": "Item de história",
+              "hook": "Nenhum listado",
+              "gift": "Nenhum listado",
+              "checklistLabel": "Desbloqueio da história: Carta do Vovô"
+            }
+          ]
+        },
+        {
+          "biome": "Oceano Sombrio",
+          "spoiler": true,
+          "requiredBoat": "Barco Dourado",
+          "entryCost": "8,000g",
+          "unlocks": [
+            {
+              "target": "Anêmona",
+              "depth": "50m",
+              "value": "3,000g",
+              "hook": "Anzol Reforçado",
+              "gift": "Rosa Vibrante",
+              "checklistLabel": "Cena da Anêmona no raso do Oceano Sombrio"
+            },
+            {
+              "target": "Baleia",
+              "depth": "200m",
+              "value": "9,000g",
+              "hook": "Anzol com Escudo Duplo",
+              "gift": "Laço Adorável",
+              "checklistLabel": "Cena da Baleia no raso do Oceano Sombrio"
+            },
+            {
+              "target": "Tubarão",
+              "depth": "500m",
+              "value": "15,000g",
+              "hook": "Anzol de Broca",
+              "gift": "Pedaço de Bolo",
+              "checklistLabel": "Cena do Tubarão do Oceano Escuro"
+            },
+            {
+              "target": "Sereia",
+              "depth": "800m",
+              "value": "20.000g",
+              "hook": "Super Anzol",
+              "gift": "Colar de Pérolas",
+              "checklistLabel": "Cena da Sereia do Oceano Escuro"
+            },
+            {
+              "target": "Anêmona",
+              "depth": "1.000m",
+              "value": "25.000g",
+              "hook": "Anzol Vigoroso",
+              "gift": "Pedaço de Bolo",
+              "checklistLabel": "Cena da Anêmona profunda do Oceano Escuro"
+            },
+            {
+              "target": "Kappa",
+              "depth": "1.200m",
+              "value": "30.000g",
+              "hook": "Anzol Plug Anal",
+              "gift": "Calcinha Listrada",
+              "checklistLabel": "Cena do Kappa do Oceano Escuro"
+            },
+            {
+              "target": "Polvo",
+              "depth": "1.500m",
+              "value": "35.000g",
+              "hook": "Anzol de Contas Anais",
+              "gift": "Dildo Poderoso",
+              "checklistLabel": "Cena do Polvo do Oceano Escuro"
+            },
+            {
+              "target": "Baleia",
+              "depth": "1.700m",
+              "value": "40.000g",
+              "hook": "Anzol de Escudo Triplo",
+              "gift": "Fita Adorável",
+              "checklistLabel": "Cena da Baleia profunda do Oceano Escuro"
+            },
+            {
+              "target": "Peixe-pescador",
+              "depth": "2.000m",
+              "value": "45.000g",
+              "hook": "Anzol Ômega",
+              "gift": "Anel de Diamante",
+              "checklistLabel": "Cena do Peixe-pescador do Oceano Escuro"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "titleHighlight": "Perguntas",
+    "subtitle": "Tudo o que você precisa saber sobre Exquisite Fishing",
+    "questions": [
+      {
+        "question": "Exquisite Fishing é um jogo singleplayer?",
+        "answer": "Sim. Exquisite Fishing é um jogo singleplayer para Windows PC disponível no Steam e itch.io, sem multijogador ou co-op."
+      },
+      {
+        "question": "Quanto custa Exquisite Fishing?",
+        "answer": "Exquisite Fishing tem um preço base de $4.99 no Steam. É uma aventura de pesca pixel para adultos desenvolvida por PinkySoul."
+      },
+      {
+        "question": "Quais plataformas suportam Exquisite Fishing?",
+        "answer": "Exquisite Fishing é um jogo de Windows PC no Steam. A mesma versão também está listada no itch.io pelo desenvolvedor PinkySoul."
+      },
+      {
+        "question": "Exquisite Fishing tem códigos de resgate?",
+        "answer": "Não. Exquisite Fishing não usa um sistema de resgate de códigos. O progresso vem da captura de peixes, venda por gold e compra de hooks, gifts e boats."
+      },
+      {
+        "question": "Quantos biomas oceânicos existem em Exquisite Fishing?",
+        "answer": "Exquisite Fishing tem quatro biomas oceânicos: Calm Ocean, Rocky Ocean, Turbulent Ocean e Dark Ocean. Cada um requer um boat mais forte para acessar."
+      },
+      {
+        "question": "Onde fica localizado o arquivo de save de Exquisite Fishing?",
+        "answer": "Exquisite Fishing salva em AppData/LocalLow/PinkySoul/Exquisite Fishing no Windows. Faça o backup desta pasta para manter seu progresso na Fishipedia e na gallery."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Comece sua aventura em Exquisite Fishing",
+    "description": "Mergulhe em nosso walkthrough completo, Fishipedia completa, guias de biomas oceânicos e rotas de desbloqueio de scenes para Exquisite Fishing.",
+    "joinCommunity": "Siga no X",
+    "joinGame": "Jogue no Steam"
+  },
+  "footer": {
+    "title": "Wiki de Exquisite Fishing",
+    "description": "Seu centro de recursos completo para walkthroughs de Exquisite Fishing, listas de peixes, biomas oceânicos, upgrades de equipamentos e iscas, rotas de personagens e guias de desbloqueio de scenes.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "twitter": "X / Twitter",
+    "steam": "Steam",
+    "steamGuide": "Guia do Steam",
+    "itchio": "itch.io",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Exquisite Fishing Wiki. Não afiliado a PinkySoul, o desenvolvedor de Exquisite Fishing.",
+    "disclaimer": "Site de recursos não oficial feito por fãs. Exquisite Fishing é um jogo apenas para adultos."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guia de Exquisite Fishing",
+      "description": "Guias completos de Exquisite Fishing cobrindo o ciclo básico de pesca, controles, dicas para iniciantes, como ganhar dinheiro e a progressão completa por cada bioma oceânico.",
+      "metaTitle": "Guia de Exquisite Fishing - Dicas para Iniciantes, Controles e Progressão",
+      "metaDescription": "Domine Exquisite Fishing com guias completos sobre controles, dicas para iniciantes, como ganhar dinheiro e progressão pelos oceanos Calm, Rocky, Turbulent e Dark.",
+      "categoryLabel": "GUIAS",
+      "whatIs": "O que é o Guia de Exquisite Fishing?",
+      "whatIsDescription": "O centro de guias de Exquisite Fishing explica o ciclo principal de jogabilidade — lançar, recolher, vender capturas e fazer upgrades — para que novos jogadores entendam cada mecânica antes de gastar gold nos oceanos mais profundos.",
+      "why": "Por que usar o guia?",
+      "whySteps": {
+        "step1Title": "Aprenda o ciclo principal de pesca",
+        "step1Description": "Lance sua lure, encha o hook meter, recolha a captura e venda peixes por ouro para comprar hooks, gifts e boats.",
+        "step2Title": "Domine os controles",
+        "step2Description": "Guie a lure até a profundidade e o alvo corretos, então mantenha a criatura fisgada até que o hook meter encha.",
+        "step3Title": "Planeje sua progressão",
+        "step3Description": "Siga uma rota de gastos focada para sempre ter ouro suficiente para a próxima taxa de entrada de oceano e seus equipamentos necessários."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "walkthrough": {
+      "title": "Walkthrough de Exquisite Fishing",
+      "description": "Walkthrough completo de Exquisite Fishing cobrindo os oceanos Calm, Rocky, Turbulent e Dark, com a profundidade, hook, gift e requisitos de desbloqueio de cada alvo.",
+      "metaTitle": "Walkthrough de Exquisite Fishing - Rota de Progressão Completa pelos Oceanos",
+      "metaDescription": "Walkthrough completo de Exquisite Fishing do Calm Ocean até o Angler de 2.000m do Dark Ocean, com profundidades, equipamentos e requisitos de desbloqueio para cada estágio.",
+      "categoryLabel": "WALKTHROUGH",
+      "whatIs": "O que é o walkthrough de Exquisite Fishing?",
+      "whatIsDescription": "O walkthrough mapeia a rota de progressão completa em todos os quatro biomas de oceano, listando o boat, custo de entrada, faixa de profundidade e combinação de equipamentos necessária para cada alvo documentado.",
+      "why": "Por que seguir o walkthrough?",
+      "whySteps": {
+        "step1Title": "Desbloqueie oceanos em ordem",
+        "step1Description": "Progrida do gratuito Calm Ocean através dos oceanos Rocky, Turbulent e Dark, cada um limitado por um boat mais forte.",
+        "step2Title": "Prepare o equipamento certo",
+        "step2Description": "Cada captura especial precisa de uma combinação específica de hook e gift na profundidade correta antes de aparecer.",
+        "step3Title": "Alcance as capturas mais profundas",
+        "step3Description": "Siga a rota até o Angler de 2.000m no Dark Ocean, o alvo documentado mais profundo e de maior valor."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Walkthroughs"
+    },
+    "catches": {
+      "title": "Capturas de Exquisite Fishing",
+      "description": "Todas as capturas especiais de Exquisite Fishing — Mermaid, Shark, Octopus, Kappa, Anemone, Whale e Angler — com profundidade, valor, hook e gift para cada oceano.",
+      "metaTitle": "Capturas de Exquisite Fishing - Peixes, Criaturas e Requisitos de Captura",
+      "metaDescription": "Navegue por todas as capturas e criaturas especiais de Exquisite Fishing com sua profundidade, valor de venda, hook necessário e gift nos quatro biomas de oceano.",
+      "categoryLabel": "CAPTURAS",
+      "whatIs": "O que são as capturas de Exquisite Fishing?",
+      "whatIsDescription": "Capturas são as criaturas marinhas que você fisga e vende por ouro. Criaturas especiais como Mermaid, Shark e Angler aparecem apenas em profundidades específicas com o hook e gift corretos equipados.",
+      "why": "Por que estudar as capturas?",
+      "whySteps": {
+        "step1Title": "Encontre a profundidade de cada criatura",
+        "step1Description": "Cada captura especial aparece em uma profundidade documentada dentro de seu bioma de oceano.",
+        "step2Title": "Combine o hook e o gift",
+        "step2Description": "Equipe a combinação exata de hook e gift ou o alvo não aparecerá.",
+        "step3Title": "Compare os valores de venda",
+        "step3Description": "Priorize capturas de alto valor como o Angler para financiar uma progressão mais rápida."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Capturas"
+    },
+    "equipment": {
+      "title": "Equipamento de Exquisite Fishing",
+      "description": "Guia de equipamentos de Exquisite Fishing cobrindo as melhores varas de pesca, anzóis, iscas e presentes, melhorias de barco e requisitos de profundidade para cada oceano.",
+      "metaTitle": "Equipamento de Exquisite Fishing - Guia de Anzóis, Iscas, Barcos e Profundidade",
+      "metaDescription": "Guia completo de equipamentos de Exquisite Fishing: melhores anzóis, iscas e presentes, melhorias de barco e requisitos de profundidade para capturar cada criatura especial.",
+      "categoryLabel": "EQUIPAMENTO",
+      "whatIs": "O que é o equipamento de Exquisite Fishing?",
+      "whatIsDescription": "O equipamento abrange os barcos que desbloqueiam novos oceanos, os anzóis que alcançam capturas mais profundas e as iscas e presentes que atraem criaturas especiais específicas.",
+      "why": "Por que planejar seu equipamento?",
+      "whySteps": {
+        "step1Title": "Desbloquear novos oceanos com barcos",
+        "step1Description": "Barcos mais fortes controlam o acesso aos oceanos Rocky, Turbulent e Dark.",
+        "step2Title": "Alcançar capturas mais profundas com anzóis",
+        "step2Description": "Melhore os anzóis para pescar criaturas em profundidades maiores.",
+        "step3Title": "Atrair alvos com iscas e presentes",
+        "step3Description": "Combine o presente correto com seu anzol para fazer cada criatura especial aparecer."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Equipamentos"
+    },
+    "gallery": {
+      "title": "Galeria de Exquisite Fishing",
+      "description": "Lista de verificação de desbloqueio de cenas e galeria de Exquisite Fishing, agrupada por oceano, com a profundidade, anzol e presente necessários para desbloquear cada cena especial.",
+      "metaTitle": "Galeria de Exquisite Fishing - Todas as Cenas e Requisitos de Desbloqueio",
+      "metaDescription": "Lista de verificação completa da galeria de Exquisite Fishing com a profundidade, anzol e presente de desbloqueio de cada cena, agrupados pelos oceanos Calm, Rocky, Turbulent e Dark.",
+      "categoryLabel": "GALERIA",
+      "whatIs": "O que é a galeria de Exquisite Fishing?",
+      "whatIsDescription": "A galeria acompanha cada cena opcional, cada uma vinculada a uma combinação específica de criatura especial e equipamento. Capture o alvo com o equipamento correto para desbloquear sua cena.",
+      "why": "Por que usar a galeria?",
+      "whySteps": {
+        "step1Title": "Encontrar cenas que faltam",
+        "step1Description": "Cada entrada lista o alvo, a profundidade, o anzol e o presente necessários para o desbloqueio.",
+        "step2Title": "Agrupar por oceano",
+        "step2Description": "As cenas são ordenadas por bioma para que você possa completar um oceano antes de ir mais fundo.",
+        "step3Title": "Evitar arremessos desperdiçados",
+        "step3Description": "Equipe a combinação exata exigida antes de baixar a linha."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Toda a Galeria"
+    },
+    "version": {
+      "title": "Versão de Exquisite Fishing",
+      "description": "Registro de versão e atualização de Exquisite Fishing, cobrindo a versão mais recente, notas do patch e alterações entre os lançamentos.",
+      "metaTitle": "Versão de Exquisite Fishing - Última Atualização e Notas do Patch",
+      "metaDescription": "Acompanhe a versão e as atualizações mais recentes de Exquisite Fishing, incluindo notas do patch e alterações introduzidas em cada lançamento.",
+      "categoryLabel": "VERSÃO",
+      "whatIs": "O que é o registro de versão de Exquisite Fishing?",
+      "whatIsDescription": "O registro de versão acompanha cada lançamento de Exquisite Fishing, o número da versão mais recente e as alterações e correções introduzidas em cada atualização.",
+      "why": "Por que verificar a versão?",
+      "whySteps": {
+        "step1Title": "Fique na versão mais recente",
+        "step1Description": "Mantenha seu jogo atualizado para acessar os conteúdos e correções mais recentes.",
+        "step2Title": "Analise as notas de atualização",
+        "step2Description": "Veja o que mudou em cada lançamento antes de atualizar.",
+        "step3Title": "Planeje-se para as atualizações",
+        "step3Description": "Novas versões podem ajustar capturas, equipamentos ou requisitos de progressão."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Versões"
+    },
+    "download": {
+      "title": "Download de Exquisite Fishing",
+      "description": "Como baixar e instalar Exquisite Fishing no PC e Android, incluindo as versões oficiais do Steam e itch.io e guias de instalação passo a passo.",
+      "metaTitle": "Download de Exquisite Fishing - Guia de Instalação para PC, Android e APK",
+      "metaDescription": "Baixe Exquisite Fishing no PC via Steam e itch.io, ou no Android. Passos de instalação completos e opções de plataforma para cada dispositivo.",
+      "categoryLabel": "DOWNLOAD",
+      "whatIs": "Como baixar Exquisite Fishing?",
+      "whatIsDescription": "Exquisite Fishing é um jogo para Windows PC vendido no Steam e itch.io pelo desenvolvedor PinkySoul. As versões oficiais permitem que você instale e jogue o jogo no seu dispositivo.",
+      "why": "Por que usar o guia de download?",
+      "whySteps": {
+        "step1Title": "Obtenha a versão oficial para PC",
+        "step1Description": "Baixe Exquisite Fishing do Steam ou itch.io para a versão suportada de Windows PC.",
+        "step2Title": "Instalar e executar",
+        "step2Description": "Siga os passos de instalação da plataforma para iniciar o jogo no seu dispositivo.",
+        "step3Title": "Escolha a plataforma certa",
+        "step3Description": "Compare as opções disponíveis para escolher a versão que corresponde ao seu dispositivo."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Downloads"
+    }
   }
 }
