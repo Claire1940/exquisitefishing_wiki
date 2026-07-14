@@ -52,696 +52,536 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Exquisite Fishing Gameplay",
+    "description": "Cast and reel in sea creatures, sell catches for gold, and upgrade hooks, gifts, and boats to explore deeper ocean biomes in this pixel fishing adventure on Steam."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Exquisite Fishing",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to master Exquisite Fishing — walkthroughs, fish lists, ocean biomes, gear, baits, and scene unlocks.",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Exquisite Fishing Beginner Guide",
+        "description": "Core fishing loop, first gold, and the early Calm Ocean route"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Compass",
+        "title": "Exquisite Fishing Walkthrough",
+        "description": "Full progression from Calm Ocean to the 2,000m Dark Ocean Angler"
+      },
+      {
+        "icon": "Fish",
+        "title": "Exquisite Fishing Fish List",
+        "description": "Every special catch with depth, value, hook, and gift"
       },
       {
         "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "title": "Exquisite Fishing Gear",
+        "description": "Boats, hooks, and gifts ordered by progression stage"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Waves",
+        "title": "Exquisite Fishing Biomes",
+        "description": "Four ocean areas, depth milestones, and entry costs"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Gift",
+        "title": "Exquisite Fishing Baits",
+        "description": "Hook and gift loadouts for every special creature"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Coins",
+        "title": "Exquisite Fishing Money Guide",
+        "description": "Best spending route from the Calm Ocean to the Dark Ocean"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Images",
+        "title": "Exquisite Fishing Scenes",
+        "description": "Spoiler-safe gallery checklist grouped by ocean"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "exquisiteFishingBeginnerGuide": {
+      "title": "Exquisite Fishing Beginner Guide",
+      "eyebrow": "Getting Started",
+      "subtitle": "Learn the core fishing loop, earn your first gold, and prepare to leave the Calm Ocean.",
+      "intro": "Exquisite Fishing begins in the Calm Ocean with the free Regular Old Boat. Catch and sell fish, then spend your gold on the exact hook, gift, and boat combinations required to reach deeper targets and new ocean areas.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Enter the Calm Ocean",
+          "details": "Select the Regular Old Boat and begin in the Calm Ocean. This starting area costs 0g and contains documented targets between 50m and 300m.",
+          "goal": "Practice fishing without spending gold on another ocean."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Cast and Guide the Lure",
+          "details": "Throw the lure into the water and guide it toward the depth and target you want. Position the lure close enough for the creature to become interested before beginning the catch.",
+          "goal": "Avoid wasting a cast on targets that do not match your equipped hook and gift."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Fill the Hook Meter",
+          "details": "Keep the target engaged until the hook meter is filled. After the catch is secured, reel the line back to the surface to complete the attempt.",
+          "goal": "Complete the full catch before changing equipment or leaving the ocean."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Sell Catches for Gold",
+          "details": "Sell ordinary fish and valuable special catches through the game economy. Gold is used to purchase hooks, gifts, boats, and access to later ocean areas.",
+          "goal": "Keep building gold instead of repeatedly attempting an unavailable target."
+        },
+        {
+          "title": "Target the Calm Ocean Creatures",
+          "details": "The Mermaid appears at 50m and is worth 300g with a Diamond Ring and Regular Hook. The Shark appears at 200m and is worth 2,000g with a Good Hook and Striped Pantie, while the Angler appears at 300m and is worth 10,000g with a Box of Chocolates and Regular Hook.",
+          "goal": "Use the Mermaid as the first simple special target, then prepare the required combinations for the Shark and Angler."
+        },
+        {
+          "title": "Unlock the Rocky Ocean",
+          "details": "Save 1,500g for the Regular Boat and Rocky Ocean access. Before moving on, check the Fishipedia and Fish Report to review discovered catches and identify missing entries.",
+          "goal": "Enter the second ocean with enough gold left for its target-specific hooks and gifts."
         }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "exquisiteFishingCompleteWalkthrough": {
+      "title": "Exquisite Fishing Complete Walkthrough",
+      "eyebrow": "Full Progression",
+      "subtitle": "Follow the ocean unlock order, prepare each required equipment combination, and reserve enough gold for later boats.",
+      "intro": "The main progression route covers four ocean areas with increasingly deep and valuable catches. Each stage below lists the documented access requirement, important targets, and the equipment combinations needed to continue.",
+      "stages": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "step": 1,
+          "area": "Calm Ocean",
+          "access": "Regular Old Boat",
+          "cost": "0g",
+          "depthRange": "50m–300m",
+          "targets": [
+            { "name": "Mermaid", "depth": "50m", "value": "300g", "requirements": "Diamond Ring + Regular Hook" },
+            { "name": "Shark", "depth": "200m", "value": "2,000g", "requirements": "Good Hook + Striped Pantie" },
+            { "name": "Angler", "depth": "300m", "value": "10,000g", "requirements": "Box of Chocolates + Regular Hook" }
+          ],
+          "progressionGoal": "Earn at least 1,500g for the Regular Boat while collecting the equipment needed for the Rocky Ocean."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "step": 2,
+          "area": "Rocky Ocean",
+          "access": "Regular Boat",
+          "cost": "1,500g",
+          "depthRange": "100m–600m",
+          "targets": [
+            { "name": "Octopus", "depth": "100m", "value": "1,500g", "requirements": "Mighty Dildo + Double Shielded Hook" },
+            { "name": "Anemone", "depth": "300m", "value": "3,500g", "requirements": "Reinforced Hook + Box of Chocolates" },
+            { "name": "Kappa", "depth": "500m", "value": "7,500g", "requirements": "Pearl Necklace + Drill Hook" },
+            { "name": "Angler", "depth": "600m", "value": "13,000g", "requirements": "Vibrant Rose + Reinforced Hook" }
+          ],
+          "progressionGoal": "Prioritize the higher-value Kappa and Angler combinations, then reserve 5,000g for the Reinforced Boat."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "step": 3,
+          "area": "Turbulent Ocean",
+          "access": "Reinforced Boat",
+          "cost": "5,000g",
+          "depthRange": "50m–1,000m",
+          "targets": [
+            { "name": "Whale", "depth": "50m", "value": "2,500g", "requirements": "Striped Pantie + Double Shielded Hook" },
+            { "name": "Mermaid", "depth": "200m", "value": "7,000g", "requirements": "Reinforced Hook + Lovely Ribbon" },
+            { "name": "Kappa", "depth": "500m", "value": "13,500g", "requirements": "Vibrant Rose + Triple Shielded Hook" },
+            { "name": "Octopus", "depth": "700m", "value": "0g", "requirements": "Anal Beads Hook + Pearl Necklace" },
+            { "name": "Shark", "depth": "900m", "value": "24,000g", "requirements": "Diamond Ring + Super Hook" },
+            { "name": "Grandpa's Letter", "depth": "1,000m", "value": "Key collectible", "requirements": "Reach the bottom collectible location" }
+          ],
+          "progressionGoal": "Use the 24,000g Shark as the main money target and retrieve Grandpa's Letter before purchasing the Golden Boat."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "step": 4,
+          "area": "Dark Ocean",
+          "access": "Golden Boat",
+          "cost": "8,000g",
+          "depthRange": "50m–2,000m",
+          "targets": [
+            { "name": "Anemone", "depth": "50m", "value": "3,000g", "requirements": "Vibrant Rose + Reinforced Hook" },
+            { "name": "Whale", "depth": "200m", "value": "9,000g", "requirements": "Double Shielded Hook + Lovely Ribbon" },
+            { "name": "Shark", "depth": "500m", "value": "15,000g", "requirements": "Piece of Cake + Drill Hook" },
+            { "name": "Mermaid", "depth": "800m", "value": "20,000g", "requirements": "Super Hook + Pearl Necklace" },
+            { "name": "Anemone", "depth": "1,000m", "value": "25,000g", "requirements": "Piece of Cake + Hearty Hook" },
+            { "name": "Kappa", "depth": "1,200m", "value": "30,000g", "requirements": "Anal Plug Hook + Striped Pantie" },
+            { "name": "Octopus", "depth": "1,500m", "value": "35,000g", "requirements": "Mighty Dildo + Anal Beads Hook" },
+            { "name": "Whale", "depth": "1,700m", "value": "40,000g", "requirements": "Triple Shielded Hook + Lovely Ribbon" },
+            { "name": "Angler", "depth": "2,000m", "value": "45,000g", "requirements": "Diamond Ring + Omega Hook" }
+          ],
+          "progressionGoal": "Upgrade through the documented hook requirements and finish with the 2,000m Angler, the deepest and highest-value listed catch."
         }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "exquisiteFishingFishAndCreatures": {
+      "title": "Exquisite Fishing Fish and Creatures List",
+      "eyebrow": "Catch Database",
+      "subtitle": "Compare documented special catches across all four ocean areas and prepare the correct equipment before casting.",
+      "intro": "This catch table covers the progression-critical creatures and collectible documented across the Calm, Rocky, Turbulent, and Dark oceans. Use the ocean, depth, value, hook, and gift fields to plan each fishing trip.",
+      "columns": ["Creature", "Ocean", "Depth", "Value", "Hook", "Gift", "Type"],
+      "rows": [
+        { "creature": "Mermaid", "ocean": "Calm Ocean", "depth": "50m", "value": "300g", "hook": "Regular Hook", "gift": "Diamond Ring", "type": "Special creature" },
+        { "creature": "Shark", "ocean": "Calm Ocean", "depth": "200m", "value": "2,000g", "hook": "Good Hook", "gift": "Striped Pantie", "type": "Special creature" },
+        { "creature": "Angler", "ocean": "Calm Ocean", "depth": "300m", "value": "10,000g", "hook": "Regular Hook", "gift": "Box of Chocolates", "type": "Special creature" },
+        { "creature": "Octopus", "ocean": "Rocky Ocean", "depth": "100m", "value": "1,500g", "hook": "Double Shielded Hook", "gift": "Mighty Dildo", "type": "Special creature" },
+        { "creature": "Anemone", "ocean": "Rocky Ocean", "depth": "300m", "value": "3,500g", "hook": "Reinforced Hook", "gift": "Box of Chocolates", "type": "Special creature" },
+        { "creature": "Kappa", "ocean": "Rocky Ocean", "depth": "500m", "value": "7,500g", "hook": "Drill Hook", "gift": "Pearl Necklace", "type": "Special creature" },
+        { "creature": "Angler", "ocean": "Rocky Ocean", "depth": "600m", "value": "13,000g", "hook": "Reinforced Hook", "gift": "Vibrant Rose", "type": "Special creature" },
+        { "creature": "Whale", "ocean": "Turbulent Ocean", "depth": "50m", "value": "2,500g", "hook": "Double Shielded Hook", "gift": "Striped Pantie", "type": "Special creature" },
+        { "creature": "Mermaid", "ocean": "Turbulent Ocean", "depth": "200m", "value": "7,000g", "hook": "Reinforced Hook", "gift": "Lovely Ribbon", "type": "Special creature" },
+        { "creature": "Kappa", "ocean": "Turbulent Ocean", "depth": "500m", "value": "13,500g", "hook": "Triple Shielded Hook", "gift": "Vibrant Rose", "type": "Special creature" },
+        { "creature": "Octopus", "ocean": "Turbulent Ocean", "depth": "700m", "value": "0g", "hook": "Anal Beads Hook", "gift": "Pearl Necklace", "type": "Special creature" },
+        { "creature": "Shark", "ocean": "Turbulent Ocean", "depth": "900m", "value": "24,000g", "hook": "Super Hook", "gift": "Diamond Ring", "type": "Special creature" },
+        { "creature": "Grandpa's Letter", "ocean": "Turbulent Ocean", "depth": "1,000m", "value": "Key collectible", "hook": "Not listed", "gift": "Not listed", "type": "Collectible" },
+        { "creature": "Anemone", "ocean": "Dark Ocean", "depth": "50m", "value": "3,000g", "hook": "Reinforced Hook", "gift": "Vibrant Rose", "type": "Special creature" },
+        { "creature": "Whale", "ocean": "Dark Ocean", "depth": "200m", "value": "9,000g", "hook": "Double Shielded Hook", "gift": "Lovely Ribbon", "type": "Special creature" },
+        { "creature": "Shark", "ocean": "Dark Ocean", "depth": "500m", "value": "15,000g", "hook": "Drill Hook", "gift": "Piece of Cake", "type": "Special creature" },
+        { "creature": "Mermaid", "ocean": "Dark Ocean", "depth": "800m", "value": "20,000g", "hook": "Super Hook", "gift": "Pearl Necklace", "type": "Special creature" },
+        { "creature": "Anemone", "ocean": "Dark Ocean", "depth": "1,000m", "value": "25,000g", "hook": "Hearty Hook", "gift": "Piece of Cake", "type": "Special creature" },
+        { "creature": "Kappa", "ocean": "Dark Ocean", "depth": "1,200m", "value": "30,000g", "hook": "Anal Plug Hook", "gift": "Striped Pantie", "type": "Special creature" },
+        { "creature": "Octopus", "ocean": "Dark Ocean", "depth": "1,500m", "value": "35,000g", "hook": "Anal Beads Hook", "gift": "Mighty Dildo", "type": "Special creature" },
+        { "creature": "Whale", "ocean": "Dark Ocean", "depth": "1,700m", "value": "40,000g", "hook": "Triple Shielded Hook", "gift": "Lovely Ribbon", "type": "Special creature" },
+        { "creature": "Angler", "ocean": "Dark Ocean", "depth": "2,000m", "value": "45,000g", "hook": "Omega Hook", "gift": "Diamond Ring", "type": "Special creature" }
+      ]
+    },
+    "exquisiteFishingGearAndUpgrades": {
+      "title": "Exquisite Fishing Gear and Upgrade Guide",
+      "eyebrow": "Equipment Progression",
+      "subtitle": "See which equipment unlocks each ocean and which hook-and-gift combinations are required for important catches.",
+      "intro": "Equipment progression is driven by ocean access and target requirements. Boats open new areas, hooks support increasingly deep catches, and gifts attract specific special creatures.",
+      "categoryLabels": {
+        "Boat": "Boats",
+        "Hook": "Hooks",
+        "Gift": "Gifts"
+      },
+      "columnLabels": {
+        "item": "Equipment",
+        "stage": "Progression Stage",
+        "cost": "Cost",
+        "use": "Documented Use",
+        "targets": "Known Targets"
+      },
       "items": [
+        { "category": "Boat", "item": "Regular Old Boat", "progressionStage": "Starting", "cost": "0g", "documentedUse": "Accesses the Calm Ocean.", "knownTargets": "Mermaid, Shark, and Angler" },
+        { "category": "Boat", "item": "Regular Boat", "progressionStage": "Early game", "cost": "1,500g", "documentedUse": "Accesses the Rocky Ocean.", "knownTargets": "Octopus, Anemone, Kappa, and Angler" },
+        { "category": "Boat", "item": "Reinforced Boat", "progressionStage": "Mid game", "cost": "5,000g", "documentedUse": "Accesses the Turbulent Ocean.", "knownTargets": "Whale, Mermaid, Kappa, Octopus, Shark, and Grandpa's Letter" },
+        { "category": "Boat", "item": "Golden Boat", "progressionStage": "Late game", "cost": "8,000g", "documentedUse": "Accesses the Dark Ocean.", "knownTargets": "Special catches from 50m down to the 2,000m Angler" },
+        { "category": "Hook", "item": "Regular Hook", "progressionStage": "Starting", "cost": "Shop price not listed", "documentedUse": "Required for the Calm Ocean Mermaid at 50m and Angler at 300m.", "knownTargets": "Mermaid and Angler" },
+        { "category": "Hook", "item": "Good Hook", "progressionStage": "Early game", "cost": "Shop price not listed", "documentedUse": "Required for the Calm Ocean Shark at 200m.", "knownTargets": "Shark" },
+        { "category": "Hook", "item": "Double Shielded Hook", "progressionStage": "Early to mid game", "cost": "Shop price not listed", "documentedUse": "Used for the Rocky Ocean Octopus and Whale catches in the Turbulent and Dark oceans.", "knownTargets": "Octopus and Whale" },
+        { "category": "Hook", "item": "Reinforced Hook", "progressionStage": "Mid game", "cost": "Shop price not listed", "documentedUse": "Used for Anemone, Angler, and Mermaid catches from 50m to 600m.", "knownTargets": "Anemone, Angler, and Mermaid" },
+        { "category": "Hook", "item": "Drill Hook", "progressionStage": "Mid game", "cost": "Shop price not listed", "documentedUse": "Required for the Rocky Ocean Kappa and Dark Ocean Shark at 500m.", "knownTargets": "Kappa and Shark" },
+        { "category": "Hook", "item": "Triple Shielded Hook", "progressionStage": "Mid to late game", "cost": "Shop price not listed", "documentedUse": "Required for the Turbulent Ocean Kappa and the Dark Ocean Whale at 1,700m.", "knownTargets": "Kappa and Whale" },
+        { "category": "Hook", "item": "Anal Beads Hook", "progressionStage": "Late game", "cost": "Shop price not listed", "documentedUse": "Required for Octopus catches at 700m and 1,500m.", "knownTargets": "Octopus" },
+        { "category": "Hook", "item": "Super Hook", "progressionStage": "Late game", "cost": "Shop price not listed", "documentedUse": "Required for the Turbulent Ocean Shark at 900m and Dark Ocean Mermaid at 800m.", "knownTargets": "Shark and Mermaid" },
+        { "category": "Hook", "item": "Hearty Hook", "progressionStage": "Late game", "cost": "Shop price not listed", "documentedUse": "Required for the Dark Ocean Anemone at 1,000m.", "knownTargets": "Anemone" },
+        { "category": "Hook", "item": "Anal Plug Hook", "progressionStage": "Late game", "cost": "Shop price not listed", "documentedUse": "Required for the Dark Ocean Kappa at 1,200m.", "knownTargets": "Kappa" },
+        { "category": "Hook", "item": "Omega Hook", "progressionStage": "Endgame", "cost": "Shop price not listed", "documentedUse": "Required for the deepest documented catch, the Dark Ocean Angler at 2,000m.", "knownTargets": "Angler" },
+        { "category": "Gift", "item": "Diamond Ring", "progressionStage": "All stages", "cost": "Shop price not listed", "documentedUse": "Attracts the Calm Mermaid, Turbulent Shark, and Dark Angler when paired with their required hooks.", "knownTargets": "Mermaid, Shark, and Angler" },
+        { "category": "Gift", "item": "Striped Pantie", "progressionStage": "Early to late game", "cost": "Shop price not listed", "documentedUse": "Used for the Calm Shark, Turbulent Whale, and Dark Kappa.", "knownTargets": "Shark, Whale, and Kappa" },
+        { "category": "Gift", "item": "Box of Chocolates", "progressionStage": "Early to mid game", "cost": "Shop price not listed", "documentedUse": "Used for the Calm Angler and Rocky Anemone.", "knownTargets": "Angler and Anemone" },
+        { "category": "Gift", "item": "Mighty Dildo", "progressionStage": "Early to late game", "cost": "Shop price not listed", "documentedUse": "Used for the Rocky and Dark Ocean Octopus catches.", "knownTargets": "Octopus" },
+        { "category": "Gift", "item": "Pearl Necklace", "progressionStage": "Mid to late game", "cost": "Shop price not listed", "documentedUse": "Used for Kappa, Octopus, and Mermaid catches.", "knownTargets": "Kappa, Octopus, and Mermaid" },
+        { "category": "Gift", "item": "Vibrant Rose", "progressionStage": "Mid to late game", "cost": "Shop price not listed", "documentedUse": "Used for Angler, Kappa, and Anemone catches.", "knownTargets": "Angler, Kappa, and Anemone" },
+        { "category": "Gift", "item": "Lovely Ribbon", "progressionStage": "Mid to late game", "cost": "Shop price not listed", "documentedUse": "Used for Mermaid and Whale catches across the Turbulent and Dark oceans.", "knownTargets": "Mermaid and Whale" },
+        { "category": "Gift", "item": "Piece of Cake", "progressionStage": "Late game", "cost": "Shop price not listed", "documentedUse": "Used for the Dark Ocean Shark and the 1,000m Anemone.", "knownTargets": "Shark and Anemone" }
+      ]
+    },
+    "exquisiteFishingOceanBiomes": {
+      "title": "Exquisite Fishing Ocean Biomes and Depths Guide",
+      "eyebrow": "Ocean Exploration",
+      "subtitle": "Explore all four fishing areas, from the free Calm Ocean to the 2,000-meter depths of the Dark Ocean. Check the required boat, entry cost and major catches before starting each trip.",
+      "intro": "Exquisite Fishing contains four progressively harder ocean biomes. New areas require stronger boats and increasingly specialized hooks and gifts, while deeper targets provide much larger gold rewards.",
+      "fieldLabels": {
+        "requiredBoat": "Required Boat",
+        "entryCost": "Entry Cost",
+        "depthRange": "Depth Range",
+        "notableCatches": "Notable Catches",
+        "recommendedEquipment": "Recommended Equipment",
+        "importantUnlock": "Important Unlock"
+      },
+      "biomes": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Calm Ocean",
+          "progressionOrder": 1,
+          "requiredBoat": "Regular Old Boat",
+          "entryCost": "0g",
+          "depthRange": "50m–300m for special catches",
+          "notableCatches": [
+            { "name": "Mermaid", "depth": "50m", "value": "300g" },
+            { "name": "Shark", "depth": "200m", "value": "2,000g" },
+            { "name": "Angler", "depth": "300m", "value": "10,000g" }
+          ],
+          "recommendedEquipment": ["Regular Hook", "Good Hook", "Diamond Ring", "Striped Pantie", "Box of Chocolates"],
+          "importantUnlock": "The 300m Angler is the strongest early-game gold target."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "Rocky Ocean",
+          "progressionOrder": 2,
+          "requiredBoat": "Regular Boat",
+          "entryCost": "1,500g",
+          "depthRange": "100m–600m for special catches",
+          "notableCatches": [
+            { "name": "Octopus", "depth": "100m", "value": "1,500g" },
+            { "name": "Anemone", "depth": "300m", "value": "3,500g" },
+            { "name": "Kappa", "depth": "500m", "value": "7,500g" },
+            { "name": "Angler", "depth": "600m", "value": "13,000g" }
+          ],
+          "recommendedEquipment": ["Double Shielded Hook", "Reinforced Hook", "Drill Hook", "Mighty Dildo", "Box of Chocolates", "Pearl Necklace", "Vibrant Rose"],
+          "importantUnlock": "Reaching 600m opens the biome's highest-value special catch."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "name": "Turbulent Ocean",
+          "progressionOrder": 3,
+          "requiredBoat": "Reinforced Boat",
+          "entryCost": "5,000g",
+          "depthRange": "50m–1,000m",
+          "notableCatches": [
+            { "name": "Whale", "depth": "50m", "value": "2,500g" },
+            { "name": "Mermaid", "depth": "200m", "value": "7,000g" },
+            { "name": "Kappa", "depth": "500m", "value": "13,500g" },
+            { "name": "Octopus", "depth": "700m", "value": "0g" },
+            { "name": "Shark", "depth": "900m", "value": "24,000g" },
+            { "name": "Grandpa's Letter", "depth": "1,000m", "value": "Story item" }
+          ],
+          "recommendedEquipment": ["Double Shielded Hook", "Reinforced Hook", "Triple Shielded Hook", "Anal Beads Hook", "Super Hook", "Lovely Ribbon", "Vibrant Rose", "Pearl Necklace", "Diamond Ring"],
+          "importantUnlock": "Grandpa's Letter is found at 1,000m, while the 900m Shark is the main gold target."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "Dark Ocean",
+          "progressionOrder": 4,
+          "requiredBoat": "Golden Boat",
+          "entryCost": "8,000g",
+          "depthRange": "50m–2,000m for special catches",
+          "notableCatches": [
+            { "name": "Anemone", "depth": "50m and 1,000m", "value": "3,000g and 25,000g" },
+            { "name": "Whale", "depth": "200m and 1,700m", "value": "9,000g and 40,000g" },
+            { "name": "Shark", "depth": "500m", "value": "15,000g" },
+            { "name": "Mermaid", "depth": "800m", "value": "20,000g" },
+            { "name": "Kappa", "depth": "1,200m", "value": "30,000g" },
+            { "name": "Octopus", "depth": "1,500m", "value": "35,000g" },
+            { "name": "Angler", "depth": "2,000m", "value": "45,000g" }
+          ],
+          "recommendedEquipment": ["Reinforced Hook", "Double Shielded Hook", "Drill Hook", "Super Hook", "Hearty Hook", "Anal Plug Hook", "Anal Beads Hook", "Triple Shielded Hook", "Omega Hook"],
+          "importantUnlock": "The 2,000m Angler is the deepest and most valuable listed special catch."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+    "exquisiteFishingBaitsAndCatches": {
+      "title": "Exquisite Fishing Baits and Catch Requirements",
+      "eyebrow": "Catch Requirements",
+      "subtitle": "Match the correct hook and attraction item before casting. Each creature can require a different loadout when it appears in a deeper ocean.",
+      "intro": "Special creatures only appear when the correct equipment combination is used at the required depth. The same creature may return in later biomes with a stronger hook, a different gift and a much higher sale value.",
+      "appearanceLabels": {
+        "biome": "Biome",
+        "depth": "Depth",
+        "value": "Value",
+        "hook": "Hook",
+        "baitOrGift": "Bait / Gift"
+      },
       "creatures": [
         {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "creature": "Mermaid",
+          "appearances": [
+            { "biome": "Calm Ocean", "depth": "50m", "value": "300g", "hook": "Regular Hook", "baitOrGift": "Diamond Ring" },
+            { "biome": "Turbulent Ocean", "depth": "200m", "value": "7,000g", "hook": "Reinforced Hook", "baitOrGift": "Lovely Ribbon" },
+            { "biome": "Dark Ocean", "depth": "800m", "value": "20,000g", "hook": "Super Hook", "baitOrGift": "Pearl Necklace" }
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "creature": "Shark",
+          "appearances": [
+            { "biome": "Calm Ocean", "depth": "200m", "value": "2,000g", "hook": "Good Hook", "baitOrGift": "Striped Pantie" },
+            { "biome": "Turbulent Ocean", "depth": "900m", "value": "24,000g", "hook": "Super Hook", "baitOrGift": "Diamond Ring" },
+            { "biome": "Dark Ocean", "depth": "500m", "value": "15,000g", "hook": "Drill Hook", "baitOrGift": "Piece of Cake" }
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "creature": "Angler",
+          "appearances": [
+            { "biome": "Calm Ocean", "depth": "300m", "value": "10,000g", "hook": "Regular Hook", "baitOrGift": "Box of Chocolates" },
+            { "biome": "Rocky Ocean", "depth": "600m", "value": "13,000g", "hook": "Reinforced Hook", "baitOrGift": "Vibrant Rose" },
+            { "biome": "Dark Ocean", "depth": "2,000m", "value": "45,000g", "hook": "Omega Hook", "baitOrGift": "Diamond Ring" }
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+          "creature": "Octopus",
+          "appearances": [
+            { "biome": "Rocky Ocean", "depth": "100m", "value": "1,500g", "hook": "Double Shielded Hook", "baitOrGift": "Mighty Dildo" },
+            { "biome": "Turbulent Ocean", "depth": "700m", "value": "0g", "hook": "Anal Beads Hook", "baitOrGift": "Pearl Necklace" },
+            { "biome": "Dark Ocean", "depth": "1,500m", "value": "35,000g", "hook": "Anal Beads Hook", "baitOrGift": "Mighty Dildo" }
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "creature": "Anemone",
+          "appearances": [
+            { "biome": "Rocky Ocean", "depth": "300m", "value": "3,500g", "hook": "Reinforced Hook", "baitOrGift": "Box of Chocolates" },
+            { "biome": "Dark Ocean", "depth": "50m", "value": "3,000g", "hook": "Reinforced Hook", "baitOrGift": "Vibrant Rose" },
+            { "biome": "Dark Ocean", "depth": "1,000m", "value": "25,000g", "hook": "Hearty Hook", "baitOrGift": "Piece of Cake" }
+          ]
+        },
+        {
+          "creature": "Kappa",
+          "appearances": [
+            { "biome": "Rocky Ocean", "depth": "500m", "value": "7,500g", "hook": "Drill Hook", "baitOrGift": "Pearl Necklace" },
+            { "biome": "Turbulent Ocean", "depth": "500m", "value": "13,500g", "hook": "Triple Shielded Hook", "baitOrGift": "Vibrant Rose" },
+            { "biome": "Dark Ocean", "depth": "1,200m", "value": "30,000g", "hook": "Anal Plug Hook", "baitOrGift": "Striped Pantie" }
+          ]
+        },
+        {
+          "creature": "Whale",
+          "appearances": [
+            { "biome": "Turbulent Ocean", "depth": "50m", "value": "2,500g", "hook": "Double Shielded Hook", "baitOrGift": "Striped Pantie" },
+            { "biome": "Dark Ocean", "depth": "200m", "value": "9,000g", "hook": "Double Shielded Hook", "baitOrGift": "Lovely Ribbon" },
+            { "biome": "Dark Ocean", "depth": "1,700m", "value": "40,000g", "hook": "Triple Shielded Hook", "baitOrGift": "Lovely Ribbon" }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "exquisiteFishingMoneyAndShop": {
+      "title": "Exquisite Fishing Money and Shop Guide",
+      "eyebrow": "Gold and Upgrades",
+      "subtitle": "Build gold by targeting valuable special catches and purchasing only the equipment needed for the next progression gate. Save for boats before buying optional loadouts that do not advance your route.",
+      "intro": "Fish can be sold for gold, which is then used for hooks, gifts, boats and other shop items. A focused route prevents expensive equipment from delaying access to the next ocean biome.",
+      "fieldLabels": {
+        "goal": "Goal",
+        "purchases": "Purchases",
+        "target": "Target",
+        "targets": "Targets",
+        "entryCost": "Entry Cost",
+        "bestTarget": "Best Target",
+        "secondaryGoal": "Secondary Goal",
+        "strategy": "Strategy"
+      },
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "step": 1,
+          "title": "Start with the Calm Ocean Mermaid",
+          "goal": "Create a small starting fund without paying an ocean entry fee.",
+          "purchases": ["Diamond Ring", "Regular Hook"],
+          "target": { "creature": "Mermaid", "depth": "50m", "value": "300g" },
+          "strategy": "Use the free Calm Ocean to learn the casting and reeling loop before committing gold to stronger equipment."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "step": 2,
+          "title": "Upgrade for the Calm Ocean Shark",
+          "goal": "Earn enough gold for the first major shop purchases.",
+          "purchases": ["Good Hook", "Striped Pantie"],
+          "target": { "creature": "Shark", "depth": "200m", "value": "2,000g" },
+          "strategy": "The Shark pays substantially more than the Mermaid and prepares the account for deeper catches."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "step": 3,
+          "title": "Farm the Early Angler",
+          "goal": "Build the main bankroll for Rocky Ocean equipment and entry costs.",
+          "purchases": ["Box of Chocolates", "Regular Hook"],
+          "target": { "creature": "Angler", "depth": "300m", "value": "10,000g" },
+          "strategy": "The Calm Ocean Angler is the highest-value special catch in the starting biome and uses the basic Regular Hook."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "step": 4,
+          "title": "Enter Rocky Ocean and Climb to 600m",
+          "goal": "Unlock a sequence of increasingly valuable catches.",
+          "entryCost": "1,500g",
+          "targets": [
+            { "creature": "Octopus", "depth": "100m", "value": "1,500g", "requirements": "Double Shielded Hook + Mighty Dildo" },
+            { "creature": "Anemone", "depth": "300m", "value": "3,500g", "requirements": "Reinforced Hook + Box of Chocolates" },
+            { "creature": "Kappa", "depth": "500m", "value": "7,500g", "requirements": "Drill Hook + Pearl Necklace" },
+            { "creature": "Angler", "depth": "600m", "value": "13,000g", "requirements": "Reinforced Hook + Vibrant Rose" }
+          ],
+          "strategy": "Prioritize equipment that unlocks more than one target, especially the Reinforced Hook."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "step": 5,
+          "title": "Save for the Reinforced Boat",
+          "goal": "Access Turbulent Ocean without draining the upgrade fund.",
+          "entryCost": "5,000g",
+          "bestTarget": { "creature": "Shark", "depth": "900m", "value": "24,000g", "requirements": "Super Hook + Diamond Ring" },
+          "secondaryGoal": { "item": "Grandpa's Letter", "depth": "1,000m" },
+          "strategy": "The 900m Shark provides the best listed gold payout in this biome. Continue to 1,000m for the story item after securing the required depth."
+        },
+        {
+          "step": 6,
+          "title": "Buy the Golden Boat and Scale Dark Ocean",
+          "goal": "Reach the late-game catches worth 25,000g to 45,000g.",
+          "entryCost": "8,000g",
+          "targets": [
+            { "creature": "Anemone", "depth": "1,000m", "value": "25,000g" },
+            { "creature": "Kappa", "depth": "1,200m", "value": "30,000g" },
+            { "creature": "Octopus", "depth": "1,500m", "value": "35,000g" },
+            { "creature": "Whale", "depth": "1,700m", "value": "40,000g" },
+            { "creature": "Angler", "depth": "2,000m", "value": "45,000g" }
+          ],
+          "strategy": "Buy late-game hooks in depth order and reuse gifts already purchased in earlier oceans whenever the required combination allows it."
+        }
+      ]
+    },
+    "exquisiteFishingAllScenes": {
+      "title": "Exquisite Fishing All Scenes and Gallery Unlocks",
+      "eyebrow": "Spoiler Checklist",
+      "subtitle": "Complete the gallery with an ocean-by-ocean checklist of creatures, depths and required equipment. Every entry is grouped by biome so missing unlocks can be found quickly.",
+      "intro": "Each optional scene is tied to a specific special creature and equipment combination. Equip the listed hook and gift, travel to the correct ocean, lower the line to the required depth and successfully reel in the target.",
+      "fieldLabels": {
+        "requiredBoat": "Required Boat",
+        "entryCost": "Entry Cost",
+        "target": "Target",
+        "depth": "Depth",
+        "value": "Value",
+        "hook": "Hook",
+        "gift": "Gift"
+      },
+      "biomes": [
+        {
+          "biome": "Calm Ocean",
+          "spoiler": true,
+          "requiredBoat": "Regular Old Boat",
+          "entryCost": "0g",
+          "unlocks": [
+            { "target": "Mermaid", "depth": "50m", "value": "300g", "hook": "Regular Hook", "gift": "Diamond Ring", "checklistLabel": "Calm Ocean Mermaid scene" },
+            { "target": "Shark", "depth": "200m", "value": "2,000g", "hook": "Good Hook", "gift": "Striped Pantie", "checklistLabel": "Calm Ocean Shark scene" },
+            { "target": "Angler", "depth": "300m", "value": "10,000g", "hook": "Regular Hook", "gift": "Box of Chocolates", "checklistLabel": "Calm Ocean Angler scene" }
+          ]
+        },
+        {
+          "biome": "Rocky Ocean",
+          "spoiler": true,
+          "requiredBoat": "Regular Boat",
+          "entryCost": "1,500g",
+          "unlocks": [
+            { "target": "Octopus", "depth": "100m", "value": "1,500g", "hook": "Double Shielded Hook", "gift": "Mighty Dildo", "checklistLabel": "Rocky Ocean Octopus scene" },
+            { "target": "Anemone", "depth": "300m", "value": "3,500g", "hook": "Reinforced Hook", "gift": "Box of Chocolates", "checklistLabel": "Rocky Ocean Anemone scene" },
+            { "target": "Kappa", "depth": "500m", "value": "7,500g", "hook": "Drill Hook", "gift": "Pearl Necklace", "checklistLabel": "Rocky Ocean Kappa scene" },
+            { "target": "Angler", "depth": "600m", "value": "13,000g", "hook": "Reinforced Hook", "gift": "Vibrant Rose", "checklistLabel": "Rocky Ocean Angler scene" }
+          ]
+        },
+        {
+          "biome": "Turbulent Ocean",
+          "spoiler": true,
+          "requiredBoat": "Reinforced Boat",
+          "entryCost": "5,000g",
+          "unlocks": [
+            { "target": "Whale", "depth": "50m", "value": "2,500g", "hook": "Double Shielded Hook", "gift": "Striped Pantie", "checklistLabel": "Turbulent Ocean Whale scene" },
+            { "target": "Mermaid", "depth": "200m", "value": "7,000g", "hook": "Reinforced Hook", "gift": "Lovely Ribbon", "checklistLabel": "Turbulent Ocean Mermaid scene" },
+            { "target": "Kappa", "depth": "500m", "value": "13,500g", "hook": "Triple Shielded Hook", "gift": "Vibrant Rose", "checklistLabel": "Turbulent Ocean Kappa scene" },
+            { "target": "Octopus", "depth": "700m", "value": "0g", "hook": "Anal Beads Hook", "gift": "Pearl Necklace", "checklistLabel": "Turbulent Ocean Octopus scene" },
+            { "target": "Shark", "depth": "900m", "value": "24,000g", "hook": "Super Hook", "gift": "Diamond Ring", "checklistLabel": "Turbulent Ocean Shark scene" },
+            { "target": "Grandpa's Letter", "depth": "1,000m", "value": "Story item", "hook": "None listed", "gift": "None listed", "checklistLabel": "Grandpa's Letter story unlock" }
+          ]
+        },
+        {
+          "biome": "Dark Ocean",
+          "spoiler": true,
+          "requiredBoat": "Golden Boat",
+          "entryCost": "8,000g",
+          "unlocks": [
+            { "target": "Anemone", "depth": "50m", "value": "3,000g", "hook": "Reinforced Hook", "gift": "Vibrant Rose", "checklistLabel": "Dark Ocean shallow Anemone scene" },
+            { "target": "Whale", "depth": "200m", "value": "9,000g", "hook": "Double Shielded Hook", "gift": "Lovely Ribbon", "checklistLabel": "Dark Ocean shallow Whale scene" },
+            { "target": "Shark", "depth": "500m", "value": "15,000g", "hook": "Drill Hook", "gift": "Piece of Cake", "checklistLabel": "Dark Ocean Shark scene" },
+            { "target": "Mermaid", "depth": "800m", "value": "20,000g", "hook": "Super Hook", "gift": "Pearl Necklace", "checklistLabel": "Dark Ocean Mermaid scene" },
+            { "target": "Anemone", "depth": "1,000m", "value": "25,000g", "hook": "Hearty Hook", "gift": "Piece of Cake", "checklistLabel": "Dark Ocean deep Anemone scene" },
+            { "target": "Kappa", "depth": "1,200m", "value": "30,000g", "hook": "Anal Plug Hook", "gift": "Striped Pantie", "checklistLabel": "Dark Ocean Kappa scene" },
+            { "target": "Octopus", "depth": "1,500m", "value": "35,000g", "hook": "Anal Beads Hook", "gift": "Mighty Dildo", "checklistLabel": "Dark Ocean Octopus scene" },
+            { "target": "Whale", "depth": "1,700m", "value": "40,000g", "hook": "Triple Shielded Hook", "gift": "Lovely Ribbon", "checklistLabel": "Dark Ocean deep Whale scene" },
+            { "target": "Angler", "depth": "2,000m", "value": "45,000g", "hook": "Omega Hook", "gift": "Diamond Ring", "checklistLabel": "Dark Ocean Angler scene" }
+          ]
         }
       ]
     }
@@ -749,31 +589,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Exquisite Fishing",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "Is Exquisite Fishing a singleplayer game?",
+        "answer": "Yes. Exquisite Fishing is a singleplayer Windows PC game available on Steam and itch.io, with no multiplayer or co-op."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How much does Exquisite Fishing cost?",
+        "answer": "Exquisite Fishing has a base price of $4.99 on Steam. It is an adults-only pixel fishing adventure developed by PinkySoul."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What platforms support Exquisite Fishing?",
+        "answer": "Exquisite Fishing is a Windows PC game on Steam. The same build is also listed on itch.io by developer PinkySoul."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Does Exquisite Fishing have redeem codes?",
+        "answer": "No. Exquisite Fishing does not use a code redemption system. Progress comes from catching fish, selling them for gold, and buying hooks, gifts, and boats."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How many ocean biomes are in Exquisite Fishing?",
+        "answer": "Exquisite Fishing has four ocean biomes: Calm Ocean, Rocky Ocean, Turbulent Ocean, and Dark Ocean. Each one requires a stronger boat to access."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where is the Exquisite Fishing save file located?",
+        "answer": "Exquisite Fishing saves to AppData/LocalLow/PinkySoul/Exquisite Fishing on Windows. Back up this folder to keep your Fishipedia and gallery progress."
       }
     ]
   },
@@ -800,126 +640,5 @@
     "copyright": "© 2026 Exquisite Fishing Wiki. Not affiliated with PinkySoul, the developer of Exquisite Fishing.",
     "disclaimer": "Unofficial fan-made resource website. Exquisite Fishing is an adults-only game."
   },
-  "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
-    }
-  }
+  "pages": {}
 }

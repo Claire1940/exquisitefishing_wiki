@@ -28,6 +28,23 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Exquisite Fishing 主题图标
+  Compass: LucideIcons.Compass,
+  Fish: LucideIcons.Fish,
+  Waves: LucideIcons.Waves,
+  Gift: LucideIcons.Gift,
+  Coins: LucideIcons.Coins,
+  Images: LucideIcons.Images,
+  Ship: LucideIcons.Ship,
+  Anchor: LucideIcons.Anchor,
+  Target: LucideIcons.Target,
+  Gauge: LucideIcons.Gauge,
+  Gem: LucideIcons.Gem,
+  Map: LucideIcons.Map,
+  Route: LucideIcons.Route,
+  Trophy: LucideIcons.Trophy,
+  Banknote: LucideIcons.Banknote,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
