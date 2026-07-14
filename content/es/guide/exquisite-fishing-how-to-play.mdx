@@ -1,0 +1,223 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cómo jugar Exquisite Fishing: Guía paso a paso para principiantes",
+  description: "Domina Exquisite Fishing con nuestra guía de 2026. Aprende sobre biomas oceánicos, mejoras de equipo, requisitos de criaturas y estrategias de farmeo de oro para desbloquear todas las escenas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1bc8d3/fff?text=Exquisite+Fishing+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Exquisite Fishing",
+  keywords: "exquisite fishing, guía de juego, biomas oceánicos, mejoras de anzuelo, farmeo de oro"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Cómo jugar Exquisite Fishing**: El ciclo principal consiste en lanzar señuelos, atraer criaturas marinas específicas con regalos y recogerlas para venderlas por oro.
+- **Ruta de Progresión**: Comienza en el Océano Tranquilo, mejora tu bote para llegar a los océanos Rocoso, Turbulento y Oscuro para obtener mayores recompensas.
+- **Sinergia de Equipo**: Cada criatura especial requiere una combinación específica de **Anzuelo** y **Regalo** para ser capturada con éxito.
+- **Prioridad de Oro**: Concéntrate en capturar al **Angler (Rape)** temprano en el Océano Tranquilo para financiar tus primeras mejoras importantes de bote y anzuelo.
+- **Objetivo Completista**: Recupera la **Carta del Abuelo** a 1,000m en el Océano Turbulento para avanzar en la historia principal y la galería.
+</Callout>
+
+<Section icon={Target} title="Cómo jugar Exquisite Fishing: El Ciclo de Juego Principal">
+
+Para dominar **Exquisite Fishing**, los jugadores deben entender que este no es el típico juego de pesca arcade. Es un simulador estratégico basado en la progresión donde tus elecciones de equipo determinan exactamente qué encontrarás en las profundidades. El juego se divide en cinco fases distintas que repetirás a medida que te desplaces desde la superficie soleada hasta el abismo de 2,000 metros.
+
+**Puntos destacados del video:**
+- Mecánicas básicas de lanzamiento y guía de señuelos.
+- Cómo identificar los medidores de interés en las criaturas marinas.
+- El proceso de recogida y gestión de la tensión del sedal.
+- Visita inicial a la tienda y primera compra de equipo.
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Exquisite Fishing GAMEPLAY" />
+
+### Los cinco pilares de la pesca
+1.  **Preparación**: Antes de salir del muelle, debes visitar la tienda para equipar un **Anzuelo** y un **Regalo**. Sin la combinación correcta, las criaturas especiales como la Sirena o el Tiburón ignorarán tu señuelo.
+2.  **Lanzamiento**: Lanza tu señuelo al océano. Tienes control manual sobre el movimiento horizontal mientras el señuelo se hunde.
+3.  **Atracción**: Guía tu señuelo hacia un objetivo. Si tienes el equipo correcto, aparecerá un medidor sobre la criatura. Debes permanecer cerca de ella hasta que el medidor se llene.
+4.  **Recogida**: Una vez enganchado, debes recoger el sedal hasta la superficie. Algunos anzuelos de alto nivel aceleran este proceso o proporcionan "escudos" contra la pérdida de la captura.
+5.  **Economía**: Vende tu captura al final de la partida. Usa este oro para comprar mejores botes, que son las "llaves" principales para desbloquear biomas oceánicos más profundos.
+
+<Callout type="tip" title="Estrategia para Principiantes">
+Al principio, no gastes oro en regalos aleatorios. Usa el **Anzuelo Regular** y el **Anillo de Diamantes** para apuntar a la Sirena a 50m. Ella es una fuente constante de ingresos en el juego temprano.
+</Callout>
+
+| Fase de Pesca | Objetivo Principal | Mecánica Clave |
+| :--- | :--- | :--- |
+| **Muelle** | Configuración de Equipo | Combinar Anzuelo + Regalo |
+| **Hundimiento** | Gestión de Profundidad | Control Horizontal del Señuelo |
+| **Interacción** | Llenado del Medidor | Mantenimiento de Proximidad |
+| **Ascenso** | Seguridad de la Captura | Velocidad de Recogida |
+| **Mercado** | Reinversión | Mejoras de Bote/Anzuelo |
+
+</Section>
+
+<Section icon={Map} title="Biomas Oceánicos y Hitos de Profundidad">
+
+El progreso en **Exquisite Fishing** está limitado por cuatro biomas oceánicos únicos. Cada bioma requiere un bote específico para entrar y cuenta con un "suelo" que limita qué tan profundo puede viajar tu señuelo. A medida que avanzas hacia océanos más profundos, el valor de las criaturas aumenta exponencialmente, pero también lo hace el costo de entrada.
+
+<CardGrid cols={2}>
+  <Card title="Océano Tranquilo (Área de Inicio)">
+    - **Costo de Entrada**: 0g (Gratis)
+    - **Profundidad Máxima**: 300m
+    - **Objetivo Principal**: Angler (10,000g)
+    - **Bote Requerido**: Bote Viejo Regular
+  </Card>
+  <Card title="Océano Rocoso (Juego Temprano)">
+    - **Costo de Entrada**: 1,500g
+    - **Profundidad Máxima**: 600m
+    - **Objetivo Principal**: Angler (13,000g)
+    - **Bote Requerido**: Bote Regular
+  </Card>
+  <Card title="Océano Turbulento (Juego Medio)">
+    - **Costo de Entrada**: 5,000g
+    - **Profundidad Máxima**: 1,000m
+    - **Objetivo Principal**: Tiburón (24,000g)
+    - **Bote Requerido**: Bote Reforzado
+  </Card>
+  <Card title="Océano Oscuro (Juego Final)">
+    - **Costo de Entrada**: 8,000g
+    - **Profundidad Máxima**: 2,000m+
+    - **Objetivo Principal**: Angler (45,000g)
+    - **Bote Requerido**: Bote Dorado
+  </Card>
+</CardGrid>
+
+La transición entre los océanos Rocoso y Turbulento es la parte más difícil del juego. Necesitarás farmear al **Kappa** y al **Angler** repetidamente para permitirte el Bote Reforzado de 5,000g. Una vez que llegues al Océano Turbulento, podrás encontrar la **Carta del Abuelo** en la marca de los 1,000m, la cual es esencial para completar la historia.
+
+<Callout type="warning" title="Advertencia de Límite de Profundidad">
+Si intentas pescar en un océano profundo con un bote de bajo nivel, tu sedal se romperá antes de llegar a los objetivos de alto valor. Prioriza siempre las mejoras del bote sobre los anzuelos costosos de final de juego.
+</Callout>
+
+| Nombre del Bioma | Bote Requerido | Tarifa de Entrada | Rango de Profundidad | Objeto Clave de Historia |
+| :--- | :--- | :--- | :--- | :--- |
+| **Océano Tranquilo** | Bote Viejo Regular | **0g** | 0m - 300m | Ninguno |
+| **Océano Rocoso** | Bote Regular | **1,500g** | 0m - 600m | Ninguno |
+| **Océano Turbulento** | Bote Reforzado | **5,000g** | 0m - 1,000m | **Carta del Abuelo** |
+| **Océano Oscuro** | Bote Dorado | **8,000g** | 0m - 2,000m | Escenas Finales |
+
+</Section>
+
+<Section icon={Shield} title="Mejoras de Equipo y Prioridades de la Tienda">
+
+La tienda en **Exquisite Fishing** está llena de varios anzuelos y regalos. Entender cuáles comprar primero marca la diferencia entre una partida de 2 horas y un grindeo de 10 horas. Los anzuelos generalmente mejoran tu capacidad de profundidad y eficiencia de recogida, mientras que los regalos actúan como "cebo" para personajes específicos.
+
+### Progresión de Anzuelos
+Los anzuelos se categorizan por sus capacidades de "Escudo" y "Profundidad". Un **Anzuelo con Doble Escudo** te permite ignorar pequeños obstáculos o errores durante el proceso de recogida, mientras que el **Anzuelo Omega** es necesario para las profundidades más extremas en el Océano Oscuro.
+
+<Steps>
+  <Step num="1" title="Anzuelos del Juego Temprano">
+    Quédate con el **Anzuelo Regular** y el **Anzuelo Bueno**. Estos son suficientes para los océanos Tranquilo y Rocoso. Concentra tu oro primero en la mejora del bote de 1,500g.
+  </Step>
+  <Step num="2" title="El Pivote del Juego Medio">
+    Una vez que tengas el Bote Regular, compra el **Anzuelo Reforzado** y el **Anzuelo de Taladro**. Estos te permiten capturar al Kappa (7,500g) y al Angler del Océano Rocoso (13,000g).
+  </Step>
+  <Step num="3" title="Especialización del Juego Final">
+    En el Océano Oscuro, necesitarás el **Anzuelo de Cuentas Anales** para el Pulpo y el **Anzuelo Omega** para el Angler final a 2,000m. Estos son caros pero necesarios para el 100% de finalización.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo para Farmeo de Oro">
+El **Anzuelo Reforzado** es la mejora con mejor relación calidad-precio del juego. Funciona para múltiples objetivos en tres océanos diferentes, lo que lo convierte en una compra obligatoria desde temprano.
+</Callout>
+
+| Tipo de Anzuelo | Mejor para | Etapa de Progresión | Objetivo Clave |
+| :--- | :--- | :--- | :--- |
+| **Anzuelo Regular** | Empezar | Temprano | Sirena |
+| **Anzuelo Bueno** | Profundidad moderada | Temprano | Tiburón (Tranquilo) |
+| **Anzuelo Reforzado** | Versatilidad | Medio | Anémona |
+| **Anzuelo de Taladro** | Océano Rocoso profundo | Medio | Kappa |
+| **Súper Anzuelo** | Alto valor | Tardío | Tiburón (Turbulento) |
+| **Anzuelo Omega** | Máxima profundidad | Final | Angler (Oscuro) |
+
+</Section>
+
+<Section icon={Sparkles} title="Requisitos de Captura Especial y Desbloqueo de Escenas">
+
+Desbloquear las escenas especiales en la galería es una parte fundamental de **Exquisite Fishing**. Cada escena se activa al capturar una criatura específica con el regalo correcto. Si usas el regalo equivocado, la criatura simplemente ignorará tu señuelo, sin importar qué tan cerca estés.
+
+<Checklist
+  id="special-targets"
+  title="Lista de Verificación de Capturas Obligatorias:"
+  items={[
+    "Sirena: Anillo de Diamantes + Anzuelo Regular (50m)",
+    "Tiburón: Braga a Rayas + Anzuelo Bueno (200m)",
+    "Angler: Caja de Bombones + Anzuelo Regular (300m)",
+    "Pulpo: Dildo Poderoso + Anzuelo con Doble Escudo (100m)",
+    "Kappa: Collar de Perlas + Anzuelo de Taladro (500m)",
+    "Ballena: Lazo Encantador + Anzuelo con Doble Escudo (200m)"
+  ]}
+/>
+
+### Tabla de Utilidad de Regalos
+Los regalos no se consumen al usarlos, así que una vez que compras un **Anillo de Diamantes**, lo tienes para siempre. Esto los convierte en una excelente inversión a largo plazo.
+
+| Nombre del Regalo | Objetivo Primario | Objetivo Secundario | Importancia |
+| :--- | :--- | :--- | :--- |
+| **Anillo de Diamantes** | Sirena (Tranquilo) | Tiburón (Turbulento) | **Alta** |
+| **Braga a Rayas** | Tiburón (Tranquilo) | Ballena (Turbulento) | **Media** |
+| **Caja de Bombones** | Angler (Tranquilo) | Anémona (Rocoso) | **Alta** |
+| **Dildo Poderoso** | Pulpo (Rocoso) | Pulpo (Oscuro) | **Media** |
+| **Collar de Perlas** | Kappa (Rocoso) | Sirena (Oscuro) | **Alta** |
+| **Rosa Vibrante** | Angler (Rocoso) | Kappa (Turbulento) | **Media** |
+
+<Callout type="info" title="Galería de Escenas">
+Para desbloquear el 100% de la galería, debes capturar a la misma criatura en diferentes océanos. Por ejemplo, la Sirena tiene diferentes escenas en los océanos Tranquilo, Turbulento y Oscuro, cada una requiriendo un regalo diferente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategias Avanzadas para el Farmeo de Oro">
+
+Para cuando llegues al final del juego, los costos de los botes y los anzuelos de alto nivel requerirán decenas de miles de oro. No puedes depender de capturar peces comunes para progresar. Debes optimizar tu "Oro por Partida" apuntando a las criaturas más eficientes.
+
+1.  **El Ciclo del Angler**: En el Océano Tranquilo, el Angler a 300m paga 10,000g. Dado que la tarifa de entrada es 0g, esta es la forma más eficiente de ahorrar para tu primer bote de 5,000g.
+2.  **Farmeo de Tiburones en el Turbulento**: Una vez que tengas el Bote Reforzado, el Tiburón a 900m paga 24,000g. Usa el **Súper Anzuelo** y el **Anillo de Diamantes**. Esta es la forma más rápida de pagar el Bote Dorado.
+3.  **Océano Oscuro Final**: El Angler final a 2,000m paga 45,000g. Aunque la tarifa de entrada es 8,000g, una sola captura exitosa te otorga un beneficio neto de 37,000g.
+
+<Callout type="warning" title="Evita los Peces Comunes">
+En el juego avanzado, los peces comunes son una distracción. Llenan tu inventario y proporcionan muy poco oro. Concéntrate por completo en los objetivos especiales para maximizar la eficiencia de tu tiempo.
+</Callout>
+
+| Criatura Objetivo | Océano | Profundidad | Valor Bruto | Beneficio Neto (Tras Entrada) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Angler** | Tranquilo | 300m | 10,000g | **10,000g** |
+| **Kappa** | Rocoso | 500m | 7,500g | 6,000g |
+| **Tiburón** | Turbulento | 900m | 24,000g | **19,000g** |
+| **Ballena** | Oscuro | 1,700m | 40,000g | 32,000g |
+| **Angler** | Oscuro | 2,000m | 45,000g | **37,000g** |
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes de Exquisite Fishing">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo el Océano Rocoso?",
+    answer: "Debes comprar el 'Bote Regular' en la tienda por 1,500g. Una vez comprado, el Océano Rocoso aparecerá como un destino seleccionable en el menú principal."
+  },
+  {
+    question: "¿Dónde se encuentra la Carta del Abuelo?",
+    answer: "La Carta del Abuelo es un coleccionable especial que se encuentra en el fondo del Océano Turbulento (1,000m de profundidad). No necesitas un regalo específico para recogerla, pero sí necesitas el Bote Reforzado."
+  },
+  {
+    question: "¿Por qué la criatura ignora mi señuelo?",
+    answer: "Esto sucede si no tienes equipada la combinación correcta de Anzuelo y Regalo. Consulta la Fishipedia o nuestra tabla de Requisitos de Captura para asegurarte de que tu equipo coincida con las preferencias del objetivo."
+  },
+  {
+    question: "¿Cuál es la mejor manera de ganar oro al principio?",
+    answer: "Apunta al Angler en el Océano Tranquilo a 300m de profundidad. Requiere una Caja de Bombones y un Anzuelo Regular, pero te recompensa con 10,000g por captura con cero costo de entrada."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+Mantén siempre una copia de seguridad de tu archivo de guardado. La ubicación del guardado suele encontrarse en `AppData/LocalLow/PinkySoul/Exquisite Fishing`. Si encuentras un error o gastas oro accidentalmente en el objeto equivocado, puedes restaurar tu progreso fácilmente.
+</Callout>
+
+</Section>

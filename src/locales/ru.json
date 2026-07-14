@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Гайд",
+    "walkthrough": "Прохождение",
+    "catches": "Улов",
+    "equipment": "Снаряжение",
+    "gallery": "Галерея",
+    "version": "Версия",
+    "download": "Скачать"
+  }
+}

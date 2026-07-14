@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Consejos de Exquisite Fishing: Guía de progresión eficiente y capturas",
+  description: "Domina las profundidades del océano con nuestros consejos de Exquisite Fishing. Aprende las mejores mejoras de cebo, anzuelo y barco para maximizar tu oro y desbloquear escenas raras.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Exquisite+Fishing+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Exquisite Fishing"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los consejos de Exquisite Fishing** se centran en combinar equipos específicos con las profundidades de los objetivos para maximizar la eficiencia de oro.
+- **Prioriza las mejoras de barco** al principio para desbloquear nuevos biomas, ya que las aguas más profundas albergan a las criaturas más valiosas.
+- **Mantén un equipamiento constante** para cada criatura; las capturas exitosas requieren la combinación exacta de anzuelo y regalo.
+- **Evita gastos innecesarios** en artículos no esenciales antes de asegurar tu próximo barco para garantizar una progresión fluida.
+</Callout>
+
+<Section icon={Map} title="Dominar el ciclo de pesca">
+
+El ciclo de juego principal consiste en lanzar, atraer y recoger. Para tener éxito, debes entender que las diferentes criaturas requieren un equipo específico. 
+
+**Puntos destacados del video:**
+- Mecánicas básicas de lanzamiento y guía del señuelo
+- Cómo gestionar el medidor de anzuelo para capturas exitosas
+- Estrategias de juego temprano para la acumulación de oro
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Resumen de juego de Exquisite Fishing" />
+
+La pesca efectiva requiere paciencia. Una vez que una criatura se interese, mantén el señuelo firme hasta que el medidor de anzuelo esté lleno. Si te quedas sin tiempo o el objetivo pierde el interés, desperdiciarás energía y tiempo.
+
+| Categoría de equipo | Propósito | Prioridad de mejora |
+| :--- | :--- | :--- |
+| **Barco** | Desbloquea nuevos biomas | La más alta |
+| **Anzuelo** | Permite pescar a mayor profundidad | Alta |
+| **Regalos** | Atrae objetivos específicos | Media |
+
+<Callout type="tip" title="Consejo profesional">
+Consulta siempre la Fishipedia después de una captura exitosa. Proporciona datos esenciales sobre las profundidades y la rareza del objetivo, lo que ayuda a perfeccionar tus futuros equipamientos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia de progresión">
+
+La progresión está limitada por el oro y el acceso a los barcos. Sigue este enfoque estructurado para asegurarte de no quedarte atrapado en una zona de bajo rendimiento durante demasiado tiempo.
+
+<Steps>
+  <Step num="1" title="Pesca en el océano calmado">
+    Comienza apuntando a la Sirena a 50m para acumular tus fondos iniciales, luego ve por el Tiburón a 200m usando el Anzuelo bueno.
+  </Step>
+  <Step num="2" title="Transición al océano rocoso">
+    Ahorra 1,500g para el Barco común. Una vez dentro, concéntrate en el Pulpo y la Anémona para generar suficiente oro para el Barco reforzado.
+  </Step>
+  <Step num="3" title="Exploración de aguas profundas">
+    Con los barcos Reforzado y Dorado, adéntrate en los océanos Turbulento y Oscuro para capturar objetivos de alto valor como el Rape a 2,000m.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestión de presupuesto">
+No compres todos los anzuelos disponibles en la tienda. Compra solo las combinaciones específicas de anzuelo y regalo requeridas para tu próxima criatura objetivo para maximizar la eficiencia de oro.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos de equipo y captura">
+
+El éxito en el océano profundo depende de tu equipamiento. Usar el anzuelo o regalo incorrecto resultará en una captura fallida. Usa esta tabla para planificar tu próximo viaje.
+
+| Criatura | Profundidad | Anzuelo requerido | Regalo requerido |
+| :--- | :--- | :--- | :--- |
+| **Sirena** | 50m | Anzuelo común | Anillo de diamantes |
+| **Tiburón** | 200m | Anzuelo bueno | Bragas a rayas |
+| **Rape** | 300m | Anzuelo común | Caja de chocolates |
+| **Pulpo** | 100m | Doble blindaje | Dildo poderoso |
+| **Kappa** | 500m | Anzuelo taladro | Collar de perlas |
+
+<CardGrid cols={3}>
+  <Card title="Juego temprano">
+    - Enfoque: Océano calmado
+    - Objetivo: Sirena y Tiburón
+    - Meta: 1,500g para el barco
+  </Card>
+  <Card title="Juego medio">
+    - Enfoque: Océano rocoso
+    - Objetivo: Pulpo y Kappa
+    - Meta: 5,000g para el barco
+  </Card>
+  <Card title="Juego tardío">
+    - Enfoque: Océano oscuro
+    - Objetivo: Rape y Ballena
+    - Meta: 8,000g para el barco
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Galería y desbloqueo de escenas">
+
+Desbloquear todas las escenas requiere una ejecución precisa. Cada escena está vinculada a una criatura, profundidad y conjunto de equipo específicos.
+
+<Checklist
+  id="unlock-checklist"
+  title="Hitos de progresión:"
+  items={[
+    "Captura con éxito a la Sirena del océano calmado",
+    "Adquiere el Barco común para acceder al océano rocoso",
+    "Recupera la Carta del abuelo a 1,000m en el océano turbulento",
+    "Completa la Fishipedia con todas las capturas de aguas profundas"
+  ]}
+/>
+
+<Callout type="success" title="Nota de éxito">
+Las criaturas más profundas del océano oscuro ofrecen las mayores recompensas. Asegúrate de tener listo tu Anzuelo Omega antes de intentar capturar al Rape a 2,000m.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de ganar oro rápidamente?",
+    answer: "Concéntrate en capturas especiales como el Tiburón y el Rape en lugar de los peces comunes. Utiliza siempre el regalo específico requerido para el objetivo para asegurar la mayor recompensa."
+  },
+  {
+    question: "¿Necesito comprar todos los barcos?",
+    answer: "Sí, cada barco es un requisito necesario para explorar biomas oceánicos más profundos donde residen criaturas más valiosas."
+  },
+  {
+    question: "¿Dónde puedo encontrar la Carta del abuelo?",
+    answer: "Este coleccionable de la historia se encuentra a una profundidad de 1,000m en el océano turbulento. Necesitarás el Barco reforzado para alcanzar esta profundidad."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Exquisite Fishing Versão 1.07: Detonado e Guia de Cenas",
+  description: "Domine Exquisite Fishing Versão 1.07 com nosso guia sobre profundidades de biomas, melhorias de equipamentos, requisitos de criaturas e desbloqueio de todas as cenas de personagens.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Exquisite+Fishing+1.07+Guide",
+  date: "2026-07-14",
+  author: "Equipe da Wiki de Exquisite Fishing"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Exquisite Fishing versão 1.07** foca em um ciclo principal de pescar, vender e melhorar equipamentos para alcançar a profundidade de 2.000m do Oceano Sombrio.
+- **Sinergia de Equipamentos** é fundamental; criaturas especiais só aparecem quando você combina o **Anzol** e o **Presente** específicos na profundidade correta.
+- **Prioridade de Ouro** deve sempre favorecer as **melhorias de Barco** primeiro, pois elas desbloqueiam biomas totalmente novos e alvos de maior valor.
+- **Desbloqueios de Cenas** estão atrelados a criaturas únicas como a Sereia, o Tubarão e o Peixe-Lanterna ao longo de quatro biomas oceânicos distintos.
+- A **Pasta de Salvamento (Save)** no Windows PC fica localizada no diretório `AppData/LocalLow/PinkySoul/Exquisite Fishing`.
+</Callout>
+
+<Section icon={Target} title="Guia para Iniciantes: Dominando o Ciclo Principal">
+
+Para ter sucesso em **Exquisite Fishing versão 1.07**, você deve dominar o ciclo fundamental de lançar, atrair e recolher. O jogo começa no Oceano Calmo, onde você recebe um Barco Velho Comum de graça. Seu objetivo principal é acumular ouro suficiente para comprar anzóis e presentes especializados que atraem \"Criaturas Especiais\", as quais rendem recompensas significativamente maiores do que os peixes comuns.
+
+**Destaques do Vídeo:**
+- **Mecânicas de Lançamento**: Como guiar a isca em direção a profundidades específicas.
+- **Sistema de Atração**: Combinar presentes com os interesses das criaturas.
+- **Estratégia de Recolhimento**: Controlar a barra do anzol para capturas bem-sucedidas.
+- **Farm de Ouro Inicial**: Os melhores alvos para os seus primeiros 1.500g.
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Exquisite Fishing Gameplay and Mechanics" />
+
+O processo de pesca envolve lançar sua isca e guiá-la verticalmente. À medida que desce, você deve evitar capturar \"lixo\" e posicionar sua isca perto da silhueta do seu alvo desejado. Assim que uma criatura demonstra interesse, uma barra de fisgada começa a encher. Manter o alvo atraído até que a barra esteja cheia garante a captura, após a qual você deve recolhê-lo de volta à superfície.
+
+| Ação | Resultado | Dica de Estratégia |
+| :--- | :--- | :--- |
+| **Lançar** | A isca entra na água | Guie em direção a marcadores de profundidade específicos (50m, 200m, etc.) |
+| **Atrair** | O alvo se aproxima da isca | Certifique-se de que o **Presente** correto está equipado para aquela criatura |
+| **Fisgar** | A barra se enche | Mantenha a proximidade com o centro do alvo |
+| **Vender** | Ouro é adicionado ao inventário | Visite a loja imediatamente para verificar novas melhorias |
+
+<Callout type="success" title="Estratégia Inicial">
+No início do jogo, foque na **Sereia** a 50m no Oceano Calmo. Ela exige um **Anel de Diamante** e um **Anzol Comum**. Esta captura fornece constantes 300g, permitindo que você compre rapidamente o **Anzol Bom** necessário para o Tubarão.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Biomas Oceânicos e Roteiro de Progressão">
+
+A progressão em **Exquisite Fishing versão 1.07** é limitada pela durabilidade do seu barco e pela profundidade que ele pode alcançar. Existem quatro biomas principais, cada um apresentando novos desafios ambientais e criaturas mais valiosas. Você não pode acessar oceanos mais profundos sem comprar o barco correspondente na loja.
+
+<CardGrid cols={2}>
+  <Card title="Oceano Calmo">
+    - **Acesso**: Barco Velho Comum (0g)
+    - **Profundidade**: Até 300m
+    - **Alvo Principal**: Peixe-Lanterna (10.000g)
+    - **Dificuldade**: Muito Baixa
+  </Card>
+  <Card title="Oceano Rochoso">
+    - **Acesso**: Barco Comum (1.500g)
+    - **Profundidade**: Até 600m
+    - **Alvo Principal**: Kappa (7.500g)
+    - **Dificuldade**: Moderada
+  </Card>
+  <Card title="Oceano Turbulento">
+    - **Acesso**: Barco Reforçado (5.000g)
+    - **Profundidade**: Até 1.000m
+    - **Alvo Principal**: Tubarão (24.000g)
+    - **Dificuldade**: Alta
+  </Card>
+  <Card title="Oceano Sombrio">
+    - **Acesso**: Barco Dourado (8.000g)
+    - **Profundidade**: Até 2.000m
+    - **Alvo Principal**: Peixe-Lanterna Abissal (45.000g)
+    - **Dificuldade**: Extrema
+  </Card>
+</CardGrid>
+
+Mover-se entre os biomas requer um equilíbrio estratégico de gastos. Se você gastar todo o seu ouro em anzóis de ponta antes de melhorar seu barco, poderá ficar preso em um oceano raso onde esses anzóis não são úteis. Por outro lado, correr para um novo oceano sem os presentes corretos significa que você só pegará peixes comuns de baixo valor.
+
+| Bioma | Requisito de Entrada | Marco de Profundidade Notável | Maior Recompensa |
+| :--- | :--- | :--- | :--- |
+| **Oceano Calmo** | Área Inicial | 300m (Peixe-Lanterna) | 10.000g |
+| **Oceano Rochoso** | Barco Comum | 600m (Peixe-Lanterna) | 13.000g |
+| **Oceano Turbulento** | Barco Reforçado | 1.000m (Carta do Vovô) | 24.000g |
+| **Oceano Sombrio** | Barco Dourado | 2.000m (Peixe-Lanterna Final) | 45.000g |
+
+<Callout type="info" title="Desbloqueio de Biomas">
+Sempre priorize o **Barco Reforçado** assim que atingir 5.000g. O Oceano Turbulento contém a **Carta do Vovô** a 1.000m, que é um item de história vital para concluir o arco narrativo do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhorias de Equipamentos e Prioridades de Inventário">
+
+A loja em **Exquisite Fishing versão 1.07** oferece três categorias principais de itens: Barcos, Anzóis e Presentes. Enquanto os Barcos concedem acesso a novas áreas, os Anzóis determinam qual \"peso\" de criatura você consegue puxar, e os Presentes funcionam como isca para personagens especiais específicos.
+
+<Steps>
+  <Step num="1" title="Melhorias Iniciais de Anzol">
+    Comece comprando o **Anzol Bom**. Ele é necessário para o Tubarão do Oceano Calmo a 200m. O Tubarão é sua primeira grande fonte de renda, rendendo 2.000g por captura, o que financia sua transição para o Oceano Rochoso.
+  </Step>
+  <Step num="2" title="O Meta do Anzol Reforçado">
+    Uma vez no Oceano Rochoso, o **Anzol Reforçado** se torna sua principal ferramenta de trabalho. Ele é necessário para a Anêmona e para o Peixe-Lanterna mais profundo. Oferece o melhor equilíbrio entre velocidade e durabilidade para o farm de meio de jogo.
+  </Step>
+  <Step num="3" title="Anzóis Blindados Especializados">
+    Ao entrar no Oceano Turbulento, você encontrará criaturas que colocam uma tensão enorme na sua linha. Os **Anzóis com Blindagem Dupla** e **Blindagem Tripla** são obrigatórios para a Baleia e para o Kappa de 500m para evitar que a linha arrebente.
+  </Step>
+  <Step num="4" title="Equipamento Ômega de Fim de Jogo">
+    O objetivo final é o **Anzol Ômega**. Este é o único equipamento capaz de recolher o Peixe-Lanterna de 2.000m no Oceano Sombrio. Combine-o com um **Anel de Diamante** para obter o pagamento máximo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Tensão da Linha">
+Usar um anzol de nível inferior ao recomendado para uma profundidade específica ou peso de criatura fará com que o medidor de tensão suba rapidamente. Se o medidor atingir o limite, você perderá a captura e o presente utilizado. Sempre verifique a tabela de criaturas antes de tentar uma captura em mar profundo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Requisitos de Capturas Especiais e Desbloqueio de Cenas">
+
+O coração de **Exquisite Fishing versão 1.07** está em desbloquear as cenas de personagens registradas na Fishipedia. Cada cena exige que uma \"Criatura Especial\" específica seja capturada usando uma combinação precisa de equipamentos. Se você estiver com o presente errado equipado, a criatura simplesmente ignorará sua isca.
+
+| Criatura | Bioma | Profundidade | Anzol Necessário | Presente Necessário | Valor |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sereia** | Oceano Calmo | 50m | Anzol Comum | Anel de Diamante | 300g |
+| **Tubarão** | Oceano Calmo | 200m | Anzol Bom | Calcinha Listrada | 2.000g |
+| **Polvo** | Oceano Rochoso | 100m | Blindagem Dupla | Consolador Poderoso | 1.500g |
+| **Anêmona** | Oceano Rochoso | 300m | Anzol Reforçado | Caixa de Chocolates | 3.500g |
+| **Kappa** | Oceano Rochoso | 500m | Anzol de Broca | Colar de Pérolas | 7.500g |
+| **Baleia** | Oceano Turbulento | 50m | Blindagem Dupla | Calcinha Listrada | 2.500g |
+| **Peixe-Lanterna** | Oceano Sombrio | 2.000m | Anzol Ômega | Anel de Diamante | 45.000g |
+
+<Checklist
+  id="gallery-completion"
+  title="Lista de Desbloqueio da Galeria:"
+  items={[
+    "Capturar a Sereia do Oceano Calmo (Anel de Diamante)",
+    "Capturar o Tubarão do Oceano Calmo (Calcinha Listrada)",
+    "Capturar o Polvo do Oceano Rochoso (Consolador Poderoso)",
+    "Capturar o Kappa do Oceano Rochoso (Colar de Pérolas)",
+    "Encontrar a Carta do Vovô a 1.000m",
+    "Capturar o Peixe-Lanterna do Oceano Sombrio a 2.000m"
+  ]}
+/>
+
+<Callout type="tip" title="Reutilização de Presentes">
+Muitos presentes são usados para múltiplas criaturas em diferentes oceanos. Por exemplo, o **Anel de Diamante** é usado tanto para a primeira Sereia quanto para o Peixe-Lanterna final do jogo. Não venda seus presentes de volta a menos que precise desesperadamente de ouro, pois você pode precisar deles para variações mais profundas da mesma criatura.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estratégia de Eficiência e Farm de Ouro">
+
+Para alcançar o fim de jogo de **Exquisite Fishing versão 1.07** de forma eficiente, você deve evitar ficar pescando peixes comuns. Em vez disso, foque em uma estratégia de \"Arrancada de Alvos\". Isso envolve identificar a criatura de maior valor que você pode capturar no momento e farmá-la até poder comprar o próximo item de progressão importante.
+
+**A Rota de Farm Ideal:**
+1.  **Etapa 1**: Farme a **Sereia do Oceano Calmo** (300g) até poder comprar a **Calcinha Listrada** e o **Anzol Bom**.
+2.  **Etapa 2**: Vá para o **Tubarão do Oceano Calmo** (2.000g). Este é o melhor alvo de ouro por minuto no início do jogo.
+3.  **Etapa 3**: Economize 1.500g para comprar o **Barco Comum** e desbloquear o Oceano Rochoso.
+4.  **Etapa 4**: Foque no **Peixe-Lanterna do Oceano Rochoso** a 600m (13.000g). Isso requer o **Anzol Reforçado** e a **Rosa Vibrante**.
+5.  **Etapa 5**: Use os lucros do Peixe-Lanterna para comprar o **Barco Reforçado** (5.000g) e depois o **Super Anzol**.
+6.  **Etapa 6**: Farme o **Tubarão do Oceano Turbulento** a 900m (24.000g) para financiar o **Barco Dourado** e o **Anzol Ômega**.
+
+| Alvo | Oceano | Recompensa em Ouro | Nível de Esforço | Prioridade |
+| :--- | :--- | :--- | :--- | :--- |
+| **Peixe-Lanterna (Calmo)** | Calmo | 10.000g | Baixo | Alta (Início) |
+| **Kappa (Rochoso)** | Rochoso | 7.500g | Médio | Média |
+| **Tubarão (Turbulento)** | Turbulento | 24.000g | Alto | Alta (Metade) |
+| **Peixe-Lanterna (Sombrio)** | Sombrio | 45.000g | Muito Alto | Máxima |
+
+<Callout type="info" title="Capturas de Valor Zero">
+Note que o **Polvo do Oceano Turbulento** a 700m tem um valor de venda de 0g. Esta captura serve puramente para a conclusão de cenas e progressão da história. Não farme este alvo se o seu objetivo for acumular ouro.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Suporte Técnico e Perguntas Frequentes">
+
+Para os jogadores que estão enfrentando problemas com **Exquisite Fishing versão 1.07**, a maioria dos contratempos está relacionada à corrupção de arquivos de salvamento ou configurações de resolução. O jogo é altamente estável no Windows PC, mas backups manuais são recomendados antes de grandes atualizações de versão.
+
+**Localização do Arquivo de Salvamento (Save):**
+To fazer o backup do seu progresso ou mover seu save para um novo PC, navegue até:
+`C:\Users\[SeuNomeDeUsuario]\AppData\LocalLow\PinkySoul\Exquisite Fishing`
+
+<FAQ items={[
+  {
+    question: "Como desbloqueio o Oceano Sombrio na versão 1.07?",
+    answer: "Você deve comprar o Barco Dourado na loja por 8.000g. Recomenda-se ter pelo menos 12.000g antes de comprar, para que você também possa adquirir os anzóis de mar profundo necessários."
+  },
+  {
+    question: "Por que a criatura está ignorando minha isca mesmo na profundidade correta?",
+    answer: "Isso geralmente significa que você está com o Presente errado equipado. Verifique seus equipamentos no menu e certifique-se de que correspondem ao requisito específico da criatura (ex: Colar de Pérolas para o Kappa)."
+  },
+  {
+    question: "Onde fica localizada a Carta do Vovô?",
+    answer: "A Carta do Vovô é um item colecionável fundamental encontrado exatamente a 1.000m de profundidade no Oceano Turbulento. Você precisará do Barco Reforçado para alcançar esta profundidade."
+  },
+  {
+    question: "Posso reiniciar meu progresso em Exquisite Fishing?",
+    answer: "Sim, você pode usar a opção 'Reiniciar' (Reset) no menu de configurações ou deletar manualmente os arquivos de salvamento na pasta AppData para começar uma nova jornada."
+  }
+]} />
+
+<Callout type="tip" title="Atualizações de Versão">
+Se você estiver atualizando de uma versão antiga para a **versão 1.07**, certifique-se de que seu personagem está na área principal da loja antes de salvar e fechar a versão anterior. Isso evita bugs de \"bloqueio de oceano\", onde o jogo pode gerar você em um bioma que seu barco atual não suporta mais.
+</Callout>
+
+</Section>

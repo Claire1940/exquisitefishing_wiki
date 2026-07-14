@@ -1,0 +1,215 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Exquisite Fishing Versión 1.07: Guía Completa y de Escenas",
+  description: "Domina Exquisite Fishing Versión 1.07 con nuestra guía sobre profundidades de biomas, mejoras de equipo, requisitos de criaturas y desbloqueo de escenas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Exquisite+Fishing+1.07+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Exquisite Fishing",
+  keywords: "exquisite fishing, guía, escenas, biomas, mejoras, barcos, anzuelos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Exquisite Fishing versión 1.07** se centra en un bucle principal de pescar, vender y mejorar para alcanzar los 2,000m de profundidad del Océano Oscuro.
+- La **Sinergia del Equipo** es fundamental; las criaturas especiales solo aparecerán cuando combines el **Anzuelo** y el **Regalo** específicos a la profundidad correcta.
+- La **Prioridad del Oro** siempre debe favorecer primero las **Mejoras del Barco**, ya que desbloquean biomas completamente nuevos y objetivos de mayor valor.
+- El **Desbloqueo de Escenas** está ligado a criaturas únicas como la Sirena, el Tiburón y el Pez Linterna a lo largo de cuatro biomas oceánicos distintos.
+- La **Ubicación de Guardado** para PC con Windows se encuentra en el directorio `AppData/LocalLow/PinkySoul/Exquisite Fishing`.
+</Callout>
+
+<Section icon={Target} title="Guía para Principiantes: Dominando el Bucle Principal">
+
+Para tener éxito en **Exquisite Fishing versión 1.07**, debes dominar el bucle fundamental de lanzar, atraer y recoger. El juego comienza en el Océano Calmo, donde se te proporciona un Barco Viejo Regular de forma gratuita. Tu objetivo principal es acumular suficiente oro para comprar anzuelos y regalos especializados que atraigan a las \"Criaturas Especiales\", las cuales otorgan recompensas significativamente mayores que los peces estándar.
+
+**Puntos Clave del Video:**
+- **Mecánicas de Lanzamiento**: Cómo guiar el señuelo hacia profundidades específicas.
+- **Sistema de Atracción**: Combinar los regalos con los intereses de las criaturas.
+- **Estrategia de Recogida**: Gestionar el medidor del anzuelo para lograr capturas exitosas.
+- **Granja de Oro Temprana**: Los mejores objetivos para tus primeros 1,500g.
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Exquisite Fishing Gameplay and Mechanics" />
+
+El proceso de pesca consiste en lanzar tu señuelo y guiarlo verticalmente. A medida que desciendes, debes evitar las capturas de \"basura\" y posicionar tu señuelo cerca de la silueta de tu objetivo deseado. Una vez que una criatura muestra interés, un medidor de anzuelo comenzará a llenarse. Mantener al objetivo interesado hasta que el medidor esté lleno asegura la captura, tras lo cual deberás subirla a la superficie.
+
+| Acción | Resultado | Consejo de Estrategia |
+| :--- | :--- | :--- |
+| **Lanzar** | El señuelo entra al agua | Guíalo hacia marcadores de profundidad específicos (50m, 200m, etc.) |
+| **Atraer** | El objetivo se acerca al señuelo | Asegúrate de tener equipado el **Regalo** correcto para esa criatura |
+| **Enganchar** | El medidor se llena | Mantén la proximidad al centro del objetivo |
+| **Vender** | Oro añadido al inventario | Visita la tienda inmediatamente para buscar mejoras |
+
+<Callout type="success" title="Estrategia Inicial">
+En la etapa inicial del juego, concéntrate en la **Sirena** a 50m en el Océano Calmo. Requiere un **Anillo de Diamantes** y un **Anzuelo Regular**. Esta captura proporciona unos constantes 300g, lo que te permitirá comprar rápidamente el **Anzuelo Bueno** necesario para el Tiburón.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Biomas Oceánicos y Ruta de Progresión">
+
+La progresión en **Exquisite Fishing versión 1.07** está limitada por la durabilidad de tu barco y la profundidad que puede alcanzar. Hay cuatro biomas principales, cada uno de los cuales introduce nuevos desafíos ambientales y criaturas más valiosas. No puedes acceder a océanos más profundos sin comprar el barco correspondiente en la tienda.
+
+<CardGrid cols={2}>
+  <Card title="Océano Calmo">
+    - **Acceso**: Barco Viejo Regular (0g)
+    - **Profundidad**: Hasta 300m
+    - **Objetivo Clave**: Pez Linterna (10,000g)
+    - **Dificultad**: Muy Baja
+  </Card>
+  <Card title="Océano Rocoso">
+    - **Acceso**: Barco Regular (1,500g)
+    - **Profundidad**: Hasta 600m
+    - **Objetivo Clave**: Kappa (7,500g)
+    - **Dificultad**: Moderada
+  </Card>
+  <Card title="Océano Turbulento">
+    - **Acceso**: Barco Reforzado (5,000g)
+    - **Profundidad**: Hasta 1,000m
+    - **Objetivo Clave**: Tiburón (24,000g)
+    - **Dificultad**: Alta
+  </Card>
+  <Card title="Océano Oscuro">
+    - **Acceso**: Barco Dorado (8,000g)
+    - **Profundidad**: Hasta 2,000m
+    - **Objetivo Clave**: Pez Linterna de las Profundidades (45,000g)
+    - **Dificultad**: Extrema
+  </Card>
+</CardGrid>
+
+Moverse entre biomas requiere un equilibrio estratégico de gastos. Si gastas todo tu oro en anzuelos de alta gama antes de mejorar tu barco, podrías quedarte atascado en un océano poco profundo donde esos anzuelos no son útiles. Por el contrario, apresurarse a un nuevo océano sin los regalos correctos significa que solo capturarás peces comunes de bajo valor.
+
+| Bioma | Requisito de Entrada | Hito de Profundidad Notable | Recompensa Máxima |
+| :--- | :--- | :--- | :--- |
+| **Océano Calmo** | Área de Inicio | 300m (Pez Linterna) | 10,000g |
+| **Océano Rocoso** | Barco Regular | 600m (Pez Linterna) | 13,000g |
+| **Océano Turbulento** | Barco Reforzado | 1,000m (Carta del Abuelo) | 24,000g |
+| **Océano Oscuro** | Barco Dorado | 2,000m (Pez Linterna del Endgame) | 45,000g |
+
+<Callout type="info" title="Desbloqueo de Biomas">
+Prioriza siempre el **Barco Reforzado** tan pronto como alcances los 5,000g. El Océano Turbulento contiene la **Carta del Abuelo** a 1,000m, que es un objeto de historia vital para completar el arco narrativo del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejoras de Equipo y Prioridades de Carga">
+
+La tienda en **Exquisite Fishing versión 1.07** ofrece tres categorías principales de artículos: Barcos, Anzuelos y Regalos. Mientras que los Barcos otorgan acceso a nuevas áreas, los Anzuelos determinan qué \"peso\" de criatura puedes arrastrar, y los Regalos actúan como cebo para personajes especiales específicos.
+
+<Steps>
+  <Step num="1" title="Mejoras Iniciales de Anzuelo">
+    Comienza comprando el **Anzuelo Bueno**. Este es necesario para el Tiburón del Océano Calmo a 200m. El Tiburón es tu primera gran fuente de ingresos con 2,000g por captura, lo que financiará tu transición al Océano Rocoso.
+  </Step>
+  <Step num="2" title="El Meta del Anzuelo Reforzado">
+    Una vez en el Océano Rocoso, el **Anzuelo Reforzado** se convierte en tu herramienta de trabajo. Es necesario para la Anémona y el Pez Linterna más profundo. Ofrece el mejor equilibrio de velocidad y durabilidad para el farmeo a mitad del juego.
+  </Step>
+  <Step num="3" title="Anzuelos Escudados Especializados">
+    Al ingresar al Océano Turbulento, te encontrarás con criaturas que ejercen una presión enorme sobre tu línea. Los **Anzuelos con Doble Escudo** y **Triple Escudo** son obligatorios para la Ballena y el Kappa de 500m para evitar que la línea se rompa.
+  </Step>
+  <Step num="4" title="Equipo Omega para el Endgame">
+    El objetivo final es el **Anzuelo Omega**. Este es el único equipo capaz de pescar al Pez Linterna a 2,000m en el Océano Oscuro. Combínalo con un **Anillo de Diamantes** para obtener la máxima recompensa.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Tensión de la Línea">
+Usar un anzuelo que no tiene el nivel suficiente para una profundidad o peso de criatura específicos hará que el medidor de tensión aumente rápidamente. Si el medidor llega al máximo, perderás la captura y el regalo utilizado. Revisa siempre la tabla de criaturas antes de intentar una captura en el mar profundo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Requisitos de Capturas Especiales y Desbloqueo de Escenas">
+
+El corazón de **Exquisite Fishing versión 1.07** radica en desbloquear las escenas de personajes registradas en la Fishipedia. Cada escena requiere que una \"Criatura Especial\" sea capturada usando un equipamiento preciso. Si tienes equipado el regalo equivocado, la criatura simplemente ignorará tu señuelo.
+
+| Criatura | Bioma | Profundidad | Anzuelo Requerido | Regalo Requerido | Valor |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sirena** | Océano Calmo | 50m | Anzuelo Regular | Anillo de Diamantes | 300g |
+| **Tiburón** | Océano Calmo | 200m | Anzuelo Bueno | Braguita de Rayas | 2,000g |
+| **Pulpo** | Océano Rocoso | 100m | Doble Escudo | Dildo Poderoso | 1,500g |
+| **Anémona** | Océano Rocoso | 300m | Anzuelo Reforzado | Caja de Chocolates | 3,500g |
+| **Kappa** | Océano Rocoso | 500m | Anzuelo Taladro | Collar de Perlas | 7,500g |
+| **Ballena** | Océano Turbulento | 50m | Doble Escudo | Braguita de Rayas | 2,500g |
+| **Pez Linterna** | Océano Oscuro | 2,000m | Anzuelo Omega | Anillo de Diamantes | 45,000g |
+
+<Checklist
+  id="gallery-completion"
+  title="Lista de Verificación para Desbloquear la Galería:"
+  items={[
+    "Capturar a la Sirena del Océano Calmo (Anillo de Diamantes)",
+    "Capturar al Tiburón del Océano Calmo (Braguita de Rayas)",
+    "Capturar al Pulpo del Océano Rocoso (Dildo Poderoso)",
+    "Capturar al Kappa del Océano Rocoso (Collar de Perlas)",
+    "Encontrar la Carta del Abuelo a 1,000m",
+    "Capturar al Pez Linterna del Océano Oscuro a 2,000m"
+  ]}
+/>
+
+<Callout type="tip" title="Reutilización de Regalos">
+Muchos regalos se utilizan para múltiples criaturas en diferentes océanos. Por ejemplo, el **Anillo de Diamantes** se utiliza tanto para la primera Sirena como para el Pez Linterna final del juego. No vendas los regalos a menos que necesites oro desesperadamente, ya que podrías necesitarlos para variaciones más profundas de la misma criatura.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategia de Eficiencia y Farmeo de Oro">
+
+Para llegar al final del juego en **Exquisite Fishing versión 1.07** de manera eficiente, debes evitar perder el tiempo con peces comunes. En su lugar, concéntrate en una estrategia de \"Sprint de Objetivos\". Esto implica identificar la criatura de mayor valor que puedas capturar actualmente y farmearla hasta que puedas permitirte el siguiente artículo importante de progresión.
+
+**La Ruta de Farmeo Óptima:**
+1. **Etapa 1**: Farmea la **Sirena del Océano Calmo** (300g) hasta que puedas permitirte la **Braguita de Rayas** y el **Anzuelo Bueno**.
+2. **Etapa 2**: Pasa al **Tiburón del Océano Calmo** (2,000g). Este es el mejor objetivo de oro por minuto en el juego temprano.
+3. **Etapa 3**: Ahorra 1,500g para el **Barco Regular** para desbloquear el Océano Rocoso.
+4. **Etapa 4**: Apunta al **Pez Linterna del Océano Rocoso** a 600m (13,000g). Requiere el **Anzuelo Reforzado** y la **Rosa Vibrante**.
+5. **Etapa 5**: Usa las ganancias del Pez Linterna para comprar el **Barco Reforzado** (5,000g) y luego el **Súper Anzuelo**.
+6. **Etapa 6**: Farmea el **Tiburón del Océano Turbulento** a 900m (24,000g) para financiar el **Barco Dorado** y el **Anzuelo Omega**.
+
+| Objetivo | Océano | Recompensa de Oro | Nivel de Esfuerzo | Prioridad |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pez Linterna (Calmo)** | Calmo | 10,000g | Bajo | Alta (Temprano) |
+| **Kappa (Rocoso)** | Rocoso | 7,500g | Medio | Media |
+| **Tiburón (Turbulento)** | Turbulento | 24,000g | Alto | Alta (Medio) |
+| **Pez Linterna (Oscuro)** | Oscuro | 45,000g | Muy Alto | Máxima |
+
+<Callout type="info" title="Capturas de Valor Cero">
+Ten en cuenta que el **Pulpo del Océano Turbulento** a 700m tiene un valor de venta de 0g. Esta captura es puramente para completar escenas y progresar en la historia. No farmees este objetivo si tu meta es acumular oro.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Soporte Técnico y Preguntas Frecuentes">
+
+Para los jugadores que experimentan problemas con **Exquisite Fishing versión 1.07**, la mayoría de los inconvenientes están relacionados con la corrupción de archivos de guardado o la configuración de resolución. El juego es muy estable en PC con Windows, pero se recomiendan copias de seguridad manuales antes de las actualizaciones importantes de la versión.
+
+**Ubicación del Archivo de Guardado:**
+Para respaldar tu progreso o mover tu partida guardada a una nueva PC, navega a:
+`C:\Users\[TuUsuario]\AppData\LocalLow\PinkySoul\Exquisite Fishing`
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo el Océano Oscuro en la versión 1.07?",
+    answer: "Debes comprar el Barco Dorado en la tienda por 8,000g. Se recomienda tener al menos 12,000g antes de comprarlo para que también puedas adquirir los anzuelos necesarios para el mar profundo."
+  },
+  {
+    question: "¿Por qué la criatura ignora mi señuelo incluso a la profundidad correcta?",
+    answer: "Esto generalmente significa que tienes equipado el Regalo equivocado. Revisa tu equipamiento en el menú de equipo y asegúrate de que coincida con el requisito específico de la criatura (por ejemplo, el Collar de Perlas para el Kappa)."
+  },
+  {
+    question: "¿Dónde se encuentra la Carta del Abuelo?",
+    answer: "La Carta del Abuelo es un coleccionable clave que se encuentra exactamente a 1,000m de profundidad en el Océano Turbulento. Necesitas el Barco Reforzado para alcanzar esta profundidad."
+  },
+  {
+    question: "¿Puedo reiniciar mi progreso en Exquisite Fishing?",
+    answer: "Sí, puedes usar la opción 'Reiniciar' en el menú de configuración o eliminar manualmente los archivos de guardado en la carpeta AppData para comenzar una nueva partida."
+  }
+]} />
+
+<Callout type="tip" title="Actualizaciones de Versión">
+Si estás actualizando de una versión anterior a la **versión 1.07**, asegúrate de que tu personaje se encuentre en el área de la tienda principal antes de guardar y salir de la versión antigua. Esto evita errores de \"bloqueo de océano\" donde el juego podría aparecerte en un bioma que tu barco ya no puede soportar.
+</Callout>
+
+</Section>

@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Progressão de Exquisite Fishing: Rota de Desbloqueio dos Oceanos Passo a Passo",
+  description: "Domine o guia de progressão de Exquisite Fishing para desbloquear todos os quatro biomas oceânicos, melhorar seus equipamentos e garantir capturas especiais neste detonado de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Exquisite+Fishing+Progression+Guide",
+  date: "2026-07-14",
+  author: "Equipe da Wiki de Exquisite Fishing",
+  keywords: "exquisite fishing, guia de progressão, rota de desbloqueio, biomas oceânicos, capturas especiais"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco na Progressão**: Este guia de progressão de Exquisite Fishing prioriza a eficiência de ouro para desbloquear biomas oceânicos mais profundos.
+- **Loop Principal**: Lance sua isca, atraia alvos específicos usando presentes especializados e puxe-os para ganhar ouro para melhorias.
+- **Desbloqueio de Oceanos**: Acesse quatro biomas distintos: Oceano Calmo, Rochoso, Turbulento e Escuro, cada um exigindo um barco específico.
+- **Estratégia de Equipamento**: Sempre combine o anzol e o presente adequados para a profundidade e criatura específicas que você está mirando.
+- **Objetivo Final**: Alcance a profundidade de 2.000 metros no Oceano Escuro para capturar o peixe-lanterna (Angler) de maior valor.
+</Callout>
+
+<Section icon={Map} title="Dominando o Guia de Progressão de Exquisite Fishing">
+
+O cerne de qualquer **guia de progressão de Exquisite Fishing** bem-sucedido é entender como fazer a transição das águas rasas do Oceano Calmo para as profundezas extremas do Oceano Escuro. Esta aventura em pixel art exige que os jogadores equilibrem suas necessidades imediatas de ouro com investimentos de longo prazo em barcos e anzóis especializados. Seguindo uma rota estruturada, você evita desperdiçar recursos com iscas desnecessárias e foca nos alvos de alto valor que barram sua progressão.
+
+**Destaques do Vídeo:**
+- Demonstração do arremesso básico e da mecânica de controle da isca.
+- Como atrair criaturas especiais como a Sereia e o Tubarão.
+- Gerenciamento eficiente de ouro para melhorias de barco no início do jogo.
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Exquisite Fishing Gameplay Walkthrough" />
+
+O ciclo de pesca começa ao lançar sua isca e guiá-la em direção ao alvo. Assim que uma criatura demonstrar interesse, você deve encher a barra do anzol mantendo o alvo atraído antes de puxar a captura para a superfície. Cada captura bem-sucedida é vendida automaticamente, contribuindo para suas reservas de ouro. No início do jogo, seu objetivo principal é ir além do Barco Velho Comum o mais rápido possível para acessar o mais lucrativo Oceano Rochoso.
+
+<Callout type="tip" title="Dica de Arremesso Inicial">
+Ao começar no Oceano Calmo, foque na Sereia a 50m. Ela exige apenas um Anzol Comum e um Anel de Diamante, proporcionando um lucro confiável de 300g por captura para financiar suas primeiras grandes compras de equipamentos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Biomas Oceânicos e Marcos de Profundidade">
+
+A progressão é estritamente limitada pelo barco que você possui atualmente. Cada novo barco desbloqueia um bioma oceânico mais profundo, com custos de entrada mais altos, mas com capturas significativamente mais valiosas. Compreender esses marcos é essencial para planejar seu caminho de melhorias.
+
+<CardGrid cols={2}>
+  <Card title="Oceano Calmo">
+    - **Acesso**: Barco Velho Comum (Grátis)
+    - **Profundidade**: 50m a 300m
+    - **Alvos Principais**: Sereia, Tubarão, Peixe-lanterna
+    - **Objetivo**: Farm inicial de ouro e domínio das mecânicas.
+  </Card>
+  <Card title="Oceano Rochoso">
+    - **Acesso**: Barco Comum (1.500g)
+    - **Profundidade**: 100m a 600m
+    - **Alvos Principais**: Polvo, Anêmona, Kappa
+    - **Objetivo**: Acúmulo de ouro de nível médio para melhorias de barco.
+  </Card>
+  <Card title="Oceano Turbulento">
+    - **Acesso**: Barco Reforçado (5.000g)
+    - **Profundidade**: 50m a 1.000m
+    - **Alvos Principais**: Baleia, Tubarão, Carta do Avô
+    - **Objetivo**: Escalonamento de fim de jogo e coleta de itens de história.
+  </Card>
+  <Card title="Oceano Escuro">
+    - **Acesso**: Barco Dourado (8.000g)
+    - **Profundidade**: 50m a 2.000m
+    - **Alvos Principais**: Peixe-lanterna abissal, variantes do Kraken
+    - **Objetivo**: Conclusão do endgame e lucro máximo.
+  </Card>
+</CardGrid>
+
+| Nome do Oceano | Barco Necessário | Custo de Entrada | Profundidade Especial Máx. |
+| :--- | :--- | :--- | :--- |
+| **Oceano Calmo** | Barco Velho Comum | 0g | 300m |
+| **Oceano Rochoso** | Barco Comum | 1.500g | 600m |
+| **Oceano Turbulento** | Barco Reforçado | 5.000g | 1.000m |
+| **Oceano Escuro** | Barco Dourado | 8.000g | 2.000m |
+
+<Callout type="warning" title="Aviso de Taxa de Entrada">
+Lembre-se de que cada vez que você zarpar para um novo oceano (exceto o Oceano Calmo), você deve pagar a taxa de entrada novamente. Certifique-se de ter ouro suficiente para cobrir tanto a taxa quanto qualquer novo equipamento necessário para a viagem.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamentos e Prioridades de Melhoria">
+
+Seus equipamentos — especificamente anzóis e presentes — determinam quais criaturas você consegue atrair. Um erro comum é comprar todos os itens da loja assim que aparecem. Em vez disso, dê prioridade aos itens que desbloqueiam o próximo alvo de alto valor no seu oceano atual.
+
+| Tipo de Barco | Custo | Benefício Principal | Estágio de Progressão |
+| :--- | :--- | :--- | :--- |
+| **Barco Velho Comum** | 0g | Acesso básico ao oceano | Inicial |
+| **Barco Comum** | 1.500g | Desbloqueia o Oceano Rochoso | Início do Jogo |
+| **Barco Reforçado** | 5.000g | Desbloqueia o Oceano Turbulento | Meio do Jogo |
+| **Barco Dourado** | 8.000g | Desbloqueia o Oceano Escuro | Fim do Jogo |
+
+Os anzóis são a melhoria técnica mais crítica. Cada anzol possui propriedades específicas que permitem capturar certas criaturas. Por exemplo, o **Anzol Duplo Blindado** é uma ferramenta versátil de meio de jogo usada tanto para o Polvo do Oceano Rochoso quanto para a Baleia do Oceano Turbulento.
+
+| Nome do Anzol | Alvos Conhecidos | Melhor Caso de Uso |
+| :--- | :--- | :--- |
+| **Anzol Comum** | Sereia, Peixe-lanterna | Farm inicial no Oceano Calmo |
+| **Anzol Bom** | Tubarão | Oceano Calmo (200m) |
+| **Anzol Reforçado** | Anêmona, Peixe-lanterna | Profundidade média no Rochoso/Turbulento |
+| **Super Anzol** | Tubarão, Sereia | Alvos de alto valor no fim do jogo |
+| **Anzol Ômega** | Peixe-lanterna | Captura a 2.000m no Oceano Escuro |
+
+<Callout type="info" title="Mecânicas de Presentes">
+Os presentes funcionam como iscas. Você deve equipar o presente correto junto com o anzol exigido para atrair criaturas especiais. Por exemplo, o **Anel de Diamante** é essencial para as Sereias, enquanto a **Calcinha Listrada** atrai Tubarões e Baleias.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Requisitos e Equipamentos para Capturas Especiais">
+
+Cada criatura em Exquisite Fishing exige um conjunto específico de equipamentos. Se você tentar capturar uma criatura sem o anzol ou presente correto, ela ignorará sua isca. Esta tabela resume os requisitos documentados para os principais alvos em diferentes biomas.
+
+| Criatura | Bioma Oceânico | Profundidade | Anzol Necessário | Presente Necessário | Valor |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sereia** | Oceano Calmo | 50m | Anzol Comum | Anel de Diamante | 300g |
+| **Tubarão** | Oceano Calmo | 200m | Anzol Bom | Calcinha Listrada | 2.000g |
+| **Peixe-lanterna** | Oceano Calmo | 300m | Anzol Comum | Caixa de Chocolates | 10.000g |
+| **Polvo** | Oceano Rochoso | 100m | Duplo Blindado | Consolador Poderoso | 1.500g |
+| **Kappa** | Oceano Rochoso | 500m | Anzol de Broca | Colar de Pérolas | 7.500g |
+| **Tubarão** | Oceano Turbulento | 900m | Super Anzol | Anel de Diamante | 24.000g |
+| **Baleia** | Oceano Escuro | 1.700m | Triplo Blindado | Laço Adorável | 40.000g |
+| **Peixe-lanterna** | Oceano Escuro | 2.000m | Anzol Ômega | Anel de Diamante | 45.000g |
+
+<Callout type="success" title="Farm de Alto Valor">
+O **Peixe-lanterna** no Oceano Calmo (300m) é a melhor maneira de impulsionar o seu meio de jogo. Ele rende 10.000g e exige apenas um Anzol Comum e uma Caixa de Chocolates, permitindo que você pule muitas melhorias menores.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rota de Geração de Riqueza Passo a Passo">
+
+To reach the endgame efficiently, follow this optimized gold-farming route. This sequence minimizes time spent on low-value fish and maximizes your gold-per-hour.
+
+<Steps>
+  <Step num="1" title="O Pontapé Inicial no Oceano Calmo">
+    Comece capturando a Sereia a 50m para ganhar suas primeiras centenas de ouro. Assim que tiver o suficiente, compre o **Anzol Bom** e a **Calcinha Listrada** para focar no Tubarão a 200m. Isso rende 2.000g por captura, o suficiente para comprar o Barco Comum (1.500g).
+  </Step>
+  <Step num="2" title="A Estratégia do Peixe-lanterna">
+    Antes de sair do Oceano Calmo, use a **Caixa de Chocolates** com seu Anzol Comum para capturar o Peixe-lanterna de 300m. Repita isso até acumular cerca de 10.000g. Esse excedente financiará suas taxas de entrada e equipamentos para o Oceano Rochoso.
+  </Step>
+  <Step num="3" title="Escalonamento no Oceano Rochoso">
+    Entre no Oceano Rochoso e priorize o **Kappa** a 500m (Anzol de Broca + Colar de Pérolas) e o **Peixe-lanterna** a 600m (Anzol Reforçado + Rosa Vibrante). Essas capturas rendem 7.500g e 13.000g respectivamente, permitindo que você economize 5.000g para o Barco Reforçado.
+  </Step>
+  <Step num="4" title="Avanço ao Fundo do Mar no Endgame">
+    No Oceano Turbulento, foque no Tubarão de 900m (24.000g). Assim que alcançar o Oceano Escuro com o Barco Dourado, seu objetivo final será o Peixe-lanterna de 2.000m. Use o **Anzol Ômega** e o **Anel de Diamante** para garantir este prêmio de 45.000g.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Economizando para Barcos">
+Sempre mantenha uma reserva de pelo menos 2.000g ao se mudar para um novo oceano. Se você gastar todo o seu ouro em um barco e falhar nos seus primeiros arremessos, poderá ficar sem ouro suficiente para pagar a taxa de entrada para outra viagem.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação para Completistas e Desbloqueios da Galeria">
+
+Para os jogadores que desejam completar a Fishipedia e desbloquear todas as cenas adultas na galeria, acompanhar seu progresso por oceano é o método mais eficaz. Cada captura de criatura especial geralmente ativa uma cena ou registro único.
+
+<Checklist
+  id="completionist-goals"
+  title="Marcos de Progressão:"
+  items={[
+    "Desbloquear todos os 4 Biomas Oceânicos (Calmo, Rochoso, Turbulento, Escuro)",
+    "Capturar o Tubarão de 1.000m no Oceano Turbulento para obter o ouro máximo",
+    "Recuperar a Carta do Avô na profundidade de 1.000m",
+    "Desbloquear todas as cenas de Sereia em todos os biomas",
+    "Completar a Fishipedia capturando todos os peixes comuns",
+    "Garantir o Peixe-lanterna de 2.000m no Oceano Escuro"
+  ]}
+/>
+
+<Callout type="warning" title="Alerta de Spoiler">
+As cenas especiais estão vinculadas à primeira vez que você captura uma criatura específica com o presente exigido. Se você estiver sentindo falta de algum registro na galeria, verifique o guia de Biomas para ver se essa criatura aparece em uma profundidade diferente em um oceano posterior.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a maneira mais rápida de obter ouro em Exquisite Fishing?",
+    answer: "O método mais rápido é farmar o Peixe-lanterna no Oceano Calmo (300m) logo no início e, depois, focar no Tubarão no Oceano Turbulento (900m), que rende 24.000g. Certifique-se sempre de estar com o anzol e o presente corretos para evitar arremessos desperdiçados."
+  },
+  {
+    question: "Como faço para desbloquear o Oceano Escuro?",
+    answer: "Você precisa comprar o Barco Dourado na loja por 8.000g. Este barco é o único capaz de suportar a pressão e as exigências de profundidade do bioma do Oceano Escuro."
+  },
+  {
+    question: "Onde posso encontrar a Carta do Avô?",
+    answer: "A Carta do Avô é um item de história crucial localizado na marca de 1.000m de profundidade no Oceano Turbulento. Você não precisa de um presente específico para ela, mas deve alcançar o fundo do bioma."
+  },
+  {
+    question: "Por que a criatura está ignorando minha isca?",
+    answer: "As criaturas só morderão a isca se você estiver com o Anzol e o Presente corretos equipados. Verifique as tabelas do guia de progressão de Exquisite Fishing para garantir que seus equipamentos correspondam aos requisitos específicos do alvo."
+  }
+]} />
+
+</Section>

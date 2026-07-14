@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jugabilidad de Exquisite Fishing: Domina el Ciclo de Mar Profundo",
+  description: "Guía completa de la jugabilidad de Exquisite Fishing, que cubre mecánicas principales, biomas oceánicos, mejoras de equipo y requisitos de captura de criaturas especiales.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Exquisite+Fishing+Gameplay+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Exquisite Fishing",
+  keywords: "exquisite fishing, jugabilidad, guía, mecánicas, biomas, equipo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La jugabilidad de Exquisite Fishing** se centra en un ciclo de lanzamiento, guía del señuelo a profundidades específicas y recogida de valiosas criaturas marinas.
+- **La progresión** está limitada por las mejoras del barco, con cuatro biomas oceánicos distintos que van desde los 0 m hasta los 2.000 m de profundidad.
+- **Las capturas especiales** requieren combinaciones específicas de anzuelos y objetos de regalo para aparecer en sus profundidades designadas.
+- **La gestión del oro** es fundamental; los jugadores deben priorizar el equipo que desbloquea objetivos de alto valor como el Pez Pescador o el Tiburón.
+- **Completar la galería** implica desbloquear escenas de personajes adultos capturando criaturas específicas en varios biomas.
+</Callout>
+
+<Section icon={Sparkles} title="Mecánicas Principales y el Ciclo de Pesca">
+
+La experiencia de **jugabilidad de Exquisite Fishing** se basa en una simulación de pixel art de precisión donde los jugadores navegan en un barco por varios biomas oceánicos para recolectar vida marina rara. A diferencia de los juegos de pesca tradicionales que dependen puramente del RNG, este título requiere una participación activa al guiar el señuelo a profundidades específicas mientras se gestiona el "Medidor de Anzuelo" (Hook Meter). El éxito depende de tu habilidad para combinar el equipo correcto con las condiciones ambientales del océano que estás explorando actualmente.
+
+**Puntos Destacados del Vídeo:**
+- Demuestra el sistema básico de lanzamiento y guía del señuelo.
+- Muestra cómo llenar el Medidor de Anzuelo eficazmente para capturas más grandes.
+- Vista previa del entorno del Océano Calmo y la interfaz de usuario inicial.
+- Ilustra la interfaz de la tienda para comprar anzuelos y regalos.
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="JUGABILIDAD de Exquisite Fishing" />
+
+Para maximizar tu eficiencia, debes entender las tres fases de cada captura: lanzamiento, atracción y recogida. Cuando lanzas el sedal, puedes influir en el movimiento horizontal del señuelo mientras se hunde. Esto es vital para evitar peces comunes que podrían agotar la durabilidad de tu sedal o hacerte perder el tiempo. Una vez que el señuelo alcanza a una criatura objetivo, comienza una fase de atracción en la que debes mantener al objetivo interesado hasta que el Medidor de Anzuelo se llene por completo.
+
+| Fase | Acción | Objetivo Principal |
+| :--- | :--- | :--- |
+| **Lanzamiento** | Guía Manual del Señuelo | Alcanzar profundidad objetivo / evitar peces basura |
+| **Atracción** | Mantener Proximidad | Llenar el Medidor de Anzuelo para asegurar la captura |
+| **Recogida** | Recuperación a Superficie | Llevar la captura asegurada al barco |
+| **Venta** | Intercambio en el Mercado | Convertir capturas en oro para mejoras |
+
+<Callout type="tip" title="Estrategia Pro">
+Si buscas una criatura específica como la Sirena o el Tiburón, ignora todas las demás siluetas de peces. Desperdiciar un lanzamiento en un pez de bajo valor reduce significativamente tu eficiencia de oro por hora.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Biomas Oceánicos y Hoja de Ruta de Progresión">
+
+La progresión en el juego es estrictamente lineal, definida por la profundidad del agua y la calidad de tu embarcación. Hay cuatro biomas oceánicos principales, cada uno de los cuales exige una tarifa de entrada más alta o un barco más duradero. A medida que avanzas del Océano Calmo al Océano Oscuro, los peligros ambientales aumentan, pero las recompensas financieras por capturas exitosas crecen exponencialmente.
+
+<Callout type="warning" title="Gestión del Presupuesto">
+Nunca gastes todo tu oro en regalos. Asegúrate siempre de tener suficiente para cubrir el coste de entrada del siguiente bioma o la mejora del barco necesaria para alcanzarlo.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Maestría del Océano Calmo">
+    Comienza con el Barco Viejo Regular (0g). Concéntrate en capturar a la Sirena a 50 m y al Pez Pescador a 300 m para acumular una reserva de 1.500 g.
+  </Step>
+  <Step num="2" title="Transición al Océano Rocoso">
+    Compra el Barco Regular por 1.500 g. Esta área introduce al Pulpo y al Kappa, que requieren tipos de anzuelos más avanzados.
+  </Step>
+  <Step num="3" title="Exploración del Océano Turbulento">
+    Ahorra 5.000 g para el Barco Reforzado. A 1.000 m de profundidad, puedes encontrar la Carta del Abuelo, un objeto clave de la historia.
+  </Step>
+  <Step num="4" title="Juego Final del Océano Oscuro">
+    La última barrera es el Barco Dorado (8.000 g). Aquí encontrarás al Pez Pescador de 2.000 m, la captura más valiosa del juego.
+  </Step>
+</Steps>
+
+| Bioma | Barco Requerido | Coste de Entrada | Rango de Profundidad | Objetivo Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Océano Calmo** | Barco Viejo Regular | 0g | 50m - 300m | Pez Pescador (10.000g) |
+| **Océano Rocoso** | Barco Regular | 1.500g | 100m - 600m | Pez Pescador (13.000g) |
+| **Océano Turbulento** | Barco Reforzado | 5.000g | 50m - 1.000m | Tiburón (24.000g) |
+| **Océano Oscuro** | Barco Dorado | 8.000g | 50m - 2.000m | Pez Pescador (45.000g) |
+
+</Section>
+
+<Section icon={Swords} title="Prioridades de Mejora de Equipo y Artículos">
+
+Tu equipo determina qué criaturas reconocerán siquiera tu señuelo. La tienda vende tres categorías de artículos: Barcos, Anzuelos y Regalos. Mientras que los Barcos desbloquean nuevas áreas, los Anzuelos y Regalos actúan como "llaves" para criaturas especiales específicas. Por ejemplo, un Anillo de Diamantes podría atraer a una Sirena en un océano, pero requerir un Súper Anzuelo para funcionar en un bioma más profundo.
+
+<CardGrid cols={3}>
+  <Card title="Mejoras de Anzuelo">
+    - **Anzuelo de Taladro**: Esencial para el Kappa.
+    - **Anzuelo de Bolas Anales**: Requerido para el Pulpo.
+    - **Anzuelo Omega**: La herramienta definitiva del juego final.
+  </Card>
+  <Card title="Regalos Especiales">
+    - **Anillo de Diamantes**: Básico del inicio del juego.
+    - **Bragas a Rayas**: Atrae Tiburones/Ballenas.
+    - **Rosa Vibrante**: Usada para Peces Pescadores de alto nivel.
+  </Card>
+  <Card title="Niveles de Barco">
+    - **Regular**: Estabilidad básica.
+    - **Reforzado**: Durabilidad a media profundidad.
+    - **Dorado**: Acceso a la profundidad máxima.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Mecánicas de Anzuelos">
+Los anzuelos no siempre son "mejores" a medida que se vuelven más caros; a menudo son simplemente "diferentes". Algunas criaturas requieren específicamente un anzuelo de nivel inferior incluso en áreas de juego avanzado.
+</Callout>
+
+| Nombre del Anzuelo | Mejor Uso Para | Profundidad Típica |
+| :--- | :--- | :--- |
+| **Anzuelo Regular** | Sirena / Pez Pescador | 50m - 300m |
+| **Anzuelo Bueno** | Tiburón del Océano Calmo | 200m |
+| **Doble Blindado** | Pulpo / Ballena | 100m - 200m |
+| **Anzuelo Reforzado** | Anémona / Sirena | 300m - 600m |
+| **Súper Anzuelo** | Tiburón Profundo / Sirena | 800m - 900m |
+| **Anzuelo Omega** | Pez Pescador Final | 2.000m |
+
+</Section>
+
+<Section icon={Target} title="Requisitos de Captura para Criaturas Especiales">
+
+Para completar tu Fishipedia y desbloquear todas las escenas de personajes, debes conocer la "receta" exacta para cada encuentro especial. Una criatura solo aparecerá si tienes el Anzuelo y el Regalo correctos equipados antes de entrar al agua. Si desciendes a 500 m buscando un Kappa pero tienes equipado un Anillo de Diamantes en lugar de un Collar de Perlas, el Kappa nunca aparecerá.
+
+| Criatura | Bioma | Profundidad | Anzuelo Requerido | Regalo Requerido | Valor |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sirena** | Calmo | 50m | Anzuelo Regular | Anillo de Diamantes | 300g |
+| **Tiburón** | Calmo | 200m | Anzuelo Bueno | Bragas a Rayas | 2.000g |
+| **Pez Pescador** | Calmo | 300m | Anzuelo Regular | Caja de Bombones | 10.000g |
+| **Pulpo** | Rocoso | 100m | Doble Blindado | Dildo Poderoso | 1.500g |
+| **Kappa** | Rocoso | 500m | Anzuelo de Taladro | Collar de Perlas | 7.500g |
+| **Ballena** | Turbulento | 50m | Doble Blindado | Bragas a Rayas | 2.500g |
+| **Anémona** | Oscuro | 1.000m | Anzuelo Corazón | Trozo de Pastel | 25.000g |
+
+<Callout type="success" title="Farming de Alto Valor">
+El Pez Pescador del Océano Calmo es la mejor fuente de ingresos al principio del juego. Por una pequeña inversión en una Caja de Bombones, ganas 10.000 g, lo que cubre tu próximo barco y varias mejoras de anzuelos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Completar la Galería y Desbloqueo de Escenas">
+
+Para muchos jugadores, el objetivo final del ciclo de **jugabilidad de Exquisite Fishing** es desbloquear la galería completa de escenas para adultos. Estas escenas se activan al capturar criaturas específicas bajo condiciones "perfectas". Cada bioma tiene su propio conjunto de desbloqueos únicos, y algunas criaturas aparecen en múltiples biomas con diferentes variaciones de escenas.
+
+<Checklist
+  id="gallery-goals"
+  title="Hitos Esenciales de Escenas:"
+  items={[
+    "Desbloquear la Sirena del Océano Calmo (Anillo de Diamantes + Anzuelo Regular)",
+    "Capturar al Pulpo del Océano Rocoso (Dildo Poderoso + Doble Blindado)",
+    "Recuperar la Carta del Abuelo a 1.000 m en el Océano Turbulento",
+    "Desbloquear al Kappa del Océano Oscuro (Bragas a Rayas + Anzuelo de Bolas Anales)",
+    "Completar la escena del Pez Pescador de 2.000 m (Anillo de Diamantes + Anzuelo Omega)"
+  ]}
+/>
+
+<Callout type="tip" title="Aviso de Spoiler">
+La Carta del Abuelo no tiene un requisito de regalo específico, pero alcanzar los 1.000 m de profundidad en el Océano Turbulento es un desafío que requiere el Barco Reforzado y una guía cuidadosa del señuelo para evitar reinicios por límite de profundidad.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo gano oro rápido al principio del juego?",
+    answer: "Concéntrate en capturar al Pez Pescador en el Océano Calmo a 300 m. Requiere una Caja de Bombones y un Anzuelo Regular, y te recompensa con 10.000 g, lo cual es suficiente para saltarte la mayor parte del grindeo inicial."
+  },
+  {
+    question: "¿Qué pasa si uso la combinación incorrecta de anzuelo/regalo?",
+    answer: "La criatura especial simplemente no aparecerá en su profundidad designada. Solo verás siluetas de peces genéricos. Consulta siempre la Fishipedia o una guía antes de comenzar una inmersión."
+  },
+  {
+    question: "¿Dónde puedo encontrar mi archivo de guardado de Exquisite Fishing?",
+    answer: "En PC con Windows, los archivos de guardado suelen encontrarse en AppData/LocalLow/PinkySoul/Exquisite Fishing. Se recomienda hacer una copia de seguridad de esta carpeta antes de intentar transferir el progreso."
+  },
+  {
+    question: "¿Hay alguna forma de llegar a los 2.000 m sin el Barco Dorado?",
+    answer: "No. Cada nivel de barco tiene un límite de profundidad estricto. Intentar ir más profundo de lo que permite tu barco resultará en una rotura automática del sedal o un regreso forzado a la superficie."
+  }
+]} />
+
+</Section>

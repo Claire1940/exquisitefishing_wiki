@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Exquisite Fishing Version 1.07: Walkthrough & Scene Guide",
+  description: "Master Exquisite Fishing Version 1.07 with our guide on biome depths, gear upgrades, creature requirements, and all character scene unlocks.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Exquisite+Fishing+1.07+Guide",
+  date: "2026-07-14",
+  author: "exquisite fishing Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Exquisite fishing version 1.07** focuses on a core loop of catching, selling, and upgrading to reach the 2,000m depth of the Dark Ocean.
+- **Gear Synergy** is critical; special creatures only appear when you match the specific **Hook** and **Gift** combination at the correct depth.
+- **Gold Priority** should always favor **Boat upgrades** first, as they unlock entirely new biomes and higher-value targets.
+- **Scene Unlocks** are tied to unique creatures like the Mermaid, Shark, and Angler across four distinct ocean biomes.
+- **Save Location** for Windows PC is found in the `AppData/LocalLow/PinkySoul/Exquisite Fishing` directory.
+</Callout>
+
+<Section icon={Target} title="Beginner Guide: Mastering the Core Loop">
+
+To succeed in **exquisite fishing version 1.07**, you must master the fundamental loop of casting, attracting, and reeling. The game begins in the Calm Ocean, where you are provided with a Regular Old Boat for free. Your primary goal is to accumulate enough gold to purchase specialized hooks and gifts that attract "Special Creatures," which yield significantly higher rewards than standard fish.
+
+**Video Highlights:**
+- **Casting Mechanics**: How to guide the lure toward specific depths.
+- **Attraction System**: Matching gifts to creature interests.
+- **Reeling Strategy**: Managing the hook meter for successful catches.
+- **Early Gold Farm**: The best targets for your first 1,500g.
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Exquisite Fishing Gameplay and Mechanics" />
+
+The fishing process involves throwing your lure and guiding it vertically. As you descend, you must avoid "trash" catches and position your lure near the silhouette of your intended target. Once a creature shows interest, a hook meter begins to fill. Keeping the target engaged until the meter is full secures the catch, after which you must reel it back to the surface.
+
+| Action | Result | Strategy Tip |
+| :--- | :--- | :--- |
+| **Cast** | Lure enters water | Guide toward specific depth markers (50m, 200m, etc.) |
+| **Attract** | Target approaches lure | Ensure correct **Gift** is equipped for that creature |
+| **Hook** | Meter fills up | Maintain proximity to the target's center |
+| **Sell** | Gold added to inventory | Visit the shop immediately to check for upgrades |
+
+<Callout type="success" title="Starter Strategy">
+In the very early game, target the **Mermaid** at 50m in the Calm Ocean. She requires a **Diamond Ring** and a **Regular Hook**. This catch provides a steady 300g, allowing you to quickly afford the **Good Hook** needed for the Shark.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ocean Biomes and Progression Roadmap">
+
+Progression in **exquisite fishing version 1.07** is gated by your boat's durability and the depth it can reach. There are four primary biomes, each introducing new environmental challenges and more valuable creatures. You cannot access deeper oceans without purchasing the corresponding boat from the shop.
+
+<CardGrid cols={2}>
+  <Card title="Calm Ocean">
+    - **Access**: Regular Old Boat (0g)
+    - **Depth**: Up to 300m
+    - **Key Target**: Angler (10,000g)
+    - **Difficulty**: Very Low
+  </Card>
+  <Card title="Rocky Ocean">
+    - **Access**: Regular Boat (1,500g)
+    - **Depth**: Up to 600m
+    - **Key Target**: Kappa (7,500g)
+    - **Difficulty**: Moderate
+  </Card>
+  <Card title="Turbulent Ocean">
+    - **Access**: Reinforced Boat (5,000g)
+    - **Depth**: Up to 1,000m
+    - **Key Target**: Shark (24,000g)
+    - **Difficulty**: High
+  </Card>
+  <Card title="Dark Ocean">
+    - **Access**: Golden Boat (8,000g)
+    - **Depth**: Up to 2,000m
+    - **Key Target**: Deep Angler (45,000g)
+    - **Difficulty**: Extreme
+  </Card>
+</CardGrid>
+
+Moving between biomes requires a strategic balance of spending. If you spend all your gold on high-end hooks before upgrading your boat, you may find yourself stuck in a shallow ocean where those hooks aren't useful. Conversely, rushing to a new ocean without the correct gifts means you will only catch low-value common fish.
+
+| Biome | Entry Requirement | Notable Depth Milestone | Top Reward |
+| :--- | :--- | :--- | :--- |
+| **Calm Ocean** | Starting Area | 300m (Angler) | 10,000g |
+| **Rocky Ocean** | Regular Boat | 600m (Angler) | 13,000g |
+| **Turbulent Ocean** | Reinforced Boat | 1,000m (Grandpa's Letter) | 24,000g |
+| **Dark Ocean** | Golden Boat | 2,000m (Endgame Angler) | 45,000g |
+
+<Callout type="info" title="Biome Unlocks">
+Always prioritize the **Reinforced Boat** once you hit 5,000g. The Turbulent Ocean contains **Grandpa's Letter** at 1,000m, which is a vital story item for completing the game's narrative arc.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gear Upgrades and Loadout Priorities">
+
+The shop in **exquisite fishing version 1.07** offers three main categories of items: Boats, Hooks, and Gifts. While Boats grant access to new areas, Hooks determine which "weight" of creature you can pull, and Gifts act as the bait for specific special characters.
+
+<Steps>
+  <Step num="1" title="Initial Hook Upgrades">
+    Start by purchasing the **Good Hook**. This is necessary for the Calm Ocean Shark at 200m. The Shark is your first "big" earner at 2,000g per catch, which funds your transition to the Rocky Ocean.
+  </Step>
+  <Step num="2" title="The Reinforced Hook Meta">
+    Once in the Rocky Ocean, the **Reinforced Hook** becomes your workhorse. It is required for the Anemone and the deeper Angler. It offers the best balance of speed and durability for mid-game farming.
+  </Step>
+  <Step num="3" title="Specialized Shielded Hooks">
+    As you enter the Turbulent Ocean, you will encounter creatures that put massive strain on your line. The **Double Shielded** and **Triple Shielded Hooks** are mandatory for the Whale and the 500m Kappa to prevent line snaps.
+  </Step>
+  <Step num="4" title="Endgame Omega Gear">
+    The final goal is the **Omega Hook**. This is the only gear capable of reeling in the 2,000m Angler in the Dark Ocean. Pair this with a **Diamond Ring** for the ultimate payout.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Line Tension">
+Using a hook that is "under-leveled" for a specific depth or creature weight will cause the tension meter to rise rapidly. If the meter maxes out, you lose the catch and the gift used. Always check the creature table before attempting a deep-sea catch.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Special Catch Requirements and Scene Unlocks">
+
+The heart of **exquisite fishing version 1.07** lies in unlocking the character scenes recorded in the Fishipedia. Each scene requires a specific "Special Creature" to be caught using a precise loadout. If you have the wrong gift equipped, the creature will simply ignore your lure.
+
+| Creature | Biome | Depth | Required Hook | Required Gift | Value |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Mermaid** | Calm Ocean | 50m | Regular Hook | Diamond Ring | 300g |
+| **Shark** | Calm Ocean | 200m | Good Hook | Striped Pantie | 2,000g |
+| **Octopus** | Rocky Ocean | 100m | Double Shielded | Mighty Dildo | 1,500g |
+| **Anemone** | Rocky Ocean | 300m | Reinforced Hook | Box of Chocolates | 3,500g |
+| **Kappa** | Rocky Ocean | 500m | Drill Hook | Pearl Necklace | 7,500g |
+| **Whale** | Turbulent Ocean | 50m | Double Shielded | Striped Pantie | 2,500g |
+| **Angler** | Dark Ocean | 2,000m | Omega Hook | Diamond Ring | 45,000g |
+
+<Checklist
+  id="gallery-completion"
+  title="Gallery Unlock Checklist:"
+  items={[
+    "Catch Calm Ocean Mermaid (Diamond Ring)",
+    "Catch Calm Ocean Shark (Striped Pantie)",
+    "Catch Rocky Ocean Octopus (Mighty Dildo)",
+    "Catch Rocky Ocean Kappa (Pearl Necklace)",
+    "Find Grandpa's Letter at 1,000m",
+    "Catch Dark Ocean Angler at 2,000m"
+  ]}
+/>
+
+<Callout type="tip" title="Gift Reuse">
+Many gifts are used for multiple creatures across different oceans. For example, the **Diamond Ring** is used for both the very first Mermaid and the final endgame Angler. Do not sell back gifts unless you are desperate for gold, as you may need them for deeper variations of the same creature.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Efficiency and Gold Farming Strategy">
+
+To reach the endgame of **exquisite fishing version 1.07** efficiently, you should avoid "grinding" common fish. Instead, focus on a "Target Sprint" strategy. This involves identifying the highest-value creature you can currently catch and farming it until you can afford the next major progression item.
+
+**The Optimal Farming Route:**
+1.  **Stage 1**: Farm the **Calm Ocean Mermaid** (300g) until you can afford the **Striped Pantie** and **Good Hook**.
+2.  **Stage 2**: Move to the **Calm Ocean Shark** (2,000g). This is the best gold-per-minute target in the early game.
+3.  **Stage 3**: Save 1,500g for the **Regular Boat** to unlock the Rocky Ocean.
+4.  **Stage 4**: Target the **Rocky Ocean Angler** at 600m (13,000g). This requires the **Reinforced Hook** and **Vibrant Rose**.
+5.  **Stage 5**: Use the Angler profits to buy the **Reinforced Boat** (5,000g) and then the **Super Hook**.
+6.  **Stage 6**: Farm the **Turbulent Ocean Shark** at 900m (24,000g) to fund the **Golden Boat** and **Omega Hook**.
+
+| Target | Ocean | Gold Reward | Effort Level | Priority |
+| :--- | :--- | :--- | :--- | :--- |
+| **Angler (Calm)** | Calm | 10,000g | Low | High (Early) |
+| **Kappa (Rocky)** | Rocky | 7,500g | Medium | Medium |
+| **Shark (Turbulent)** | Turbulent | 24,000g | High | High (Mid) |
+| **Angler (Dark)** | Dark | 45,000g | Very High | Maximum |
+
+<Callout type="info" title="Zero Value Catches">
+Note that the **Turbulent Ocean Octopus** at 700m has a sale value of 0g. This catch is purely for scene completion and story progression. Do not farm this target if your goal is gold accumulation.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Technical Support and FAQ">
+
+For players experiencing issues with **exquisite fishing version 1.07**, most problems are related to save file corruption or resolution settings. The game is highly stable on Windows PC, but manual backups are recommended before major version updates.
+
+**Save File Location:**
+To backup your progress or move your save to a new PC, navigate to:
+`C:\Users\[YourUsername]\AppData\LocalLow\PinkySoul\Exquisite Fishing`
+
+<FAQ items={[
+  {
+    question: "How do I unlock the Dark Ocean in version 1.07?",
+    answer: "You must purchase the Golden Boat from the shop for 8,000g. It is recommended to have at least 12,000g before purchasing so you can also buy the necessary deep-sea hooks."
+  },
+  {
+    question: "Why is the creature ignoring my lure even at the right depth?",
+    answer: "This usually means you have the wrong Gift equipped. Check your loadout in the equipment menu and ensure it matches the creature's specific requirement (e.g., Pearl Necklace for the Kappa)."
+  },
+  {
+    question: "Where is Grandpa's Letter located?",
+    answer: "Grandpa's Letter is a key collectible found at exactly 1,000m depth in the Turbulent Ocean. You need the Reinforced Boat to reach this depth."
+  },
+  {
+    question: "Can I reset my progress in Exquisite Fishing?",
+    answer: "Yes, you can either use the 'Reset' option in the settings menu or manually delete the save files in the AppData folder to start a fresh run."
+  }
+]} />
+
+<Callout type="tip" title="Version Updates">
+If you are updating from an older version to **version 1.07**, ensure your character is in the main shop area before saving and exiting the old version. This prevents "ocean-locking" bugs where the game might spawn you in a biome your boat can no longer support.
+</Callout>
+
+</Section>

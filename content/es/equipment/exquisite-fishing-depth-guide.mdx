@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de profundidad de Exquisite Fishing: Progresión y requisitos de captura",
+  description: "Domina las profundidades de Exquisite Fishing con nuestra guía de 2026. Aprende sobre los hitos de biomas, combinaciones de anzuelos y mejoras de barcos para alcanzar los 2,000 m.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1884b0/fff?text=Fishing+Depth+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Exquisite Fishing"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de profundidad de Exquisite Fishing**: El éxito depende de equipar el **Anzuelo** (Hook) y el **Regalo** (Gift) correctos para los hitos de profundidad específicos.
+- **Progresión de Biomas**: Debes desbloquear cuatro océanos (Calmado, Rocoso, Turbulento, Oscuro) comprando **Barcos** (Boats) progresivamente más fuertes.
+- **Objetivo más Profundo**: El objetivo final es el **Rape del Océano Oscuro** (Dark Ocean Angler) ubicado a 2,000 m, el cual requiere el **Anzuelo Omega** (Omega Hook).
+- **Eficiencia de Oro**: Prioriza el **Rape del Océano Calmado** (Calm Ocean Angler) al principio para financiar tus primeras mejoras importantes de barco y anzuelo.
+- **Sinergia de Equipo**: Revisa siempre tu **Fishipedia** para asegurarte de que tu equipamiento actual coincida con los requisitos de tu profundidad objetivo.
+</Callout>
+
+<Section icon={Map} title="Dominando la guía de profundidad de Exquisite Fishing">
+
+Navegar por las aguas de *Exquisite Fishing* requiere más que solo suerte; exige una comprensión precisa de cómo interactúan la profundidad, el equipo y los biomas. A medida que avanzas desde la soleada superficie del Océano Calmado hasta las presiones aplastantes del Océano Oscuro, tu enfoque principal será administrar tu oro para comprar las mejoras necesarias. Esta **guía de profundidad de Exquisite Fishing** sirve como tu mapa de ruta para alcanzar la marca de los 2,000 metros y completar tu colección.
+
+**Puntos Destacados del Video:**
+- **Bucle Principal**: Aprende las mecánicas de lanzamiento, atracción y recogida.
+- **Oro Temprano**: Estrategias efectivas para farmear los primeros 10,000g.
+- **Cambio de Equipo**: Cómo cambiar anzuelos y regalos en la tienda para objetivos específicos.
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Exquisite Fishing Gameplay Walkthrough" />
+
+El bucle de juego es sencillo pero gratificante. Lanzarás tu señuelo, lo guiarás hacia un objetivo, llenarás el medidor del anzuelo y lo recogerás. Sin embargo, las criaturas especiales solo morderán si tienes equipado el regalo correcto. Sin la combinación adecuada, perderás tiempo atrapando peces comunes de bajo valor.
+
+<Callout type="tip" title="Gestión de Profundidad">
+Al descender, mantén tu señuelo alejado de los peces pequeños y comunes para ahorrar "durabilidad" y asegurarte de alcanzar la profundidad específica donde residen los objetivos de alto valor como la Sirena o el Tiburón.
+</Callout>
+
+| Océano (Bioma) | Requisito de Entrada | Costo de Acceso | Profundidad Máxima del Objetivo |
+| :--- | :--- | :--- | :--- |
+| **Océano Calmado** | Barco Viejo Común | 0g | 300m |
+| **Océano Rocoso** | Barco Común | 1,500g | 600m |
+| **Océano Turbulento** | Barco Reforzado | 5,000g | 1,000m |
+| **Océano Oscuro** | Barco Dorado | 8,000g | 2,000m |
+
+</Section>
+
+<Section icon={Target} title="Hitos de Biomas y Capturas Especiales">
+
+Cada bioma de océano en *Exquisite Fishing* actúa como una barrera de progresión. No puedes simplemente navegar a la parte más profunda del mapa de inmediato. Primero debes demostrar tu destreza pesquera ganando suficiente oro para mejorar tu embarcación. Las profundidades enumeradas a continuación son los "puntos ideales" donde se ha documentado la aparición de criaturas especiales.
+
+<CardGrid cols={2}>
+  <Card title="Océano Calmado (Zona Inicial)">
+    - **Sirena**: 50m (300g)
+    - **Tiburón**: 200m (2,000g)
+    - **Rape**: 300m (10,000g)
+    - *Enfoque*: Farmear el Rape para obtener las primeras mejoras del barco.
+  </Card>
+  <Card title="Océano Rocoso (Intermedio)">
+    - **Pulpo**: 100m (1,500g)
+    - **Anémona**: 300m (3,500g)
+    - **Kappa**: 500m (7,500g)
+    - *Enfoque*: Desbloquear el Anzuelo Reforzado para inmersiones más profundas.
+  </Card>
+  <Card title="Océano Turbulento (Avanzado)">
+    - **Ballena**: 50m (2,500g)
+    - **Tiburón**: 900m (24,000g)
+    - **Carta del Abuelo**: 1,000m (Historia)
+    - *Enfoque*: Recuperar el objeto coleccionable clave en el fondo.
+  </Card>
+  <Card title="Océano Oscuro (Fase Final)">
+    - **Sirena**: 800m (20,000g)
+    - **Pulpo**: 1,500m (35,000g)
+    - **Rape**: 2,000m (45,000g)
+    - *Enfoque*: Alcanzar el hito final de los 2,000m.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Progresión">
+No gastes todo tu oro en cada regalo disponible de inmediato. Concéntrate en los regalos necesarios para el objetivo de mayor valor en tu bioma actual para llegar más rápido al siguiente océano.
+</Callout>
+
+| Criatura | Profundidad | Valor | Anzuelo Requerido | Regalo Requerido |
+| :--- | :--- | :--- | :--- | :--- |
+| **Sirena** | 50m | 300g | Anzuelo Común | Anillo de Diamante |
+| **Tiburón** | 200m | 2,000g | Anzuelo Bueno | Braguita a Rayas |
+| **Rape** | 300m | 10,000g | Anzuelo Común | Caja de Chocolates |
+| **Kappa** | 500m | 7,500g | Anzuelo Taladro | Collar de Perlas |
+| **Ballena** | 1,700m | 40,000g | Triple Blindado | Lindo Listón |
+| **Rape** | 2,000m | 45,000g | Anzuelo Omega | Anillo de Diamante |
+
+</Section>
+
+<Section icon={Shield} title="Mejoras de Equipo: Anzuelos y Barcos">
+
+Tu equipamiento determina qué tan profundo puedes llegar y qué puedes atrapar. Los barcos son las compras más caras, pero son esenciales para acceder a nuevos biomas. Los anzuelos, por otro lado, son herramientas especializadas. Algunos anzuelos proporcionan una mejor "protección" contra la tensión de la línea, mientras que otros como el **Anzuelo Taladro** (Drill Hook) o el **Anzuelo Omega** (Omega Hook) son necesarios para criaturas legendarias específicas.
+
+<Callout type="success" title="Estrategia de Equipamiento">
+El **Anzuelo Reforzado** es una de las herramientas más versátiles para la mitad del juego. Se utiliza para Anémonas, Rapes y Sirenas en múltiples océanos, lo que lo convierte en una compra de alta prioridad.
+</Callout>
+
+| Nivel de Anzuelo | Uso Principal | Objetivos Documentados |
+| :--- | :--- | :--- |
+| **Anzuelo Común** | Farmeo al inicio del juego | Sirena (50m), Rape (300m) |
+| **Anzuelo Bueno** | Transición de profundidad | Tiburón (200m) |
+| **Double Shielded** | Control de tensión | Pulpo (100m), Ballena (50m) |
+| **Anzuelo Taladro** | Penetración de roca profunda | Kappa (500m), Tiburón (500m) |
+| **Anal Beads Hook** | Especializado para el juego tardío | Pulpo (700m, 1,500m) |
+| **Anzuelo Omega** | Herramienta final del juego | Rape (2,000m) |
+
+Al mejorar tu barco, recuerda que cada nueva embarcación aumenta tu profundidad máxima posible. El **Barco Dorado** es necesario para sobrevivir al descenso de 2,000 m en el Océano Oscuro. Sin él, tu línea se romperá mucho antes de que alcances al Rape final.
+
+</Section>
+
+<Section icon={Sparkles} title="Ruta Optimizada para Farmear Oro">
+
+Para completar el juego de manera eficiente, debes seguir una ruta de gasto específica. Muchos jugadores se quedan atascados en la mitad del juego porque compran todos los regalos de la tienda, quedándose sin oro para el siguiente barco. Sigue estos pasos para maximizar tus ganancias.
+
+<Steps>
+  <Step num="1" title="La Base en el Océano Calmado">
+    Comienza atrapando a la **Sirena** a 50m usando el Anillo de Diamante. Una vez que tengas suficiente, cambia a la Caja de Chocolates y farmea el **Rape de 300m**. Esta criatura proporciona 10,000g por captura, lo que representa el mejor retorno de inversión al inicio del juego.
+  </Step>
+  <Step num="2" title="Expansión al Océano Rocoso">
+    Compra el **Barco Común** por 1,500g. Tu nuevo objetivo es el **Rape de 600m** (13,000g) y el **Kappa** (7,500g). Usa el Anzuelo Taladro para el Kappa para asegurar una captura exitosa. Ahorra al menos 5,000g para la siguiente mejora de barco.
+  </Step>
+  <Step num="3" title="Océano Turbulento y la Carta">
+    Compra el **Barco Reforzado**. Ve a por el **Tiburón de 900m** para obtener una enorme recompensa de 24,000g. Mientras estés aquí, debes alcanzar los 1,000 m para recuperar la **Carta del Abuelo**, que es un objeto crítico de la historia. Este bioma es donde el oro comienza a acumularse rápidamente.
+  </Step>
+  <Step num="4" title="Fase Final en el Océano Oscuro">
+    Compra el **Barco Dorado** (8,000g). Este es el tramo final. Compra el **Anzuelo Omega** y vuelve a usar el regalo del Anillo de Diamante. Desciende a 2,000 m para atrapar al Rape definitivo, que vale 45,000g. Esta captura marca la finalización de la ruta de progresión principal.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Consejo Pro">
+Si tienes problemas con la tensión de la línea en capturas más profundas, invierte en mejoras de "Varios" (Misc) en la tienda que mejoran la velocidad de recogida y la resistencia de la línea. Suelen ser más baratas que los barcos nuevos pero proporcionan mejoras significativas en la jugabilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión">
+
+Usa esta lista de verificación para seguir tu progreso a través de las diversas profundidades del océano. Asegúrate de haber recolectado los objetos de historia requeridos y los objetivos de alto valor antes de mudarte al siguiente bioma.
+
+<Checklist
+  id="fishing-milestones"
+  title="Hitos Clave:"
+  items={[
+    "Farmear 10,000g del Rape del Océano Calmado",
+    "Comprar el Barco Común (1,500g)",
+    "Atrapar al Kappa del Océano Rocoso a 500m",
+    "Comprar el Barco Reforzado (5,000g)",
+    "Recuperar la Carta del Abuelo a 1,000m",
+    "Comprar el Barco Dorado (8,000g)",
+    "Alcanzar el hito de profundidad de 2,000m"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo el Océano Oscuro?",
+    answer: "Debes comprar el Barco Dorado en la tienda por 8,000g. Esto requiere un farmeo significativo en el Océano Turbulento, apuntando específicamente al Tiburón de 900m para obtener 24,000g."
+  },
+  {
+    question: "¿Por qué la Sirena no muerde a los 50m?",
+    answer: "Las criaturas especiales como la Sirena requieren regalos específicos. Asegúrate de tener equipado el Anillo de Diamante y estar usando el Anzuelo Común. Además, verifica que estés en el bioma de océano correcto (Calmado, Turbulento u Oscuro)."
+  },
+  {
+    question: "¿Cuál es el punto más profundo del juego?",
+    answer: "El punto de pesca documentado más profundo es a 2,000m en el Océano Oscuro. Aquí es donde se encuentra el Rape de mayor valor, requiriendo el Anzuelo Omega y el Anillo de Diamante."
+  },
+  {
+    question: "¿Dónde puedo encontrar la Carta del Abuelo?",
+    answer: "La Carta del Abuelo se encuentra en el fondo del Océano Turbulento a una profundidad de 1,000m. No se requiere ningún regalo específico para 'atraparla', pero debes alcanzar esa profundidad."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,219 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor, Waves, Fish, ShoppingCart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Início para Exquisite Fishing: Progressão Passo a Passo e Equipamentos",
+  description: "Domine o básico de Exquisite Fishing com nosso guia de 2026. Aprenda sobre biomas oceânicos, melhorias de equipamentos, combinações de presentes e como desbloquear todas as cenas especiais.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1884e8/fff?text=Exquisite+Fishing+Beginner+Guide",
+  date: "2026-07-14",
+  author: "Equipe da Wiki de Exquisite Fishing",
+  keywords: "guia de início, exquisite fishing, progressão, equipamentos, farm de ouro"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de Início para Exquisite Fishing**: Foque no ciclo principal de **pescar**, **vender** e **melhorar** para alcançar biomas oceânicos mais profundos.
+- **Progressão Oceânica**: Comece no **Calm Ocean** gratuitamente, depois economize ouro para os oceanos **Rocky**, **Turbulent** e **Dark**.
+- **Sinergia de Equipamento**: Sempre combine o **Hook** (Anzol) correto com o **Gift** (Presente) específico exigido para criaturas especiais como a Sereia ou o Tubarão.
+- **Farm de Ouro**: O **Angler** a 300m no Calm Ocean é a melhor fonte de ouro no início do jogo (10.000g).
+- **Desbloqueio de Cenas**: A maioria das cenas especiais exige atingir uma **profundidade** específica com um conjunto de equipamentos único.
+</Callout>
+
+<Section icon={Anchor} title="Mecânicas Principais e Ciclo de Gameplay">
+
+O **guia de início para Exquisite Fishing** começa com a compreensão do ciclo fundamental que impulsiona sua progressão. Diferente dos simuladores de pesca tradicionais, este jogo combina orientação precisa da isca com uma economia estratégica. Você começa sua jornada em um barco humilde, encarregado de navegar pelas profundezas para garantir criaturas marinhas cada vez mais raras e valiosas.
+
+**Destaques do Vídeo:**
+- **Mecânicas de Arremesso**: Aprenda a controlar a força e a direção do seu lançamento inicial.
+- **Orientação da Isca**: Estratégias para manobrar o anzol por peixes comuns para alcançar alvos especiais.
+- **Gerenciamento do Medidor de Gancho**: Como manter um alvo engajado até que a captura seja garantida.
+- **Venda e Melhorias**: Um tour pela interface da loja e itens prioritários para o início do jogo.
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Visão Geral da Gameplay de Exquisite Fishing" />
+
+Para ter sucesso, você deve dominar o **Hook Meter** (Medidor de Gancho). Quando uma criatura se interessa pela sua isca, um medidor aparecerá. Você deve manter a criatura engajada permanecendo em sua proximidade até que o medidor se encha completamente. Uma vez capturada, você deve recolher a linha de volta à superfície para reivindicar seu prêmio. Vender essas capturas fornece o ouro necessário para comprar anzóis mais fortes, presentes especializados e barcos mais rápidos.
+
+<Callout type="tip" title="Dica Profissional: Economize seu Ouro">
+Evite gastar ouro em todos os itens da loja imediatamente. Foque apenas nos anzóis e presentes necessários para sua próxima criatura alvo para maximizar sua velocidade de progressão.
+</Callout>
+
+| Mecânica | Descrição | Objetivo Principal |
+| :--- | :--- | :--- |
+| **Arremesso** | Lançar a isca no oceano | Alcançar marcos de profundidade específicos |
+| **Atração** | Usar presentes para atrair criaturas especiais | Encher o Medidor de Gancho |
+| **Recolhimento** | Trazer a captura de volta ao barco | Garantir ouro e desbloqueio de cenas |
+| **Venda** | Converter peixes em moeda do jogo | Financiar melhorias de barco e equipamentos |
+
+</Section>
+
+<Section icon={Waves} title="Biomas Oceânicos e Marcos de Profundidade">
+
+A progressão em Exquisite Fishing é dividida por quatro biomas oceânicos distintos. Cada bioma requer um barco específico para ser acessado e oferece uma gama única de profundidades e criaturas. Como iniciante, seu objetivo principal é ganhar ouro suficiente para passar do Calm Ocean gratuito para o lucrativo Dark Ocean.
+
+<CardGrid cols={2}>
+  <Card title="Calm Ocean (Início)">
+    - **Custo de Acesso**: 0g
+    - **Intervalo de Profundidade**: 50m - 300m
+    - **Alvos Principais**: Sereia, Tubarão, Angler
+    - **Ideal para**: Aprender mecânicas e farm inicial de ouro.
+  </Card>
+  <Card title="Rocky Ocean (Início do Jogo)">
+    - **Custo de Acesso**: 1.500g
+    - **Intervalo de Profundidade**: 100m - 600m
+    - **Alvos Principais**: Polvo, Anêmona, Kappa
+    - **Ideal para**: Desbloquear melhorias de anzol de nível médio.
+  </Card>
+  <Card title="Turbulent Ocean (Meio do Jogo)">
+    - **Custo de Acesso**: 5.000g
+    - **Intervalo de Profundidade**: 50m - 1.000m
+    - **Alvos Principais**: Baleia, Carta do Vovô
+    - **Ideal para**: Progressão da história e Tubarões de alto valor.
+  </Card>
+  <Card title="Dark Ocean (Fim do Jogo)">
+    - **Custo de Acesso**: 8.000g
+    - **Intervalo de Profundidade**: 50m - 2.000m
+    - **Alvos Principais**: Deep Angler, Capturas Omega
+    - **Ideal para**: Melhorias finais e conclusão da galeria.
+  </Card>
+</CardGrid>
+
+Cada oceano aumenta a dificuldade do processo de recolhimento e introduz perigos ambientais. Por exemplo, o Turbulent Ocean requer um **Reinforced Boat** para suportar as ondas, enquanto o Dark Ocean exige um **Golden Boat** para capacidade máxima de profundidade.
+
+<Callout type="info" title="Requisito de Profundidade">
+As criaturas não aparecerão se você estiver na profundidade errada, mesmo que tenha o equipamento correto. Use o medidor de profundidade na lateral da tela para posicionar sua isca com precisão.
+</Callout>
+
+| Bioma | Barco Necessário | Custo de Entrada | Prof. Máxima |
+| :--- | :--- | :--- | :--- |
+| **Calm Ocean** | Regular Old Boat | **0g** | 300m |
+| **Rocky Ocean** | Regular Boat | **1.500g** | 600m |
+| **Turbulent Ocean** | Reinforced Boat | **5.000g** | 1.000m |
+| **Dark Ocean** | Golden Boat | **8.000g** | 2.000m |
+
+</Section>
+
+<Section icon={ShoppingCart} title="Equipamentos Essenciais e Prioridades de Melhoria">
+
+Seu equipamento determina quais criaturas você pode atrair e capturar. O equipamento é dividido em **Hooks** (Anzóis), **Gifts** (Presentes) e **Boats** (Barcos). Enquanto os barcos fornecem acesso a novas áreas, anzóis e presentes trabalham em conjunto para acionar encontros e cenas especiais.
+
+**Categorias de Anzóis (Hooks):**
+- **Standard Hooks**: Anzóis Regular, Good e Reinforced para alvos do início ao meio do jogo.
+- **Shielded Hooks**: Anzóis Double e Triple Shielded para evitar a perda de capturas pesadas como a Baleia.
+- **Specialized Hooks**: Anzóis Drill, Anal Beads e Hearty para requisitos específicos de criaturas.
+- **Endgame Hooks**: O Omega Hook é necessário para a captura mais profunda do jogo.
+
+<Callout type="warning" title="Aviso de Equipamento">
+Criaturas especiais como a Sereia ou o Tubarão ignorarão sua isca se você não tiver o presente preferido delas equipado. Sempre verifique sua **Fishipedia** para dicas de requisitos.
+</Callout>
+
+**Requisitos de Presentes (Gifts) para Capturas Especiais:**
+- **Diamond Ring**: Essencial para a Sereia (Calm) e Tubarão (Turbulent).
+- **Striped Pantie**: Necessário para o Tubarão (Calm) e Baleia (Turbulent).
+- **Box of Chocolates**: Usado para o Angler (Calm) e Anêmona (Rocky).
+- **Mighty Dildo**: Necessário para todos os encontros com o Polvo.
+- **Vibrant Rose**: Desbloqueia cenas mais profundas do Angler e Kappa.
+
+| Tipo de Item | Nome do Item | Estágio de Progressão | Uso Principal |
+| :--- | :--- | :--- | :--- |
+| **Hook** | Regular Hook | Inicial | Sereia & Angler (Calm) |
+| **Hook** | Double Shielded | Início-Meio | Polvo & Baleia |
+| **Hook** | Super Hook | Final | Tubarão (Turbulent) |
+| **Hook** | Omega Hook | Fim de Jogo | Angler (Dark Ocean 2000m) |
+| **Gift** | Diamond Ring | Todos | Sereia/Tubarão/Angler |
+| **Gift** | Pearl Necklace | Meio-Fim | Kappa & Sereia (Dark) |
+
+</Section>
+
+<Section icon={Target} title="Rota de Farm de Ouro Passo a Passo para o Início do Jogo">
+
+Para progredir rapidamente no **guia de início para Exquisite Fishing**, você precisa de uma fonte confiável de renda. Seguir esta rota específica permitirá que você desbloqueie o Rocky Ocean e compre equipamentos de nível médio em sua primeira hora de jogo.
+
+<Steps>
+  <Step num="1" title="O Grind da Sereia">
+    Comece no Calm Ocean com o **Regular Hook** e o **Diamond Ring**. Foque na Sereia a **50m**. Ela vale 300g e é muito fácil de capturar. Repita isso 5 vezes para financiar seu próximo presente.
+  </Step>
+  <Step num="2" title="O Upgrade do Tubarão">
+    Compre o **Good Hook** e a **Striped Pantie**. Desça sua isca para **200m** no Calm Ocean. O Tubarão recompensa você com **2.000g** por captura, aumentando significativamente seu saldo.
+  </Step>
+  <Step num="3" title="Dominando o Angler">
+    Equipe o **Regular Hook** e a **Box of Chocolates**. Mergulhe a **300m** no Calm Ocean. O Angler é o alvo inicial mais valioso, pagando **10.000g**. Farme-o até ter o suficiente para o Regular Boat.
+  </Step>
+  <Step num="4" title="Transição para o Rocky Ocean">
+    Compre o **Regular Boat** por 1.500g. Mude para o Rocky Ocean e equipe o **Double Shielded Hook** e o **Mighty Dildo** para capturar o Polvo a 100m por 1.500g.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Eficiência">
+O Angler no Calm Ocean continua sendo um dos melhores alvos de ouro por minuto até você chegar ao Turbulent Ocean. Se achar os oceanos mais profundos muito difíceis, volte ao Calm Ocean para farmar o Angler.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Desbloqueio de Cenas e Checklist de Conclusão">
+
+Para muitos jogadores, o objetivo final é completar a **Fishipedia** e desbloquear todas as cenas adultas na galeria. Essas cenas estão ligadas a capturas de criaturas específicas sob condições estritas. Use este checklist para acompanhar seu progresso enquanto explora os quatro oceanos.
+
+<Checklist
+  id="calm-rocky-goals"
+  title="Checklist de Conclusão do Início do Jogo:"
+  items={[
+    "Capturar Sereia do Calm Ocean (50m, Diamond Ring)",
+    "Capturar Tubarão do Calm Ocean (200m, Striped Pantie)",
+    "Capturar Angler do Calm Ocean (300m, Box of Chocolates)",
+    "Capturar Polvo do Rocky Ocean (100m, Mighty Dildo)",
+    "Capturar Kappa do Rocky Ocean (500m, Pearl Necklace)",
+    "Comprar o Regular Boat (1.500g)"
+  ]}
+/>
+
+<Checklist
+  id="turbulent-dark-goals"
+  title="Checklist de Conclusão do Fim do Jogo:"
+  items={[
+    "Recuperar a Carta do Vovô (Turbulent 1.000m)",
+    "Capturar Baleia do Turbulent Ocean (50m, Striped Pantie)",
+    "Capturar Sereia do Dark Ocean (800m, Pearl Necklace)",
+    "Capturar Angler do Dark Ocean (2.000m, Diamond Ring)",
+    "Comprar o Golden Boat (8.000g)",
+    "Desbloquear todas as capturas do Omega Hook"
+  ]}
+/>
+
+<Callout type="info" title="Progressão da História">
+A **Carta do Vovô** está localizada no fundo do Turbulent Ocean (1.000m). Você não precisa de um presente específico para isso, mas precisa de um barco capaz de atingir essa profundidade.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Por que o peixe está ignorando minha isca mesmo estando na profundidade certa?",
+    answer: "A maioria das criaturas especiais em Exquisite Fishing exige que um Presente (Gift) específico esteja equipado. Verifique a loja para garantir que você tem o item de atração correto para o seu alvo."
+  },
+  {
+    question: "Como chego à profundidade de 2.000m no Dark Ocean?",
+    answer: "Você deve comprar o Golden Boat (8.000g) e equipar um anzol de fim de jogo como o Omega Hook. Barcos padrão serão esmagados ou incapazes de descer tanto."
+  },
+  {
+    question: "Onde fica o arquivo de salvamento se eu quiser fazer backup do meu progresso?",
+    answer: "No Windows PC, seus dados de salvamento geralmente são encontrados no diretório AppData/LocalLow/PinkySoul/Exquisite Fishing."
+  },
+  {
+    question: "Qual a melhor forma de ganhar ouro para o Golden Boat?",
+    answer: "Farme o Tubarão no Turbulent Ocean (900m) usando o Super Hook e o Diamond Ring por 24.000g, ou o Angler no Rocky Ocean por 13.000g."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Final">
+Sempre fique de olho na tensão da linha ao recolher. Se a linha romper, você perde tanto a captura quanto o ouro gasto na isca para aquela tentativa.
+</Callout>
+
+</Section>

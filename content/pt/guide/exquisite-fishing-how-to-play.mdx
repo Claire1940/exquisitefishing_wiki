@@ -1,0 +1,222 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Como Jogar Exquisite Fishing: Guia Passo a Passo para Iniciantes",
+  description: "Domine o Exquisite Fishing com o nosso guia de 2026. Aprenda sobre os biomas oceânicos, melhorias de equipamentos, requisitos de criaturas e estratégias de farm de ouro para desbloquear todas as cenas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1bc8d3/fff?text=Exquisite+Fishing+Guide",
+  date: "2026-07-14",
+  author: "Equipe da Wiki de Exquisite Fishing"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Como Jogar Exquisite Fishing**: O ciclo principal consiste em lançar iscas, atrair criaturas marinhas específicas com presentes e puxá-las para vender por ouro.
+- **Caminho de Progressão**: Comece no Calm Ocean (Oceano Calmo), melhore seu barco para alcançar os oceanos Rocky (Rochoso), Turbulent (Turbulento) e Dark (Sombrio) para obter recompensas maiores.
+- **Sinergia de Equipamentos**: Cada criatura especial exige uma combinação específica de **Anzol (Hook)** e **Presente (Gift)** para ser capturada com sucesso.
+- **Prioridade de Ouro**: Foque em capturar o **Angler (Peixe-lanterna)** cedo no Calm Ocean para financiar suas primeiras grandes melhorias de barco e anzol.
+- **Objetivo de Conclusão**: Recupere a **Grandpa's Letter (Carta do Avô)** a 1.000m no Turbulent Ocean para progredir na história principal e na galeria.
+</Callout>
+
+<Section icon={Target} title="Como Jogar Exquisite Fishing: O Ciclo de Gameplay Principal">
+
+Para dominar o **Exquisite Fishing**, os jogadores devem entender que este não é um jogo de pesca arcade comum. É um simulador estratégico baseado em progressão, onde suas escolhas de equipamentos determinam exatamente o que você encontrará nas profundezas. A jogabilidade é dividida em cinco fases distintas que você repetirá conforme avança da superfície ensolarada até o abismo de 2.000 metros.
+
+**Destaques do Vídeo:**
+- Mecânicas básicas de lançamento e guia de isca.
+- Como identificar os medidores de interesse nas criaturas marinhas.
+- O processo de recolhimento e gerenciamento da tensão da linha.
+- Visita inicial à loja e primeira compra de equipamento.
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Exquisite Fishing GAMEPLAY" />
+
+### Os Cinco Pilares da Pesca
+1.  **Preparação**: Antes de sair do cais, você deve visitar a loja para equipar um **Anzol (Hook)** e um **Presente (Gift)**. Sem a combinação correta, criaturas especiais como a Sereia (Mermaid) ou o Tubarão (Shark) ignorarão sua isca.
+2.  **Lançamento**: Lance sua isca no oceano. Você tem controle manual sobre o movimento horizontal enquanto a isca afunda.
+3.  **Atração**: Guie sua isca em direção ao alvo. Se você tiver o equipamento correto, um medidor aparecerá acima da criatura. Você deve permanecer perto dela até que o medidor se encha.
+4.  **Recolhimento**: Uma vez fisgado, você deve puxar a linha de volta à superfície. Alguns anzóis de nível superior tornam isso mais rápido ou fornecem \"escudos\" contra a perda da captura.
+5.  **Economia**: Venda sua captura ao final da rodada. Use este ouro para comprar barcos melhores, que são as \"chaves\" principais para desbloquear biomas oceânicos mais profundos.
+
+<Callout type="tip" title="Estratégia para Iniciantes">
+No começo, não desperdice ouro com presentes aleatórios. Use o **Regular Hook** e o **Diamond Ring** para focar na Sereia (Mermaid) a 50m. Ela é uma fonte consistente de renda no início do jogo.
+</Callout>
+
+| Fase de Pesca | Objetivo Principal | Mecânica Chave |
+| :--- | :--- | :--- |
+| **No Cais** | Configuração de Equipamento | Combinar Anzol + Presente |
+| **Afundando** | Gerenciamento de Profundidade | Controle Horizontal da Isca |
+| **Atração** | Preenchimento do Medidor | Manutenção de Proximidade |
+| **Subindo** | Segurança da Captura | Velocidade de Recolhimento |
+| **Mercado** | Reinvestimento | Melhorias de Barco/Anzol |
+
+</Section>
+
+<Section icon={Map} title="Biomas Oceânicos e Marcos de Profundidade">
+
+A progressão em **Exquisite Fishing** é limitada por quatro biomas oceânicos únicos. Cada bioma exige um barco específico para entrar e possui um \"chão\" que limita a profundidade que sua isca pode viajar. Conforme você avança para oceanos mais profundos, o valor das criaturas aumenta exponencialmente, mas o custo de entrada também aumenta.
+
+<CardGrid cols={2}>
+  <Card title="Calm Ocean (Área Inicial)">
+    - **Custo de Entrada**: 0g (Grátis)
+    - **Profundidade Máxima**: 300m
+    - **Melhor Alvo**: Angler (10.000g)
+    - **Barco Necessário**: Regular Old Boat
+  </Card>
+  <Card title="Rocky Ocean (Início do Jogo)">
+    - **Custo de Entrada**: 1.500g
+    - **Profundidade Máxima**: 600m
+    - **Melhor Alvo**: Angler (13.000g)
+    - **Barco Necessário**: Regular Boat
+  </Card>
+  <Card title="Turbulent Ocean (Meio de Jogo)">
+    - **Custo de Entrada**: 5.000g
+    - **Profundidade Máxima**: 1.000m
+    - **Melhor Alvo**: Shark (24.000g)
+    - **Barco Necessário**: Reinforced Boat
+  </Card>
+  <Card title="Dark Ocean (Fim de Jogo)">
+    - **Custo de Entrada**: 8.000g
+    - **Profundidade Máxima**: 2.000m+
+    - **Melhor Alvo**: Angler (45.000g)
+    - **Barco Necessário**: Golden Boat
+  </Card>
+</CardGrid>
+
+A transição entre os oceanos Rocky e Turbulent é a parte mais difícil do jogo. Você precisará farmar o **Kappa** e o **Angler** repetidamente para conseguir pagar pelo Reinforced Boat de 5.000g. Assim que alcançar o Turbulent Ocean, você poderá encontrar a **Grandpa's Letter** na marca de 1.000m, que é essencial para concluir a história.
+
+<Callout type="warning" title="Aviso de Limite de Profundidade">
+Se você tentar pescar em um oceano profundo com um barco de nível baixo, sua linha romperá antes de você alcançar os alvos de alto valor. Sempre priorize as melhorias de barco em vez de anzóis caros de fim de jogo.
+</Callout>
+
+| Nome do Bioma | Barco Necessário | Taxa de Entrada | Intervalo de Profundidade | Item Chave da História |
+| :--- | :--- | :--- | :--- | :--- |
+| **Calm Ocean** | Regular Old Boat | **0g** | 0m - 300m | Nenhum |
+| **Rocky Ocean** | Regular Boat | **1.500g** | 0m - 600m | Nenhum |
+| **Turbulent Ocean** | Reinforced Boat | **5.000g** | 0m - 1.000m | **Grandpa's Letter** |
+| **Dark Ocean** | Golden Boat | **8.000g** | 0m - 2.000m | Cenas de Fim de Jogo |
+
+</Section>
+
+<Section icon={Shield} title="Melhorias de Equipamentos e Prioridades da Loja">
+
+A loja em **Exquisite Fishing** está repleta de vários anzóis e presentes. Entender quais comprar primeiro é a diferença entre uma jogada de 2 horas e um grind de 10 horas. Os anzóis geralmente melhoram sua capacidade de profundidade e eficiência de recolhimento, enquanto os presentes agem como \"iscas\" para personagens específicos.
+
+### Progressão de Anzóis
+Os anzóis são categorizados por suas capacidades de \"Proteção (Shielding)\" e \"Profundidade\". Um **Double Shielded Hook** permite ignorar pequenos obstáculos ou erros durante o processo de recolhimento, enquanto o **Omega Hook** é necessário para as profundezas mais extremas no Dark Ocean.
+
+<Steps>
+  <Step num="1" title="Anzóis do Início do Jogo">
+    Fique com o **Regular Hook** e o **Good Hook**. Eles são suficientes para os oceanos Calm e Rocky. Foque seu ouro na melhoria de barco de 1.500g primeiro.
+  </Step>
+  <Step num="2" title="A Transição no Meio do Jogo">
+    Assim que tiver o Regular Boat, compre o **Reinforced Hook** e o **Drill Hook**. Eles permitem capturar o Kappa (7.500g) e o Angler do Rocky Ocean (13.000g).
+  </Step>
+  <Step num="3" title="Especialização de Fim de Jogo">
+    No Dark Ocean, você precisará do **Anal Beads Hook** para o Polvo (Octopus) e do **Omega Hook** para o Angler final de 2.000m. Eles são caros, mas necessários para a conclusão de 100%.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Farm de Ouro">
+O **Reinforced Hook** é a melhor melhoria em termos de custo-benefício no jogo. Ele funciona para múltiplos alvos em três oceanos diferentes, tornando-se uma compra obrigatória logo no início.
+</Callout>
+
+| Tipo de Anzol | Melhor Para | Estágio de Progressão | Alvo Chave |
+| :--- | :--- | :--- | :--- |
+| **Regular Hook** | Começar | Inicial | Sereia (Mermaid) |
+| **Good Hook** | Profundidade moderada | Inicial | Tubarão (Shark - Calm) |
+| **Reinforced Hook** | Versatilidade | Médio | Anêmona (Anemone) |
+| **Drill Hook** | Rocky Ocean profundo | Médio | Kappa |
+| **Super Hook** | Alto valor | Avançado | Tubarão (Shark - Turbulent) |
+| **Omega Hook** | Profundidade máxima | Fim de jogo | Angler (Dark) |
+
+</Section>
+
+<Section icon={Sparkles} title="Requisitos Especiais de Captura e Desbloqueio de Cenas">
+
+Desbloquear as cenas especiais na galeria é uma parte importante de **Exquisite Fishing**. Cada cena é ativada ao capturar uma criatura específica com o presente correto. Se você usar o presente errado, a criatura simplesmente ignorará sua isca, não importa o quão perto você chegue.
+
+<Checklist
+  id="special-targets"
+  title="Lista de Capturas Obrigatórias:"
+  items={[
+    "Sereia (Mermaid): Diamond Ring + Regular Hook (50m)",
+    "Tubarão (Shark): Striped Pantie + Good Hook (200m)",
+    "Angler: Box of Chocolates + Regular Hook (300m)",
+    "Polvo (Octopus): Mighty Dildo + Double Shielded Hook (100m)",
+    "Kappa: Pearl Necklace + Drill Hook (500m)",
+    "Baleia (Whale): Lovely Ribbon + Double Shielded Hook (200m)"
+  ]}
+/>
+
+### Tabela de Utilidade de Presentes
+Os presentes não são consumidos ao usar, então, uma vez que você compra um **Diamond Ring**, você o terá para sempre. Isso os torna um ótimo investimento a longo prazo.
+
+| Nome do Presente | Alvo Principal | Alvo Secundário | Importância |
+| :--- | :--- | :--- | :--- |
+| **Diamond Ring** | Sereia (Calm) | Tubarão (Turbulent) | **Alta** |
+| **Striped Pantie** | Tubarão (Calm) | Baleia (Turbulent) | **Média** |
+| **Box of Chocolates** | Angler (Calm) | Anêmona (Rocky) | **Alta** |
+| **Mighty Dildo** | Polvo (Rocky) | Polvo (Dark) | **Média** |
+| **Pearl Necklace** | Kappa (Rocky) | Sereia (Dark) | **Alta** |
+| **Vibrant Rose** | Angler (Rocky) | Kappa (Turbulent) | **Média** |
+
+<Callout type="info" title="Galeria de Cenas">
+To unlock 100% of the gallery, you must catch the same creature in different oceans. For example, the Mermaid has different scenes in the Calm, Turbulent, and Dark oceans, each requiring a different gift.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégias Avançadas para Farm de Ouro">
+
+Quando você chegar ao final do jogo, os custos dos barcos e os anzóis de nível alto exigirão dezenas de milhares de moedas de ouro. Você não pode depender da captura de peixes comuns para progredir. Você deve otimizar seu \"Ouro por Rodada\" focando nas criaturas mais eficientes.
+
+1.  **O Ciclo do Angler**: No Calm Ocean, o Angler a 300m paga 10.000g. Como a taxa de entrada é 0g, esta é a maneira mais eficiente de juntar dinheiro para o seu primeiro barco de 5.000g.
+2.  **Farm de Tubarão no Turbulent**: Assim que tiver o Reinforced Boat, o Tubarão a 900m paga 24.000g. Use o **Super Hook** e o **Diamond Ring**. Esta é a maneira mais rápida de conseguir comprar o Golden Boat.
+3.  **Fim de Jogo no Dark Ocean**: O Angler final a 2.000m paga 45.000g. Embora a taxa de entrada seja de 8.000g, uma única captura bem-sucedida rende um lucro líquido de 37.000g.
+
+<Callout type="warning" title="Evite Peixes Comuns">
+No final do jogo, os peixes comuns são uma distração. Eles enchem seu inventário e fornecem muito pouco ouro. Foque inteiramente nos alvos especiais para maximizar a eficiência do seu tempo.
+</Callout>
+
+| Criatura Alvo | Oceano | Profundidade | Valor Bruto | Lucro Líquido (Pós-Entrada) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Angler** | Calm | 300m | 10.000g | **10.000g** |
+| **Kappa** | Rocky | 500m | 7.500g | 6.000g |
+| **Shark** | Turbulent | 900m | 24.000g | **19.000g** |
+| **Whale** | Dark | 1.700m | 40.000g | 32.000g |
+| **Angler** | Dark | 2.000m | 45.000g | **37.000g** |
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes (FAQ) de Exquisite Fishing">
+
+<FAQ items={[
+  {
+    question: "Como desbloqueio o Rocky Ocean?",
+    answer: "Você deve comprar o 'Regular Boat' na loja por 1.500g. Uma vez comprado, o Rocky Ocean aparecerá como um destino selecionável no menu principal."
+  },
+  {
+    question: "Onde fica a Grandpa's Letter?",
+    answer: "A Grandpa's Letter é um colecionável especial encontrado bem no fundo do Turbulent Ocean (1.000m de profundidade). Você não precisa de um presente específico para coletá-la, mas precisará do Reinforced Boat."
+  },
+  {
+    question: "Por que a criatura está ignorando minha isca?",
+    answer: "Isso acontece se você não estiver com a combinação correta de Anzol (Hook) e Presente (Gift) equipada. Verifique a Fishipedia ou nossa tabela de Requisitos de Captura para garantir que seus equipamentos correspondam às preferências do alvo."
+  },
+  {
+    question: "Qual é a melhor maneira de ganhar ouro no início?",
+    answer: "Foque no Angler no Calm Ocean a 300m de profundidade. Ele exige uma Box of Chocolates e um Regular Hook, mas recompensa você com 10.000g por captura com custo zero de entrada."
+  }
+]} />
+
+<Callout type="success" title="Conselho Final">
+Sempre mantenha um backup do seu arquivo de salvamento. O local de salvamento geralmente é encontrado em `AppData/LocalLow/PinkySoul/Exquisite Fishing`. Se você encontrar um bug ou gastar ouro acidentalmente no item errado, poderá restaurar seu progresso facilmente.
+</Callout>
+
+</Section>_

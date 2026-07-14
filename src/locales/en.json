@@ -10,7 +10,15 @@
       "twitterDescription": "Exquisite Fishing Wiki covering walkthroughs, fish lists, biomes, gear, bait, characters, scenes, and save file help."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "walkthrough": "Walkthrough",
+    "catches": "Catches",
+    "equipment": "Equipment",
+    "gallery": "Gallery",
+    "version": "Version",
+    "download": "Download"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -640,5 +648,146 @@
     "copyright": "© 2026 Exquisite Fishing Wiki. Not affiliated with PinkySoul, the developer of Exquisite Fishing.",
     "disclaimer": "Unofficial fan-made resource website. Exquisite Fishing is an adults-only game."
   },
-  "pages": {}
+  "pages": {
+    "guide": {
+      "title": "Exquisite Fishing Guide",
+      "description": "Complete Exquisite Fishing guides covering the core fishing loop, controls, beginner tips, money making, and full progression through every ocean biome.",
+      "metaTitle": "Exquisite Fishing Guide - Beginner Tips, Controls & Progression",
+      "metaDescription": "Master Exquisite Fishing with full guides on controls, beginner tips, money making, and progression through the Calm, Rocky, Turbulent, and Dark oceans.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What is the Exquisite Fishing Guide?",
+      "whatIsDescription": "The Exquisite Fishing guide hub explains the core gameplay loop — casting, reeling, selling catches, and upgrading — so new players understand every mechanic before committing gold to deeper oceans.",
+      "why": "Why use the guide?",
+      "whySteps": {
+        "step1Title": "Learn the core fishing loop",
+        "step1Description": "Cast your lure, fill the hook meter, reel in the catch, and sell fish for gold to buy hooks, gifts, and boats.",
+        "step2Title": "Master the controls",
+        "step2Description": "Guide the lure to the right depth and target, then keep the creature engaged until the hook meter fills.",
+        "step3Title": "Plan your progression",
+        "step3Description": "Follow a focused spending route so you always have enough gold for the next ocean entry fee and its required equipment."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "walkthrough": {
+      "title": "Exquisite Fishing Walkthrough",
+      "description": "Full Exquisite Fishing walkthrough covering the Calm, Rocky, Turbulent, and Dark oceans, with every target's depth, hook, gift, and unlock requirement.",
+      "metaTitle": "Exquisite Fishing Walkthrough - Full Ocean Progression Route",
+      "metaDescription": "Complete Exquisite Fishing walkthrough from the Calm Ocean to the 2,000m Dark Ocean Angler, with depths, equipment, and unlock requirements for every stage.",
+      "categoryLabel": "WALKTHROUGH",
+      "whatIs": "What is the Exquisite Fishing walkthrough?",
+      "whatIsDescription": "The walkthrough maps the full progression route across all four ocean biomes, listing the boat, entry cost, depth range, and equipment combination needed for every documented target.",
+      "why": "Why follow the walkthrough?",
+      "whySteps": {
+        "step1Title": "Unlock oceans in order",
+        "step1Description": "Progress from the free Calm Ocean through the Rocky, Turbulent, and Dark oceans, each gated by a stronger boat.",
+        "step2Title": "Prepare the right equipment",
+        "step2Description": "Each special catch needs a specific hook and gift combination at the correct depth before it will appear.",
+        "step3Title": "Reach the deepest catches",
+        "step3Description": "Follow the route to the 2,000m Dark Ocean Angler, the deepest and highest-value documented target."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Walkthroughs"
+    },
+    "catches": {
+      "title": "Exquisite Fishing Catches",
+      "description": "Every Exquisite Fishing special catch — Mermaid, Shark, Octopus, Kappa, Anemone, Whale, and Angler — with depth, value, hook, and gift for each ocean.",
+      "metaTitle": "Exquisite Fishing Catches - Fish, Creatures & Catch Requirements",
+      "metaDescription": "Browse all Exquisite Fishing special catches and creatures with their depth, sale value, required hook, and gift across the four ocean biomes.",
+      "categoryLabel": "CATCHES",
+      "whatIs": "What are Exquisite Fishing catches?",
+      "whatIsDescription": "Catches are the sea creatures you reel in and sell for gold. Special creatures like the Mermaid, Shark, and Angler appear only at specific depths with the correct hook and gift equipped.",
+      "why": "Why study the catches?",
+      "whySteps": {
+        "step1Title": "Find each creature's depth",
+        "step1Description": "Every special catch appears at a documented depth inside its ocean biome.",
+        "step2Title": "Match the hook and gift",
+        "step2Description": "Equip the exact hook and gift combination or the target will not appear.",
+        "step3Title": "Compare sale values",
+        "step3Description": "Prioritize high-value catches like the Angler to fund faster progression."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Catches"
+    },
+    "equipment": {
+      "title": "Exquisite Fishing Equipment",
+      "description": "Exquisite Fishing gear guide covering the best fishing rods, hooks, baits and gifts, boat upgrades, and depth requirements for every ocean.",
+      "metaTitle": "Exquisite Fishing Equipment - Hooks, Baits, Boats & Depth Guide",
+      "metaDescription": "Complete Exquisite Fishing equipment guide: best hooks, baits and gifts, boat upgrades, and depth requirements for catching every special creature.",
+      "categoryLabel": "EQUIPMENT",
+      "whatIs": "What is Exquisite Fishing equipment?",
+      "whatIsDescription": "Equipment covers the boats that unlock new oceans, the hooks that reach deeper catches, and the baits and gifts that attract specific special creatures.",
+      "why": "Why plan your equipment?",
+      "whySteps": {
+        "step1Title": "Unlock new oceans with boats",
+        "step1Description": "Stronger boats gate access to the Rocky, Turbulent, and Dark oceans.",
+        "step2Title": "Reach deeper catches with hooks",
+        "step2Description": "Upgrade hooks to reel in creatures at greater depths.",
+        "step3Title": "Attract targets with baits and gifts",
+        "step3Description": "Pair the correct gift with your hook to make each special creature appear."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Equipment"
+    },
+    "gallery": {
+      "title": "Exquisite Fishing Gallery",
+      "description": "Exquisite Fishing gallery and scene unlock checklist, grouped by ocean, with the depth, hook, and gift required to unlock every special scene.",
+      "metaTitle": "Exquisite Fishing Gallery - All Scenes & Unlock Requirements",
+      "metaDescription": "Complete Exquisite Fishing gallery checklist with every scene's unlock depth, hook, and gift, grouped by the Calm, Rocky, Turbulent, and Dark oceans.",
+      "categoryLabel": "GALLERY",
+      "whatIs": "What is the Exquisite Fishing gallery?",
+      "whatIsDescription": "The gallery tracks every optional scene, each tied to a specific special creature and equipment combination. Catch the target with the correct loadout to unlock its scene.",
+      "why": "Why use the gallery?",
+      "whySteps": {
+        "step1Title": "Find missing scenes",
+        "step1Description": "Each entry lists the target, depth, hook, and gift needed for the unlock.",
+        "step2Title": "Group by ocean",
+        "step2Description": "Scenes are sorted by biome so you can clear one ocean before moving deeper.",
+        "step3Title": "Avoid wasted casts",
+        "step3Description": "Equip the exact required combination before lowering your line."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Gallery"
+    },
+    "version": {
+      "title": "Exquisite Fishing Version",
+      "description": "Exquisite Fishing version and update log, covering the latest version, patch notes, and changes across releases.",
+      "metaTitle": "Exquisite Fishing Version - Latest Update & Patch Notes",
+      "metaDescription": "Track the latest Exquisite Fishing version and updates, including patch notes and changes introduced in each release.",
+      "categoryLabel": "VERSION",
+      "whatIs": "What is the Exquisite Fishing version log?",
+      "whatIsDescription": "The version log tracks each Exquisite Fishing release, the latest version number, and the changes and fixes introduced in every update.",
+      "why": "Why check the version?",
+      "whySteps": {
+        "step1Title": "Stay on the latest version",
+        "step1Description": "Keep your game updated to access the newest content and fixes.",
+        "step2Title": "Review patch notes",
+        "step2Description": "See what changed in each release before updating.",
+        "step3Title": "Plan around updates",
+        "step3Description": "New versions can adjust catches, equipment, or progression requirements."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Versions"
+    },
+    "download": {
+      "title": "Exquisite Fishing Download",
+      "description": "How to download and install Exquisite Fishing on PC and Android, including the official Steam and itch.io builds and step-by-step install guides.",
+      "metaTitle": "Exquisite Fishing Download - PC, Android & APK Install Guide",
+      "metaDescription": "Download Exquisite Fishing on PC via Steam and itch.io, or on Android. Complete install steps and platform options for every device.",
+      "categoryLabel": "DOWNLOAD",
+      "whatIs": "How do you download Exquisite Fishing?",
+      "whatIsDescription": "Exquisite Fishing is a Windows PC game sold on Steam and itch.io by developer PinkySoul. The official builds let you install and play the game on your device.",
+      "why": "Why use the download guide?",
+      "whySteps": {
+        "step1Title": "Get the official PC build",
+        "step1Description": "Download Exquisite Fishing from Steam or itch.io for the supported Windows PC version.",
+        "step2Title": "Install and run",
+        "step2Description": "Follow the platform install steps to launch the game on your device.",
+        "step3Title": "Pick the right platform",
+        "step3Description": "Compare the available options to choose the build that matches your device."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Downloads"
+    }
+  }
 }

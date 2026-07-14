@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dicas de Exquisite Fishing: Progressão Eficiente e Guia de Captura",
+  description: "Domine as profundezas do oceano com nossas dicas de Exquisite Fishing. Aprenda a melhor isca, anzol e melhorias de barco para maximizar seu ouro e desbloquear cenas raras.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Exquisite+Fishing+Guide",
+  date: "2026-07-14",
+  author: "Equipe da Wiki de Exquisite Fishing"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Dicas de Exquisite Fishing** focam em combinar equipamentos específicos com profundidades-alvo para máxima eficiência de ouro.
+- **Priorize melhorias no barco** logo no início para desbloquear novos biomas, já que águas mais profundas contêm as criaturas mais valiosas.
+- **Mantenha um loadout consistente** para cada criatura; capturas bem-sucedidas exigem a combinação exata de anzol e presente.
+- **Evite gastos desnecessários** em itens não essenciais antes de garantir seu próximo barco para assegurar uma progressão fluida.
+</Callout>
+
+<Section icon={Map} title="Dominando o Loop de Pesca">
+
+O loop principal do jogo envolve lançar a linha, atrair e recolher. Para ter sucesso, você deve entender que diferentes criaturas exigem equipamentos específicos.
+
+**Destaques do Vídeo:**
+- Mecânicas básicas de arremesso e orientação de isca
+- Como gerenciar o medidor de anzol para capturas bem-sucedidas
+- Estratégias de início de jogo para acumular ouro
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Visão Geral da Jogabilidade de Exquisite Fishing" />
+
+A pesca eficaz exige paciência. Assim que uma criatura demonstrar interesse, mantenha a isca estável até que o medidor de anzol esteja cheio. Se você ficar sem tempo ou o alvo perder o interesse, você desperdiçará energia e tempo.
+
+| Categoria de Equipamento | Objetivo | Prioridade de Melhoria |
+| :--- | :--- | :--- |
+| **Barco** | Desbloqueia novos biomas | Altíssima |
+| **Anzol** | Permite pescar mais fundo | Alta |
+| **Presentes** | Atrai alvos específicos | Média |
+
+<Callout type="tip" title="Dica Profissional">
+Sempre verifique a Fishipedia após uma captura bem-sucedida. Ela fornece dados essenciais sobre profundidades e raridade dos alvos, o que ajuda a refinar seus futuros loadouts.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Progressão">
+
+A progressão é limitada por ouro e acesso a barcos. Siga esta abordagem estruturada para garantir que você nunca fique preso em uma área de baixo rendimento por muito tempo.
+
+<Steps>
+  <Step num="1" title="Cultivo no Oceano Calmo">
+    Comece visando a Sereia a 50m para construir seu capital inicial, depois siga para o Tubarão a 200m usando o Anzol Bom (Good Hook).
+  </Step>
+  <Step num="2" title="Transição para o Oceano Rochoso">
+    Economize 1.500g para o Barco Regular. Uma vez lá, foque no Polvo e na Anêmona para gerar ouro suficiente para o Barco Reforçado.
+  </Step>
+  <Step num="3" title="Exploração em Mar Profundo">
+    Com os barcos Reforçado e Dourado, mova-se para os oceanos Turbulento e Escuro para capturar alvos de alto valor, como o Peixe-pescador (Angler) a 2.000m.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestão de Orçamento">
+Não compre todos os anzóis disponíveis na loja. Compre apenas a combinação específica de anzol e presente necessária para sua próxima criatura-alvo a fim de maximizar a eficiência de ouro.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamentos e Requisitos de Captura">
+
+O sucesso nas profundezas do oceano depende do seu loadout. Usar o anzol ou presente errado resultará em uma captura falha. Use esta tabela para planejar sua próxima viagem.
+
+| Criatura | Profundidade | Anzol Necessário | Presente Necessário |
+| :--- | :--- | :--- | :--- |
+| **Sereia** | 50m | Anzol Regular | Anel de Diamante |
+| **Tubarão** | 200m | Anzol Bom | Calcinha Listrada |
+| **Peixe-pescador** | 300m | Anzol Regular | Caixa de Chocolates |
+| **Polvo** | 100m | Blindagem Dupla | Dildo Poderoso |
+| **Kappa** | 500m | Anzol Perfurador | Colar de Pérolas |
+
+<CardGrid cols={3}>
+  <Card title="Início de Jogo">
+    - Foco: Oceano Calmo
+    - Alvo: Sereia e Tubarão
+    - Meta: 1.500g para o barco
+  </Card>
+  <Card title="Meio de Jogo">
+    - Foco: Oceano Rochoso
+    - Alvo: Polvo e Kappa
+    - Meta: 5.000g para o barco
+  </Card>
+  <Card title="Fim de Jogo">
+    - Foco: Oceano Escuro
+    - Alvo: Peixe-pescador e Baleia
+    - Meta: 8.000g para o barco
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Galeria e Desbloqueio de Cenas">
+
+Desbloquear todas as cenas exige uma execução precisa. Cada cena está ligada a uma criatura, profundidade e conjunto de equipamentos específicos.
+
+<Checklist
+  id="unlock-checklist"
+  title="Marcos de Progressão:"
+  items={[
+    "Capturar com sucesso a Sereia do Oceano Calmo",
+    "Adquirir o Barco Regular para acesso ao Oceano Rochoso",
+    "Recuperar a Carta do Vovô a 1.000m no Oceano Turbulento",
+    "Completar a Fishipedia com todas as capturas de mar profundo"
+  ]}
+/>
+
+<Callout type="success" title="Nota de Sucesso">
+As criaturas mais profundas no Oceano Escuro oferecem as maiores recompensas. Certifique-se de que seu Anzol Omega esteja pronto antes de tentar o Peixe-pescador de 2.000m.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor maneira de ganhar ouro rapidamente?",
+    answer: "Foque em capturas especiais como o Tubarão e o Peixe-pescador em vez de peixes comuns. Sempre use o presente específico exigido para o alvo para garantir o maior pagamento."
+  },
+  {
+    question: "Preciso comprar todos os barcos?",
+    answer: "Sim, cada barco é um requisito necessário para explorar biomas oceânicos mais profundos, onde habitam criaturas mais valiosas."
+  },
+  {
+    question: "Onde posso encontrar a Carta do Vovô?",
+    answer: "Este item colecionável da história está localizado a uma profundidade de 1.000m dentro do Oceano Turbulento. Você precisará do Barco Reforçado para alcançar esta profundidade."
+  }
+]} />
+
+</Section>

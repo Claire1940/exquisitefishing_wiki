@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Cebos de Exquisite Fishing: Mejores Combinaciones de Regalos y Anzuelos",
+  description: "Domina la guía de cebos de Exquisite Fishing para 2026. Aprende los requisitos específicos de regalos y anzuelos para capturar a la Sirena, el Tiburón y el Rape en cada bioma.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Bait+and+Hook+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Exquisite Fishing",
+  keywords: "exquisite fishing, guía de cebos, regalos, anzuelos, sirena, rape, estrategias de pesca"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de cebos de Exquisite Fishing**: El éxito depende de combinar **Regalos** específicos con los tipos de **Anzuelo** correctos para cada objetivo.
+- **Mecánica Principal**: A diferencia de la pesca tradicional, el "cebo" en este juego se refiere a artículos comprados en la tienda como el Anillo de Diamante, Bragas a Rayas y la Caja de Bombones.
+- **Acceso a Biomas**: Debes mejorar tu bote para acceder a océanos más profundos donde se requieren combinaciones de cebos de mayor valor.
+- **Objetivo Principal**: Usa al **Rape** como tu principal objetivo para farmear oro al principio del juego para financiar equipo costoso de mitad de partida.
+- **Requisito Crítico**: Revisa siempre tu **Pezpedia** para confirmar si tienes la capacidad de profundidad necesaria antes de desperdiciar regalos caros.
+</Callout>
+
+<Section icon={Target} title="Dominando las Mecánicas de la Guía de Cebos de Exquisite Fishing">
+
+Comprender la **guía de cebos de Exquisite Fishing** requiere un cambio en cómo ves las mecánicas de pesca tradicionales. En esta aventura de pixel-art, el sistema de "cebo" es reemplazado por un sistema de "Regalos". Cada criatura especial en el océano tiene un deseo específico, y solo interactuarán con tu señuelo si tienes equipado el objeto exacto que buscan. Esta mecánica se combina con los requisitos de anzuelo; incluso si tienes el regalo adecuado, un anzuelo débil puede fallar al asegurar la captura.
+
+El ciclo de juego implica lanzar tu línea y guiar manualmente el señuelo mientras se hunde. Debes evitar a los peces comunes para alcanzar la profundidad específica de tu objetivo. Una vez que el señuelo está cerca de una criatura especial, comienza la fase de "atracción". Si tu equipamiento coincide con los requisitos de la criatura, el medidor del anzuelo se llenará.
+
+| Nombre del Regalo | Uso Principal | Disponibilidad en Tienda |
+| :--- | :--- | :--- |
+| **Anillo de Diamante** | Sirena (Calmo), Tiburón (Turbulento), Rape (Oscuro) | Tienda Inicial |
+| **Bragas a Rayas** | Tiburón (Calmo), Ballena (Turbulento), Kappa (Oscuro) | Tienda Inicial |
+| **Caja de Bombones** | Rape (Calmo), Anémona (Rocoso) | Tienda Inicial |
+| **Dildo Poderoso** | Pulpo (Rocoso/Oscuro) | Tienda de Mitad de Juego |
+| **Collar de Perlas** | Kappa (Rocoso), Pulpo (Turbulento), Sirena (Oscuro) | Tienda de Mitad de Juego |
+| **Rosa Vibrante** | Rape (Rocoso), Kappa (Turbulento), Anémona (Oscuro) | Tienda de Final de Juego |
+
+<Callout type="tip" title="Estrategia Pro">
+Antes de salir, verifica siempre tu límite de profundidad actual. No tiene sentido equipar un regalo de alto nivel como la **Rosa Vibrante** si tu bote y anzuelo actuales no pueden alcanzar las profundidades de más de 600m donde residen esos objetivos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Océano Calmo: Estrategias de Cebo para el Inicio del Juego">
+
+El Océano Calmo es tu bioma inicial y sirve como campo de entrenamiento para la **guía de cebos de Exquisite Fishing**. Aunque el "Bote Viejo Común" es gratuito, necesitarás gastar tu oro inicial en regalos básicos para pescar algo más que peces estándar. Los tres objetivos principales aquí —la Sirena, el Tiburón y el Rape— proporcionan el oro fundamental necesario para tu primera mejora de bote.
+
+La estrategia aquí es lineal. Comienza con la Sirena para construir un pequeño colchón de dinero, luego pasa al Tiburón. Sin embargo, el verdadero premio es el Rape a 300m. A pesar de estar profundo, usa el **Anzuelo Común**, lo que lo convierte en el farmeo más rentable para principiantes.
+
+| Criatura | Profundidad | Anzuelo Requerido | Regalo Requerido | Valor de Venta |
+| :--- | :--- | :--- | :--- | :--- |
+| **Sirena** | 50m | Anzuelo Común | Anillo de Diamante | 300g |
+| **Tiburón** | 200m | Anzuelo Bueno | Bragas a Rayas | 2,000g |
+| **Rape** | 300m | Anzuelo Común | Caja de Bombones | 10,000g |
+
+<CardGrid cols={3}>
+  <Card title="Equipamiento Sirena">
+    - **Anzuelo**: Común
+    - **Regalo**: Anillo de Diamante
+    - **Enfoque**: Oro inicial
+  </Card>
+  <Card title="Equipamiento Tiburón">
+    - **Anzuelo**: Anzuelo Bueno
+    - **Regalo**: Bragas a Rayas
+    - **Enfoque**: Farmeo de nivel medio
+  </Card>
+  <Card title="Equipamiento Rape">
+    - **Anzuelo**: Común
+    - **Regalo**: Caja de Bombones
+    - **Enfoque**: Progresión mayor
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Eficiencia">
+No sobre-farmees a la Sirena. Aunque el Anillo de Diamante es barato, la recompensa de 300g es baja. Tu prioridad debería ser alcanzar la profundidad de 300m lo más rápido posible para asegurar la captura del Rape de 10,000g.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Océano Rocoso: Pasos de Progresión a Mitad del Juego">
+
+Una vez que hayas ahorrado 1,500g, puedes comprar el **Bote Común** y acceder al Océano Rocoso. Este bioma introduce requisitos más complejos en la **guía de cebos de Exquisite Fishing**. Te encontrarás con el Pulpo y el Kappa, los cuales requieren anzuelos especializados como el **Anzuelo Doble Blindado** y el **Anzuelo Taladro**.
+
+El Océano Rocoso es donde la gestión del equipo se vuelve crítica. Ya no solo compras regalos; estás gestionando la durabilidad del anzuelo y tasas de atracción específicas. El Rape regresa aquí a 600m, pero ahora requiere un **Anzuelo Reforzado** y una **Rosa Vibrante**, aumentando significativamente el costo de entrada para esa captura específica.
+
+<Steps>
+  <Step num="1" title="Equipa el Anzuelo Doble Blindado">
+    Compra el Anzuelo Doble Blindado y el Dildo Poderoso. Navega hasta los 100m para capturar al Pulpo por unos rápidos 1,500g.
+  </Step>
+  <Step num="2" title="Objetivo: La Anémona">
+    Cambia al Anzuelo Reforzado y la Caja de Bombones. Desciende a 300m. Esta captura otorga 3,500g y es una fuente constante de ingresos.
+  </Step>
+  <Step num="3" title="El Desafío Kappa">
+    Equipa el Anzuelo Taladro y el Collar de Perlas. Este objetivo está a 500m y paga 7,500g, pero el Anzuelo Taladro es caro, así que no falles tu lanzamiento.
+  </Step>
+  <Step num="4" title="Farmeo de Rape de Aguas Profundas">
+    Alcanza los 600m con el Anzuelo Reforzado y la Rosa Vibrante. Esta es tu fuente principal de ingresos para la mejora del Bote Reforzado de 5,000g.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sinergia de Equipo">
+El **Anzuelo Reforzado** es una de las herramientas más versátiles a mitad del juego. Se utiliza tanto para la Anémona como para el Rape del Océano Rocoso, lo que lo convierte en una compra de alta prioridad sobre el Anzuelo Taladro especializado si tienes poco dinero.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Océano Turbulento y Oscuro: Equipamientos Finales">
+
+Las etapas finales de la **guía de cebos de Exquisite Fishing** involucran el Océano Turbulento (entrada de 5,000g) y el Océano Oscuro (entrada de 8,000g). En estas profundidades, los peces "Estándar" son reemplazados por objetivos de alto valor que requieren los regalos más caros de la tienda, como la **Cinta Encantadora** y el **Trozo de Pastel**.
+
+El Océano Oscuro es la prueba definitiva de tus habilidades de guía. Debes bajar tu señuelo hasta los 2,000m mientras evitas docenas de obstáculos. Las recompensas son masivas, con el Rape más profundo pagando 45,000g por captura exitosa. En esta etapa, también deberías buscar la **Carta del Abuelo** a 1,000m en el Océano Turbulento para completar la historia.
+
+| Bioma | Criatura | Profundidad | Requisito de Anzuelo | Requisito de Regalo | Valor |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Turbulento** | Tiburón | 900m | Súper Anzuelo | Anillo de Diamante | 24,000g |
+| **Oscuro** | Sirena | 800m | Súper Anzuelo | Collar de Perlas | 20,000g |
+| **Oscuro** | Kappa | 1,200m | Anzuelo Plug Anal | Bragas a Rayas | 30,000g |
+| **Oscuro** | Pulpo | 1,500m | Anzuelo Cuentas Anales | Dildo Poderoso | 35,000g |
+| **Oscuro** | Ballena | 1,700m | Anzuelo Triple Blindado | Cinta Encantadora | 40,000g |
+| **Oscuro** | Rape | 2,000m | Anzuelo Omega | Anillo de Diamante | 45,000g |
+
+<Callout type="info" title="Mejora Final">
+El **Anzuelo Omega** es el objeto final de progresión. Se usa exclusivamente para el Rape de 2,000m en el Océano Oscuro. Asegúrate de tener el **Bote Dorado** antes de intentar esto, ya que otros botes no pueden soportar la presión de los 2,000m de profundidad.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimización y Lista de Verificación">
+
+Para completar eficientemente tu Pezpedia y desbloquear cada escena, debes seguir un camino disciplinado. Usar la **guía de cebos de Exquisite Fishing** de manera efectiva significa nunca entrar a un océano sin un objetivo específico en mente. La pesca aleatoria es la forma más rápida de agotar tus reservas de oro a través del desgaste del equipo.
+
+<Checklist
+  id="bait-mastery-checklist"
+  title="Hitos de Maestría de Cebos:"
+  items={[
+    "Comprar los 8 Regalos básicos y especializados de la tienda",
+    "Desbloquear el Bote Dorado para acceso a 2,000m de profundidad",
+    "Capturar al Rape de 300m en el Océano Calmo para el impulso de 10k de oro",
+    "Recuperar la Carta del Abuelo a 1,000m en el Océano Turbulento",
+    "Completar la captura del Rape del Océano Oscuro con el Anzuelo Omega"
+  ]}
+/>
+
+<Callout type="warning" title="Protección de Archivo de Guardado">
+El juego guarda tu progreso localmente en `AppData/LocalLow/PinkySoul/Exquisite Fishing`. Si planeas una expedición de alto riesgo en aguas profundas con cebos caros, considera hacer una copia de seguridad de tu archivo de guardado para evitar la pérdida de oro por cierres accidentales o fallos al recoger el sedal.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de ganar oro rápidamente en Exquisite Fishing?",
+    answer: "El método más eficiente es farmear al Rape. En el Océano Calmo, el Rape de 300m paga 10,000g y solo requiere un Anzuelo Común y una Caja de Bombones. Al final del juego, el Rape del Océano Oscuro a 2,000m paga 45,000g."
+  },
+  {
+    question: "¿Por qué los peces no muerden incluso si tengo el regalo adecuado?",
+    answer: "También debes tener equipado el Anzuelo correcto. Por ejemplo, el Tiburón en el Océano Calmo requiere el Anzuelo Bueno; si usas el Anzuelo Común con unas Bragas a Rayas, el Tiburón ignorará el señuelo."
+  },
+  {
+    question: "¿Dónde puedo encontrar la Carta del Abuelo?",
+    answer: "La Carta del Abuelo se encuentra en el fondo del Océano Turbulento a una profundidad de 1,000m. No requiere un regalo específico, pero debes llegar hasta el fondo para recogerla."
+  },
+  {
+    question: "¿Necesito comprar un bote nuevo para cada océano?",
+    answer: "Sí, la progresión del bote es obligatoria. El Bote Común (1,500g) desbloquea el Océano Rocoso, el Bote Reforzado (5,000g) desbloquea el Océano Turbulento y el Bote Dorado (8,000g) desbloquea el Océano Oscuro."
+  }
+]} />
+
+</Section>

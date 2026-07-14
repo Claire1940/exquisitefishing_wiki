@@ -1,1 +1,674 @@
-{}
+{
+  "en": {
+    "catches": [
+      {
+        "slug": "exquisite-fishing-catch-requirements",
+        "file": "exquisite-fishing-catch-requirements"
+      },
+      {
+        "slug": "exquisite-fishing-deep-sea-monster",
+        "file": "exquisite-fishing-deep-sea-monster"
+      },
+      {
+        "slug": "exquisite-fishing-mermaid",
+        "file": "exquisite-fishing-mermaid"
+      },
+      {
+        "slug": "exquisite-fishing-octopus",
+        "file": "exquisite-fishing-octopus"
+      },
+      {
+        "slug": "exquisite-fishing-shark-girl",
+        "file": "exquisite-fishing-shark-girl"
+      },
+      {
+        "slug": "exquisite-fishing-shark",
+        "file": "exquisite-fishing-shark"
+      },
+      {
+        "slug": "exquisite-fishing-special-catches",
+        "file": "exquisite-fishing-special-catches"
+      }
+    ],
+    "download": [
+      {
+        "slug": "exquisite-fishing-android",
+        "file": "exquisite-fishing-android"
+      },
+      {
+        "slug": "exquisite-fishing-apk-download",
+        "file": "exquisite-fishing-apk-download"
+      },
+      {
+        "slug": "exquisite-fishing-apk",
+        "file": "exquisite-fishing-apk"
+      },
+      {
+        "slug": "exquisite-fishing-apkpure",
+        "file": "exquisite-fishing-apkpure"
+      },
+      {
+        "slug": "exquisite-fishing-free-download",
+        "file": "exquisite-fishing-free-download"
+      },
+      {
+        "slug": "exquisite-fishing-mobile",
+        "file": "exquisite-fishing-mobile"
+      },
+      {
+        "slug": "exquisite-fishing-online",
+        "file": "exquisite-fishing-online"
+      },
+      {
+        "slug": "exquisite-fishing-techloky",
+        "file": "exquisite-fishing-techloky"
+      }
+    ],
+    "equipment": [
+      {
+        "slug": "exquisite-fishing-bait-guide",
+        "file": "exquisite-fishing-bait-guide"
+      },
+      {
+        "slug": "exquisite-fishing-best-fishing-rod",
+        "file": "exquisite-fishing-best-fishing-rod"
+      },
+      {
+        "slug": "exquisite-fishing-boat-upgrades",
+        "file": "exquisite-fishing-boat-upgrades"
+      },
+      {
+        "slug": "exquisite-fishing-depth-guide",
+        "file": "exquisite-fishing-depth-guide"
+      },
+      {
+        "slug": "exquisite-fishing-hook-guide",
+        "file": "exquisite-fishing-hook-guide"
+      }
+    ],
+    "gallery": [
+      {
+        "slug": "exquisite-fishing-all-scenes-video",
+        "file": "exquisite-fishing-all-scenes-video"
+      },
+      {
+        "slug": "exquisite-fishing-all-scenes",
+        "file": "exquisite-fishing-all-scenes"
+      },
+      {
+        "slug": "exquisite-fishing-full-gallery",
+        "file": "exquisite-fishing-full-gallery"
+      },
+      {
+        "slug": "exquisite-fishing-gallery",
+        "file": "exquisite-fishing-gallery"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "exquisite-fishing-beginner-guide",
+        "file": "exquisite-fishing-beginner-guide"
+      },
+      {
+        "slug": "exquisite-fishing-controls",
+        "file": "exquisite-fishing-controls"
+      },
+      {
+        "slug": "exquisite-fishing-guide",
+        "file": "exquisite-fishing-guide"
+      },
+      {
+        "slug": "exquisite-fishing-how-to-play",
+        "file": "exquisite-fishing-how-to-play"
+      },
+      {
+        "slug": "exquisite-fishing-money-guide",
+        "file": "exquisite-fishing-money-guide"
+      },
+      {
+        "slug": "exquisite-fishing-progression-guide",
+        "file": "exquisite-fishing-progression-guide"
+      },
+      {
+        "slug": "exquisite-fishing-tips",
+        "file": "exquisite-fishing-tips"
+      }
+    ],
+    "version": [
+      {
+        "slug": "exquisite-fishing-latest-version",
+        "file": "exquisite-fishing-latest-version"
+      },
+      {
+        "slug": "exquisite-fishing-update",
+        "file": "exquisite-fishing-update"
+      },
+      {
+        "slug": "exquisite-fishing-version-1-07",
+        "file": "exquisite-fishing-version-1.07"
+      }
+    ],
+    "walkthrough": [
+      {
+        "slug": "exquisite-fishing-full-walkthrough",
+        "file": "exquisite-fishing-full-walkthrough"
+      },
+      {
+        "slug": "exquisite-fishing-gameplay-video",
+        "file": "exquisite-fishing-gameplay-video"
+      },
+      {
+        "slug": "exquisite-fishing-gameplay",
+        "file": "exquisite-fishing-gameplay"
+      },
+      {
+        "slug": "exquisite-fishing-walkthrough",
+        "file": "exquisite-fishing-walkthrough"
+      }
+    ]
+  },
+  "es": {
+    "catches": [
+      {
+        "slug": "exquisite-fishing-catch-requirements",
+        "file": "exquisite-fishing-catch-requirements"
+      },
+      {
+        "slug": "exquisite-fishing-deep-sea-monster",
+        "file": "exquisite-fishing-deep-sea-monster"
+      },
+      {
+        "slug": "exquisite-fishing-mermaid",
+        "file": "exquisite-fishing-mermaid"
+      },
+      {
+        "slug": "exquisite-fishing-octopus",
+        "file": "exquisite-fishing-octopus"
+      },
+      {
+        "slug": "exquisite-fishing-shark-girl",
+        "file": "exquisite-fishing-shark-girl"
+      },
+      {
+        "slug": "exquisite-fishing-shark",
+        "file": "exquisite-fishing-shark"
+      },
+      {
+        "slug": "exquisite-fishing-special-catches",
+        "file": "exquisite-fishing-special-catches"
+      }
+    ],
+    "download": [
+      {
+        "slug": "exquisite-fishing-android",
+        "file": "exquisite-fishing-android"
+      },
+      {
+        "slug": "exquisite-fishing-apk-download",
+        "file": "exquisite-fishing-apk-download"
+      },
+      {
+        "slug": "exquisite-fishing-apk",
+        "file": "exquisite-fishing-apk"
+      },
+      {
+        "slug": "exquisite-fishing-apkpure",
+        "file": "exquisite-fishing-apkpure"
+      },
+      {
+        "slug": "exquisite-fishing-free-download",
+        "file": "exquisite-fishing-free-download"
+      },
+      {
+        "slug": "exquisite-fishing-mobile",
+        "file": "exquisite-fishing-mobile"
+      },
+      {
+        "slug": "exquisite-fishing-online",
+        "file": "exquisite-fishing-online"
+      },
+      {
+        "slug": "exquisite-fishing-techloky",
+        "file": "exquisite-fishing-techloky"
+      }
+    ],
+    "equipment": [
+      {
+        "slug": "exquisite-fishing-bait-guide",
+        "file": "exquisite-fishing-bait-guide"
+      },
+      {
+        "slug": "exquisite-fishing-best-fishing-rod",
+        "file": "exquisite-fishing-best-fishing-rod"
+      },
+      {
+        "slug": "exquisite-fishing-boat-upgrades",
+        "file": "exquisite-fishing-boat-upgrades"
+      },
+      {
+        "slug": "exquisite-fishing-depth-guide",
+        "file": "exquisite-fishing-depth-guide"
+      },
+      {
+        "slug": "exquisite-fishing-hook-guide",
+        "file": "exquisite-fishing-hook-guide"
+      }
+    ],
+    "gallery": [
+      {
+        "slug": "exquisite-fishing-all-scenes-video",
+        "file": "exquisite-fishing-all-scenes-video"
+      },
+      {
+        "slug": "exquisite-fishing-all-scenes",
+        "file": "exquisite-fishing-all-scenes"
+      },
+      {
+        "slug": "exquisite-fishing-full-gallery",
+        "file": "exquisite-fishing-full-gallery"
+      },
+      {
+        "slug": "exquisite-fishing-gallery",
+        "file": "exquisite-fishing-gallery"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "exquisite-fishing-beginner-guide",
+        "file": "exquisite-fishing-beginner-guide"
+      },
+      {
+        "slug": "exquisite-fishing-controls",
+        "file": "exquisite-fishing-controls"
+      },
+      {
+        "slug": "exquisite-fishing-guide",
+        "file": "exquisite-fishing-guide"
+      },
+      {
+        "slug": "exquisite-fishing-how-to-play",
+        "file": "exquisite-fishing-how-to-play"
+      },
+      {
+        "slug": "exquisite-fishing-money-guide",
+        "file": "exquisite-fishing-money-guide"
+      },
+      {
+        "slug": "exquisite-fishing-progression-guide",
+        "file": "exquisite-fishing-progression-guide"
+      },
+      {
+        "slug": "exquisite-fishing-tips",
+        "file": "exquisite-fishing-tips"
+      }
+    ],
+    "version": [
+      {
+        "slug": "exquisite-fishing-latest-version",
+        "file": "exquisite-fishing-latest-version"
+      },
+      {
+        "slug": "exquisite-fishing-update",
+        "file": "exquisite-fishing-update"
+      },
+      {
+        "slug": "exquisite-fishing-version-1-07",
+        "file": "exquisite-fishing-version-1.07"
+      }
+    ],
+    "walkthrough": [
+      {
+        "slug": "exquisite-fishing-full-walkthrough",
+        "file": "exquisite-fishing-full-walkthrough"
+      },
+      {
+        "slug": "exquisite-fishing-gameplay-video",
+        "file": "exquisite-fishing-gameplay-video"
+      },
+      {
+        "slug": "exquisite-fishing-gameplay",
+        "file": "exquisite-fishing-gameplay"
+      },
+      {
+        "slug": "exquisite-fishing-walkthrough",
+        "file": "exquisite-fishing-walkthrough"
+      }
+    ]
+  },
+  "pt": {
+    "catches": [
+      {
+        "slug": "exquisite-fishing-catch-requirements",
+        "file": "exquisite-fishing-catch-requirements"
+      },
+      {
+        "slug": "exquisite-fishing-deep-sea-monster",
+        "file": "exquisite-fishing-deep-sea-monster"
+      },
+      {
+        "slug": "exquisite-fishing-mermaid",
+        "file": "exquisite-fishing-mermaid"
+      },
+      {
+        "slug": "exquisite-fishing-octopus",
+        "file": "exquisite-fishing-octopus"
+      },
+      {
+        "slug": "exquisite-fishing-shark-girl",
+        "file": "exquisite-fishing-shark-girl"
+      },
+      {
+        "slug": "exquisite-fishing-shark",
+        "file": "exquisite-fishing-shark"
+      },
+      {
+        "slug": "exquisite-fishing-special-catches",
+        "file": "exquisite-fishing-special-catches"
+      }
+    ],
+    "download": [
+      {
+        "slug": "exquisite-fishing-android",
+        "file": "exquisite-fishing-android"
+      },
+      {
+        "slug": "exquisite-fishing-apk-download",
+        "file": "exquisite-fishing-apk-download"
+      },
+      {
+        "slug": "exquisite-fishing-apk",
+        "file": "exquisite-fishing-apk"
+      },
+      {
+        "slug": "exquisite-fishing-apkpure",
+        "file": "exquisite-fishing-apkpure"
+      },
+      {
+        "slug": "exquisite-fishing-free-download",
+        "file": "exquisite-fishing-free-download"
+      },
+      {
+        "slug": "exquisite-fishing-mobile",
+        "file": "exquisite-fishing-mobile"
+      },
+      {
+        "slug": "exquisite-fishing-online",
+        "file": "exquisite-fishing-online"
+      },
+      {
+        "slug": "exquisite-fishing-techloky",
+        "file": "exquisite-fishing-techloky"
+      }
+    ],
+    "equipment": [
+      {
+        "slug": "exquisite-fishing-bait-guide",
+        "file": "exquisite-fishing-bait-guide"
+      },
+      {
+        "slug": "exquisite-fishing-best-fishing-rod",
+        "file": "exquisite-fishing-best-fishing-rod"
+      },
+      {
+        "slug": "exquisite-fishing-boat-upgrades",
+        "file": "exquisite-fishing-boat-upgrades"
+      },
+      {
+        "slug": "exquisite-fishing-depth-guide",
+        "file": "exquisite-fishing-depth-guide"
+      },
+      {
+        "slug": "exquisite-fishing-hook-guide",
+        "file": "exquisite-fishing-hook-guide"
+      }
+    ],
+    "gallery": [
+      {
+        "slug": "exquisite-fishing-all-scenes-video",
+        "file": "exquisite-fishing-all-scenes-video"
+      },
+      {
+        "slug": "exquisite-fishing-all-scenes",
+        "file": "exquisite-fishing-all-scenes"
+      },
+      {
+        "slug": "exquisite-fishing-full-gallery",
+        "file": "exquisite-fishing-full-gallery"
+      },
+      {
+        "slug": "exquisite-fishing-gallery",
+        "file": "exquisite-fishing-gallery"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "exquisite-fishing-beginner-guide",
+        "file": "exquisite-fishing-beginner-guide"
+      },
+      {
+        "slug": "exquisite-fishing-controls",
+        "file": "exquisite-fishing-controls"
+      },
+      {
+        "slug": "exquisite-fishing-guide",
+        "file": "exquisite-fishing-guide"
+      },
+      {
+        "slug": "exquisite-fishing-how-to-play",
+        "file": "exquisite-fishing-how-to-play"
+      },
+      {
+        "slug": "exquisite-fishing-money-guide",
+        "file": "exquisite-fishing-money-guide"
+      },
+      {
+        "slug": "exquisite-fishing-progression-guide",
+        "file": "exquisite-fishing-progression-guide"
+      },
+      {
+        "slug": "exquisite-fishing-tips",
+        "file": "exquisite-fishing-tips"
+      }
+    ],
+    "version": [
+      {
+        "slug": "exquisite-fishing-latest-version",
+        "file": "exquisite-fishing-latest-version"
+      },
+      {
+        "slug": "exquisite-fishing-update",
+        "file": "exquisite-fishing-update"
+      },
+      {
+        "slug": "exquisite-fishing-version-1-07",
+        "file": "exquisite-fishing-version-1.07"
+      }
+    ],
+    "walkthrough": [
+      {
+        "slug": "exquisite-fishing-full-walkthrough",
+        "file": "exquisite-fishing-full-walkthrough"
+      },
+      {
+        "slug": "exquisite-fishing-gameplay-video",
+        "file": "exquisite-fishing-gameplay-video"
+      },
+      {
+        "slug": "exquisite-fishing-gameplay",
+        "file": "exquisite-fishing-gameplay"
+      },
+      {
+        "slug": "exquisite-fishing-walkthrough",
+        "file": "exquisite-fishing-walkthrough"
+      }
+    ]
+  },
+  "ru": {
+    "catches": [
+      {
+        "slug": "exquisite-fishing-catch-requirements",
+        "file": "exquisite-fishing-catch-requirements"
+      },
+      {
+        "slug": "exquisite-fishing-deep-sea-monster",
+        "file": "exquisite-fishing-deep-sea-monster"
+      },
+      {
+        "slug": "exquisite-fishing-mermaid",
+        "file": "exquisite-fishing-mermaid"
+      },
+      {
+        "slug": "exquisite-fishing-octopus",
+        "file": "exquisite-fishing-octopus"
+      },
+      {
+        "slug": "exquisite-fishing-shark-girl",
+        "file": "exquisite-fishing-shark-girl"
+      },
+      {
+        "slug": "exquisite-fishing-shark",
+        "file": "exquisite-fishing-shark"
+      },
+      {
+        "slug": "exquisite-fishing-special-catches",
+        "file": "exquisite-fishing-special-catches"
+      }
+    ],
+    "download": [
+      {
+        "slug": "exquisite-fishing-android",
+        "file": "exquisite-fishing-android"
+      },
+      {
+        "slug": "exquisite-fishing-apk-download",
+        "file": "exquisite-fishing-apk-download"
+      },
+      {
+        "slug": "exquisite-fishing-apk",
+        "file": "exquisite-fishing-apk"
+      },
+      {
+        "slug": "exquisite-fishing-apkpure",
+        "file": "exquisite-fishing-apkpure"
+      },
+      {
+        "slug": "exquisite-fishing-free-download",
+        "file": "exquisite-fishing-free-download"
+      },
+      {
+        "slug": "exquisite-fishing-mobile",
+        "file": "exquisite-fishing-mobile"
+      },
+      {
+        "slug": "exquisite-fishing-online",
+        "file": "exquisite-fishing-online"
+      },
+      {
+        "slug": "exquisite-fishing-techloky",
+        "file": "exquisite-fishing-techloky"
+      }
+    ],
+    "equipment": [
+      {
+        "slug": "exquisite-fishing-bait-guide",
+        "file": "exquisite-fishing-bait-guide"
+      },
+      {
+        "slug": "exquisite-fishing-best-fishing-rod",
+        "file": "exquisite-fishing-best-fishing-rod"
+      },
+      {
+        "slug": "exquisite-fishing-boat-upgrades",
+        "file": "exquisite-fishing-boat-upgrades"
+      },
+      {
+        "slug": "exquisite-fishing-depth-guide",
+        "file": "exquisite-fishing-depth-guide"
+      },
+      {
+        "slug": "exquisite-fishing-hook-guide",
+        "file": "exquisite-fishing-hook-guide"
+      }
+    ],
+    "gallery": [
+      {
+        "slug": "exquisite-fishing-all-scenes-video",
+        "file": "exquisite-fishing-all-scenes-video"
+      },
+      {
+        "slug": "exquisite-fishing-all-scenes",
+        "file": "exquisite-fishing-all-scenes"
+      },
+      {
+        "slug": "exquisite-fishing-full-gallery",
+        "file": "exquisite-fishing-full-gallery"
+      },
+      {
+        "slug": "exquisite-fishing-gallery",
+        "file": "exquisite-fishing-gallery"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "exquisite-fishing-beginner-guide",
+        "file": "exquisite-fishing-beginner-guide"
+      },
+      {
+        "slug": "exquisite-fishing-controls",
+        "file": "exquisite-fishing-controls"
+      },
+      {
+        "slug": "exquisite-fishing-guide",
+        "file": "exquisite-fishing-guide"
+      },
+      {
+        "slug": "exquisite-fishing-how-to-play",
+        "file": "exquisite-fishing-how-to-play"
+      },
+      {
+        "slug": "exquisite-fishing-money-guide",
+        "file": "exquisite-fishing-money-guide"
+      },
+      {
+        "slug": "exquisite-fishing-progression-guide",
+        "file": "exquisite-fishing-progression-guide"
+      },
+      {
+        "slug": "exquisite-fishing-tips",
+        "file": "exquisite-fishing-tips"
+      }
+    ],
+    "version": [
+      {
+        "slug": "exquisite-fishing-latest-version",
+        "file": "exquisite-fishing-latest-version"
+      },
+      {
+        "slug": "exquisite-fishing-update",
+        "file": "exquisite-fishing-update"
+      },
+      {
+        "slug": "exquisite-fishing-version-1-07",
+        "file": "exquisite-fishing-version-1.07"
+      }
+    ],
+    "walkthrough": [
+      {
+        "slug": "exquisite-fishing-full-walkthrough",
+        "file": "exquisite-fishing-full-walkthrough"
+      },
+      {
+        "slug": "exquisite-fishing-gameplay-video",
+        "file": "exquisite-fishing-gameplay-video"
+      },
+      {
+        "slug": "exquisite-fishing-gameplay",
+        "file": "exquisite-fishing-gameplay"
+      },
+      {
+        "slug": "exquisite-fishing-walkthrough",
+        "file": "exquisite-fishing-walkthrough"
+      }
+    ]
+  }
+}

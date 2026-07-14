@@ -1,0 +1,217 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Video de Gameplay de Exquisite Fishing: Guía de Progresión Paso a Paso",
+  description: "Domina la progresión de Exquisite Fishing. Aprende combinaciones de cebo y anzuelo, desbloquea biomas oceánicos y consulta la ruta óptima para alcanzar las capturas más profundas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/38bdf8?text=Exquisite+Fishing+Walkthrough",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Exquisite Fishing",
+  keywords: "Exquisite Fishing, gameplay, guía de progresión, biomas oceánicos, pesca"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Dominar el ciclo básico de pesca para financiar mejoras de equipo avanzadas y desbloquear los cuatro biomas oceánicos.
+- **Puerta de Progresión Clave**: Mejora tu bote en la tienda para acceder a aguas más profundas, comenzando desde el Océano Calmo hasta el Océano Oscuro.
+- **Mecánicas de Cebo y Anzuelo**: Combina anzuelos específicos y objetos de regalo para atraer criaturas especiales raras y de alto valor.
+- **Estrategia de Farmeo**: Utiliza capturas de alto pago como el Angler y el Tiburón para acumular reservas de oro de manera eficiente.
+</Callout>
+
+<Section icon={Anchor} title="Video de Gameplay de Exquisite Fishing y Ciclo Principal">
+
+Para navegar con éxito por las profundidades de esta aventura de arte pixelado, los jugadores deben dominar las mecánicas fundamentales de lanzamiento, atracción y recogida. La estructura de progresión depende enteramente de tu habilidad para pescar, vender las capturas por oro y reinvertir esas ganancias en mejor equipo.
+
+**Puntos Destacados del Video:**
+- **Mecánicas de Lanzamiento**: Aprende a guiar tu señuelo hacia profundidades específicas.
+- **Atracción de Objetivos**: Observa cómo reaccionan las diferentes criaturas marinas a los regalos equipados.
+- **Ciclo de Recogida**: Observa la gestión del medidor del anzuelo necesaria para asegurar capturas pesadas.
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Gameplay de Exquisite Fishing" />
+
+<Callout type="tip" title="Consejo Profesional">
+Evita desperdiciar lanzamientos en peces aleatorios si tu objetivo es una criatura especial específica. Guía tu señuelo cuidadosamente para evitar obstáculos comunes, ahorrar tiempo y maximizar tu ratio de oro por hora.
+</Callout>
+
+### Comparación del Gameplay Principal
+
+A continuación se muestra una comparación de cómo cambia el ciclo de juego desde las etapas iniciales hasta las finales.
+
+| Etapa | Enfoque Principal | Fuente de Economía | Prioridad de Equipo |
+|---|---|---|---|
+| **Inicio del Juego** | Aprender lanzamiento y control de profundidad | Sirena y Tiburón del Océano Calmo | Anzuelo Bueno y Braga a Rayas |
+| **Mitad del Juego** | Desbloquear Océanos Rocoso y Turbulento | Angler y Kappa Rocosos | Anzuelo Reforzado y Anzuelo de Taladro |
+| **Final del Juego** | Alcanzar profundidades máximas (2,000m) | Capturas especiales del Océano Oscuro | Anzuelo Omega y Bote Dorado |
+
+</Section>
+
+<Section icon={Map} title="Biomas Oceánicos e Hitos de Profundidad">
+
+El mapa está dividido en cuatro biomas oceánicos distintos. Cada bioma requiere una mejora de bote específica para entrar, presenta rangos de profundidad únicos y alberga criaturas especiales exclusivas que requieren combinaciones precisas de anzuelo y regalo.
+
+<CardGrid cols={2}>
+  <Card title="1. Océano Calmo">
+    - **Costo de Acceso**: 0g (Bote Viejo Regular)
+    - **Rango de Profundidad**: 50m–300m
+    - **Objetivos Clave**: Sirena, Tiburón, Angler
+    - **Mejor Ingreso**: Angler (10,000g)
+  </Card>
+  <Card title="2. Océano Rocoso">
+    - **Costo de Acceso**: 1,500g (Bote Regular)
+    - **Rango de Profundidad**: 100m–600m
+    - **Objetivos Clave**: Pulpo, Anémona, Kappa, Angler
+    - **Mejor Ingreso**: Angler (13,000g)
+  </Card>
+  <Card title="3. Océano Turbulento">
+    - **Costo de Acceso**: 5,000g (Bote Reforzado)
+    - **Rango de Profundidad**: 50m–1,000m
+    - **Objetivos Clave**: Ballena, Sirena, Kappa, Tiburón
+    - **Coleccionable Clave**: Carta del Abuelo (1,000m)
+  </Card>
+  <Card title="4. Océano Oscuro">
+    - **Costo de Acceso**: 8,000g (Bote Dorado)
+    - **Rango de Profundidad**: 50m–2,000m
+    - **Objetivos Clave**: Variantes de final de juego de todas las criaturas
+    - **Mejor Ingreso**: Angler (45,000g)
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Progresión">
+No compres todos los regalos de la tienda de inmediato. Ahorra tu oro primero para las mejoras del bote, ya que desbloquear el siguiente bioma oceánico genera retornos financieros significativamente mayores.
+</Callout>
+
+### Requisitos de Entrada a Biomas y Pagos
+
+Esta tabla detalla los costos de entrada y los objetivos de mayor valor disponibles en cada uno de los cuatro biomas oceánicos principales.
+
+| Bioma | Bote Requerido | Costo de Entrada | Prof. Máxima | Objetivo Principal | Pago Máximo |
+|---|---|---|---|---|---|
+| **Océano Calmo** | Bote Viejo Regular | 0g | 300m | Angler | 10,000g |
+| **Océano Rocoso** | Bote Regular | 1,500g | 600m | Angler | 13,000g |
+| **Océano Turbulento** | Bote Reforzado | 5,000g | 1,000m | Tiburón | 24,000g |
+| **Océano Oscuro** | Bote Dorado | 8,000g | 2,000m | Angler | 45,000g |
+
+</Section>
+
+<Section icon={Target} title="Ruta de Progresión Paso a Paso para Principiantes">
+
+Para progresar eficientemente sin quedarte atascado en costosas mejoras de final de juego, sigue esta ruta optimizada desde el Océano Calmo inicial hasta las partes más profundas del Océano Oscuro.
+
+<Steps>
+  <Step num="1" title="Farmear la Sirena del Océano Calmo">
+    Comienza en el Océano Calmo usando el Bote Viejo Regular gratuito. Compra el **Anillo de Diamante** y equipa tu **Anzuelo Regular** para pescar a la Sirena a 50m por unos fáciles 300g.
+  </Step>
+  <Step num="2" title="Apuntar al Tiburón del Océano Calmo">
+    Reinvierte tu oro inicial para comprar el **Anzuelo Bueno** y la **Braga a Rayas**. Baja tu línea a 200m para pescar al Tiburón, ganando 2,000g por captura.
+  </Step>
+  <Step num="3" title="Desbloquear el Angler del Océano Calmo">
+    Compra la **Caja de Bombones** y equipa el **Anzuelo Regular**. Lanza a 300m para pescar al Angler. Este es tu método principal de farmeo de oro al inicio del juego, otorgando 10,000g por cada captura exitosa.
+  </Step>
+  <Step num="4" title="Transición al Océano Rocoso">
+    Gasta 1,500g en el **Bote Regular** para desbloquear el Océano Rocoso. Enfócate en comprar el **Anzuelo Reforzado** y la **Rosa Vibrante** para pescar al Angler de 600m por 13,000g.
+  </Step>
+  <Step num="5" title="Recuperar la Carta del Abuelo en el Océano Turbulento">
+    Compra el **Bote Reforzado** por 5,000g. Farmea el Tiburón de 900m (usando el **Súper Anzuelo** y el **Anillo de Diamante**) por 24,000g, y asegúrate de descender a 1,000m para recoger la **Carta del Abuelo**.
+  </Step>
+  <Step num="6" title="Conquistar las profundidades del Océano Oscuro">
+    Compra el **Bote Dorado** por 8,000g. Mejora gradualmente tus anzuelos en orden de profundidad. Tu objetivo final es el Angler de 2,000m en el Océano Oscuro, que requiere el **Anzuelo Omega** y el **Anillo de Diamante** y paga 45,000g.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hito Desbloqueado">
+Completar el Paso 6 y pescar el Angler de 2,000m del Océano Oscuro completa el objetivo de pesca más profundo documentado en el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Requisitos de Cebo, Anzuelo y Capturas Especiales">
+
+Las criaturas marinas especiales solo morderán si tienes equipada la combinación exacta de anzuelo y regalo. La tabla a continuación enumera las configuraciones requeridas para cada captura especial documentada en todos los biomas oceánicos.
+
+### Base de Datos Completa de Capturas
+
+| Criatura | Bioma Oceánico | Profundidad | Valor | Anzuelo Requerido | Regalo Requerido |
+|---|---|---|---|---|---|
+| **Sirena** | Océano Calmo | 50m | 300g | Anzuelo Regular | Anillo de Diamante |
+| **Tiburón** | Océano Calmo | 200m | 2,000g | Anzuelo Bueno | Braga a Rayas |
+| **Angler** | Océano Calmo | 300m | 10,000g | Anzuelo Regular | Caja de Bombones |
+| **Pulpo** | Océano Rocoso | 100m | 1,500g | Anzuelo de Doble Escudo | Dildo Poderoso |
+| **Anémona** | Océano Rocoso | 300m | 3,500g | Anzuelo Reforzado | Caja de Bombones |
+| **Kappa** | Océano Rocoso | 500m | 7,500g | Anzuelo de Taladro | Collar de Perlas |
+| **Angler** | Océano Rocoso | 600m | 13,000g | Anzuelo Reforzado | Rosa Vibrante |
+| **Ballena** | Océano Turbulento | 50m | 2,500g | Anzuelo de Doble Escudo | Braga a Rayas |
+| **Sirena** | Océano Turbulento | 200m | 7,000g | Anzuelo Reforzado | Lazo Encantador |
+| **Kappa** | Océano Turbulento | 500m | 13,500g | Anzuelo de Triple Escudo | Rosa Vibrante |
+| **Pulpo** | Océano Turbulento | 700m | 0g | Anzuelo de Cuentas Anales | Collar de Perlas |
+| **Tiburón** | Océano Turbulento | 900m | 24,000g | Súper Anzuelo | Anillo de Diamante |
+| **Carta del Abuelo** | Océano Turbulento | 1,000m | Objeto de Historia | Ninguno Listado | Ninguno Listado |
+| **Anémona** | Océano Oscuro | 50m | 3,000g | Anzuelo Reforzado | Rosa Vibrante |
+| **Ballena** | Océano Oscuro | 200m | 9,000g | Anzuelo de Doble Escudo | Lazo Encantador |
+| **Tiburón** | Océano Oscuro | 500m | 15,000g | Anzuelo de Taladro | Trozo de Pastel |
+| **Sirena** | Océano Oscuro | 800m | 20,000g | Súper Anzuelo | Collar de Perlas |
+| **Anémona** | Océano Oscuro | 1,000m | 25,000g | Anzuelo Cordial | Trozo de Pastel |
+| **Kappa** | Océano Oscuro | 1,200m | 30,000g | Anzuelo de Plug Anal | Braga a Rayas |
+| **Pulpo** | Océano Oscuro | 1,500m | 35,000g | Anzuelo de Cuentas Anales | Dildo Poderoso |
+| **Ballena** | Océano Oscuro | 1,700m | 40,000g | Anzuelo de Triple Escudo | Lazo Encantador |
+| **Angler** | Océano Oscuro | 2,000m | 45,000g | Anzuelo Omega | Anillo de Diamante |
+
+<Callout type="info" title="Nota sobre el Pulpo (Océano Turbulento)">
+El Pulpo de 700m en el Océano Turbulento otorga 0g pero es necesario para completar tu Fishipedia y desbloquear rutas específicas de personajes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hitos del Final del Juego y Gestión de Archivos de Guardado">
+
+Para lograr el 100% de finalización, debes completar la Fishipedia y desbloquear todas las escenas de la galería de personajes. Gestionar tu progreso y proteger tus archivos de guardado es esencial a medida que alcanzas estos hitos de final de juego.
+
+<Checklist
+  id="endgame-milestones"
+  title="Lista de Verificación para el 100% de Finalización:"
+  items={[
+    "Comprar el Bote Dorado para acceder a las aguas más profundas",
+    "Pescar el Angler de 2,000m en el Océano Oscuro",
+    "Recoger la Carta del Abuelo en el fondo del Océano Turbulento",
+    "Completar la Fishipedia pescando todas las variantes de criaturas especiales",
+    "Desbloquear todas las escenas opcionales de la galería de personajes"
+  ]}
+/>
+
+### Ubicación y Respaldo de Archivos de Guardado
+
+Si necesitas respaldar, migrar o restaurar tu progreso, tus archivos de guardado se almacenan localmente en Windows.
+
+- **Ruta del Directorio de Guardado**: `AppData/LocalLow/PinkySoul/Exquisite Fishing`
+
+Asegúrate de copiar la carpeta completa a un directorio seguro antes de modificar cualquier archivo del juego o reinstalarlo.
+
+</Section>
+
+<Section icon={Swords} title="FAQ de Exquisite Fishing">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar un video de gameplay de Exquisite Fishing para aprender lo básico?",
+    answer: "Puedes ver el video de gameplay insertado en la primera sección de esta guía para ver las mecánicas correctas de lanzamiento, atracción y recogida en acción."
+  },
+  {
+    question: "¿Cuál es la mejor manera de farmear oro al inicio del juego?",
+    answer: "La mejor forma de farmear oro al inicio es el Angler del Océano Calmo a 300m. Requiere un Anzuelo Regular y una Caja de Bombones, otorgando unos masivos 10,000g por captura."
+  },
+  {
+    question: "¿Cómo desbloqueo nuevos biomas oceánicos?",
+    answer: "Debes comprar botes mejorados en la tienda. El Bote Regular (1,500g) desbloquea el Océano Rocoso, el Bote Reforzado (5,000g) desbloquea el Océano Turbulento y el Bote Dorado (8,000g) desbloquea el Océano Oscuro."
+  },
+  {
+    question: "¿Dónde se encuentra la Carta del Abuelo?",
+    answer: "La Carta del Abuelo es un objeto coleccionable clave de la historia ubicado a una profundidad de 1,000m en el Océano Turbulento. Necesitarás el Bote Reforzado para alcanzar esta profundidad."
+  }
+]} />
+
+</Section>

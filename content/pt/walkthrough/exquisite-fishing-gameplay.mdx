@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jogabilidade de Exquisite Fishing: Domine o Ciclo do Mar Profundo",
+  description: "Guia completo sobre a jogabilidade de Exquisite Fishing, cobrindo mecânicas principais, biomas oceânicos, melhorias de equipamentos e requisitos para capturar criaturas especiais.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Exquisite+Fishing+Gameplay+Guide",
+  date: "2026-07-14",
+  author: "Equipe da Wiki de Exquisite Fishing"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **A jogabilidade de Exquisite Fishing** gira em torno de um ciclo de lançar a linha, guiar as iscas até profundidades específicas e fisgar criaturas marinhas valiosas.
+- **A progressão** é limitada por melhorias de barcos, com quatro biomas oceânicos distintos que variam de 0m a 2.000m de profundidade.
+- **Capturas especiais** exigem combinações específicas de anzóis e presentes para aparecerem em suas respectivas profundidades.
+- **A gestão de ouro** é crucial; os jogadores devem priorizar equipamentos que desbloqueiem alvos de alto valor, como o Peixe-Lanterna (Angler) ou o Tubarão (Shark).
+- **A conclusão da galeria** envolve o desbloqueio de cenas adultas de personagens ao capturar criaturas específicas em vários biomas.
+</Callout>
+
+<Section icon={Sparkles} title="Mecânicas Principais e o Ciclo de Pesca">
+
+A experiência de **jogabilidade de Exquisite Fishing** é construída sobre uma simulação de pixel art baseada em precisão, onde os jogadores navegam com um barco por vários biomas oceânicos para coletar vida marinha rara. Ao contrário dos jogos de pesca tradicionais que dependem puramente de RNG (gerador de números aleatórios), este título exige participação ativa para guiar a isca até profundidades específicas enquanto gerencia o "Medidor de Físga" (Hook Meter). O sucesso depende da sua habilidade de combinar o equipamento correto com as condições ambientais do oceano que você está explorando no momento.
+
+**Destaques do Vídeo:**
+- Demonstra o sistema básico de lançamento e orientação da isca.
+- Mostra como encher o Medidor de Físga de forma eficaz para capturas maiores.
+- Apresenta uma prévia do ambiente do Oceano Calmo e a interface de usuário do início do jogo.
+- Ilustra a interface da loja para a compra de anzóis e presentes.
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Exquisite Fishing GAMEPLAY" />
+
+Para maximizar sua eficiência, você deve entender as três fases de cada captura: lançamento, atração e recolhimento. Quando você lança sua linha, pode influenciar o movimento horizontal da isca enquanto ela afunda. Isso é vital para evitar peixes comuns que possam esgotar a durabilidade da sua linha ou desperdiçar tempo. Assim que a isca atinge a criatura alvo, começa a fase de atração, na qual você deve manter o alvo interessado até que o Medidor de Físga esteja completamente cheio.
+
+| Fase | Ação | Objetivo Principal |
+| :--- | :--- | :--- |
+| **Lançamento** | Orientação Manual da Isca | Alcançar a profundidade alvo / evitar peixes indesejados |
+| **Atração** | Manter Proximidade | Encher o Medidor de Físga para garantir a captura |
+| **Recolhimento** | Recuperação de Superfície | Trazer a captura garantida até o barco |
+| **Venda** | Troca no Mercado | Converter capturas em ouro para melhorias |
+
+<Callout type="tip" title="Estratégia Profissional">
+Se você estiver mirando em uma criatura específica como a Sereia (Mermaid) ou o Tubarão (Shark), ignore todas as outras silhuetas de peixes. Desperdiçar um lançamento em um peixe de baixo valor reduz significativamente sua eficiência de ouro por hora.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Biomas Oceânicos e Roteiro de Progressão">
+
+A progressão no jogo é estritamente linear, definida pela profundidade da água e pela qualidade da sua embarcação. Existem quatro biomas oceânicos principais, cada um exigindo uma taxa de entrada mais alta ou um barco mais durável. À medida que você avança do Oceano Calmo para o Oceano Escuro, os perigos ambientais aumentam, mas as recompensas financeiras por capturas bem-sucedidas crescem exponencialmente.
+
+<Callout type="warning" title="Gestão de Orçamento">
+Nunca gaste todo o seu ouro em presentes. Certifique-se sempre de ter o suficiente para pagar o custo de entrada do próximo bioma ou a melhoria de barco necessária para alcançá-lo.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Domínio do Oceano Calmo">
+    Comece com o Barco Velho Comum (0g). Foque em capturar a Sereia a 50m e o Peixe-Lanterna a 300m para acumular uma reserva de 1.500g.
+  </Step>
+  <Step num="2" title="Transição para o Oceano Rochoso">
+    Compre o Barco Comum por 1.500g. Esta área introduz o Polvo (Octopus) e o Kappa, exigindo tipos de anzóis mais avançados.
+  </Step>
+  <Step num="3" title="Exploração do Oceano Turbulento">
+    Economize 5.000g para o Barco Reforçado. A 1.000m de profundidade, você pode encontrar a Carta do Vovô, um item chave para a história.
+  </Step>
+  <Step num="4" title="Fim de Jogo no Oceano Escuro">
+    O obstáculo final é o Barco de Ouro (8.000g). Aqui, você encontrará o Peixe-Lanterna de 2.000m, a captura mais valiosa do jogo.
+  </Step>
+</Steps>
+
+| Biome | Required Boat | Entry Cost | Depth Range | Top Target |
+| :--- | :--- | :--- | :--- | :--- |
+| **Oceano Calmo** | Barco Velho Comum | 0g | 50m - 300m | Peixe-Lanterna (10.000g) |
+| **Oceano Rochoso** | Barco Comum | 1.500g | 100m - 600m | Peixe-Lanterna (13.000g) |
+| **Oceano Turbulento** | Barco Reforçado | 5.000g | 50m - 1.000m | Tubarão (24.000g) |
+| **Oceano Escuro** | Barco de Ouro | 8.000g | 50m - 2.000m | Peixe-Lanterna (45.000g) |
+
+</Section>
+
+<Section icon={Swords} title="Prioridades de Equipamento e Melhorias de Itens">
+
+Seu equipamento determina quais criaturas sequer darão atenção à sua isca. A loja vende três categorias de itens: Barcos, Anzóis e Presentes. Enquanto os Barcos desbloqueiam novas áreas, os Anzóis e Presentes funcionam como "chaves" para criaturas especiais específicas. Por exemplo, um Anel de Diamante pode atrair uma Sereia em um oceano, mas exigir um Super Anzol para funcionar em um bioma mais profundo.
+
+<CardGrid cols={3}>
+  <Card title="Melhorias de Anzol">
+    - **Anzol de Broca (Drill Hook)**: Essencial para o Kappa.
+    - **Anzol de Contas Anais (Anal Beads Hook)**: Necessário para o Polvo.
+    - **Anzol Ômega (Omega Hook)**: A ferramenta definitiva de fim de jogo.
+  </Card>
+  <Card title="Presentes Especiais">
+    - **Anel de Diamante (Diamond Ring)**: Essencial para o início do jogo.
+    - **Calcinha Listrada (Striped Pantie)**: Atrai Tubarões/Baleias.
+    - **Rosa Vibrante (Vibrant Rose)**: Usado para Peixes-Lanterna de alto nível.
+  </Card>
+  <Card title="Níveis de Barco">
+    - **Comum**: Estabilidade básica.
+    - **Reforçado**: Durabilidade para profundidades médias.
+    - **De Ouro**: Acesso à profundidade máxima.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Mecânicas de Anzol">
+Os anzóis nem sempre são "melhores" por serem mais caros; frequentemente eles são apenas "diferentes". Algumas criaturas exigem especificamente um anzol de nível inferior, mesmo em áreas de fim de jogo.
+</Callout>
+
+| Nome do Anzol | Melhor Usado Para | Profundidade Típica |
+| :--- | :--- | :--- |
+| **Anzol Comum** | Sereia / Peixe-Lanterna | 50m - 300m |
+| **Anzol Bom** | Tubarão do Oceano Calmo | 200m |
+| **Duplo Blindado** | Polvo / Baleia | 100m - 200m |
+| **Anzol Reforçado** | Anêmona / Sereia | 300m - 600m |
+| **Super Anzol** | Tubarão Profundo / Sereia | 800m - 900m |
+| **Anzol Ômega** | Peixe-Lanterna do Fim de Jogo | 2.000m |
+
+</Section>
+
+<Section icon={Target} title="Requisitos de Captura para Criaturas Especiais">
+
+Para completar sua Fishipedia e desbloquear todas as cenas de personagens, você deve saber a "receita" exata para cada encontro especial. Uma criatura só aparecerá se você tiver o Anzol e o Presente corretos equipados antes de entrar na água. Se você descer a 500m procurando por um Kappa, mas tiver um Anel de Diamante equipado em vez de um Colar de Pérolas, o Kappa nunca aparecerá.
+
+| Criatura | Bioma | Profundidade | Anzol Necessário | Presente Necessário | Valor |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sereia** | Calmo | 50m | Anzol Comum | Anel de Diamante | 300g |
+| **Tubarão** | Calmo | 200m | Anzol Bom | Calcinha Listrada | 2.000g |
+| **Peixe-Lanterna** | Calmo | 300m | Anzol Comum | Caixa de Chocolates | 10.000g |
+| **Polvo** | Rochoso | 100m | Duplo Blindado | Dildo Poderoso | 1.500g |
+| **Kappa** | Rochoso | 500m | Anzol de Broca | Colar de Pérolas | 7.500g |
+| **Baleia** | Turbulento | 50m | Duplo Blindado | Calcinha Listrada | 2.500g |
+| **Anêmona** | Escuro | 1.000m | Anzol Robusto | Pedaço de Bolo | 25.000g |
+
+<Callout type="success" title="Farm de Alto Valor">
+O Peixe-Lanterna do Oceano Calmo é a melhor opção de farm para o início do jogo. Com um pequeno investimento em uma Caixa de Chocolates, você ganha 10.000g, o que cobre o custo do seu próximo barco e de várias melhorias de anzol.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusão da Galeria e Desbloqueio de Cenas">
+
+Para muitos jogadores, o objetivo final do ciclo de **jogabilidade de Exquisite Fishing** é desbloquear a galeria completa de cenas adultas. Essas cenas são ativadas ao capturar criaturas específicas sob condições "perfeitas". Cada bioma tem seu próprio conjunto de desbloqueios únicos, e algumas criaturas aparecem em múltiplos biomes com variações de cenas diferentes.
+
+<Checklist
+  id="gallery-goals"
+  title="Marcos Essenciais de Cenas:"
+  items={[
+    "Desbloquear a Sereia do Oceano Calmo (Anel de Diamante + Anzol Comum)",
+    "Capturar o Polvo do Oceano Rochoso (Dildo Poderoso + Duplo Blindado)",
+    "Recuperar a Carta do Vovô a 1.000m no Oceano Turbulento",
+    "Desbloquear o Kappa do Oceano Escuro (Calcinha Listrada + Anzol de Plug Anal)",
+    "Completar a cena do Peixe-Lanterna de 2.000m (Anel de Diamante + Anzol Ômega)"
+  ]}
+/>
+
+<Callout type="tip" title="Aviso de Spoiler">
+A Carta do Vovô não tem um requisito de presente específico, mas alcançar a profundidade de 1.000m no Oceano Turbulento é um desafio que exige o Barco Reforçado e uma orientação cuidadosa da isca para evitar reinicializações pelo limite de profundidade.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Como posso ganhar ouro rápido no início do jogo?",
+    answer: "Foque em capturar o Peixe-Lanterna no Oceano Calmo a 300m. Ele exige uma Caixa de Chocolates e um Anzol Comum, e recompensa você com 10.000g, o que é suficiente para pular a maior parte do farm repetitivo do início do jogo."
+  },
+  {
+    question: "O que acontece se eu usar a combinação errada de anzol/presente?",
+    answer: "A criatura especial simplesmente não aparecerá na profundidade designada. Você verá apenas silhuetas genéricas de peixes. Sempre verifique a Fishipedia ou um guia antes de iniciar um mergulho."
+  },
+  {
+    question: "Onde posso encontrar o meu arquivo de salvamento (save file) de Exquisite Fishing?",
+    answer: "No Windows PC, os arquivos de salvamento geralmente ficam localizados em AppData/LocalLow/PinkySoul/Exquisite Fishing. Recomenda-se fazer um backup desta pasta antes de tentar transferir o progresso."
+  },
+  {
+    question: "Existe alguma forma de alcançar 2.000m sem o Barco de Ouro?",
+    answer: "Não. Cada nível de barco possui um limite rígido de profundidade. Tentar ir mais fundo do que o seu barco permite resultará em uma quebra automática da linha ou em um retorno forçado à superfície."
+  }
+]} />
+
+</Section>

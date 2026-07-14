@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "exquisite fishing gameplay: Master the Deep Sea Loop",
+  description: "Comprehensive guide to exquisite fishing gameplay, covering core mechanics, ocean biomes, gear upgrades, and special creature catch requirements.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Exquisite+Fishing+Gameplay+Guide",
+  date: "2026-07-14",
+  author: "exquisite fishing Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Exquisite fishing gameplay** centers on a loop of casting, guiding lures to specific depths, and reeling in valuable sea creatures.
+- **Progression** is gated by boat upgrades, with four distinct ocean biomes ranging from 0m to 2,000m in depth.
+- **Special catches** require specific combinations of hooks and gift items to appear at their designated depths.
+- **Gold management** is critical; players must prioritize gear that unlocks high-value targets like the Angler or Shark.
+- **Gallery completion** involves unlocking mature character scenes by capturing specific creatures in various biomes.
+</Callout>
+
+<Section icon={Sparkles} title="Core Mechanics and the Fishing Loop">
+
+The **exquisite fishing gameplay** experience is built upon a precision-based pixel art simulation where players navigate a boat across various ocean biomes to collect rare marine life. Unlike traditional fishing games that rely purely on RNG, this title requires active participation in guiding the lure to specific depths while managing the "Hook Meter." Success depends on your ability to match the correct equipment with the environmental conditions of the ocean you are currently exploring.
+
+**Video Highlights:**
+- Demonstrates the basic casting and lure guidance system.
+- Shows how to fill the Hook Meter effectively for larger catches.
+- Previews the Calm Ocean environment and early-game UI.
+- Illustrates the shop interface for purchasing hooks and gifts.
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Exquisite Fishing GAMEPLAY" />
+
+To maximize your efficiency, you must understand the three phases of every catch: casting, attraction, and reeling. When you cast your line, you can influence the horizontal movement of the lure as it sinks. This is vital for avoiding common fish that might deplete your line's durability or waste time. Once the lure reaches a target creature, an attraction phase begins where you must keep the target engaged until the Hook Meter is completely filled.
+
+| Phase | Action | Primary Goal |
+| :--- | :--- | :--- |
+| **Casting** | Manual Lure Guidance | Reach target depth/avoid trash fish |
+| **Attraction** | Maintain Proximity | Fill the Hook Meter to secure catch |
+| **Reeling** | Surface Recovery | Bring the secured catch to the boat |
+| **Selling** | Market Exchange | Convert catches into gold for upgrades |
+
+<Callout type="tip" title="Pro Strategy">
+If you are targeting a specific creature like the Mermaid or Shark, ignore all other fish silhouettes. Wasting a cast on a low-value fish reduces your gold-per-hour efficiency significantly.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ocean Biomes and Progression Roadmap">
+
+Progression in the game is strictly linear, defined by the depth of the water and the quality of your vessel. There are four primary ocean biomes, each demanding a higher entry fee or a more durable boat. As you move from the Calm Ocean to the Dark Ocean, the environmental hazards increase, but the financial rewards for successful catches grow exponentially.
+
+<Callout type="warning" title="Budget Management">
+Never spend all your gold on gifts. Always ensure you have enough remaining to afford the entry cost of the next biome or the boat upgrade required to reach it.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Calm Ocean Mastery">
+    Start with the Regular Old Boat (0g). Focus on catching the Mermaid at 50m and the Angler at 300m to build a 1,500g reserve.
+  </Step>
+  <Step num="2" title="The Rocky Ocean Transition">
+    Purchase the Regular Boat for 1,500g. This area introduces the Octopus and Kappa, requiring more advanced hook types.
+  </Step>
+  <Step num="3" title="Turbulent Ocean Exploration">
+    Save 5,000g for the Reinforced Boat. At 1,000m depth, you can find Grandpa's Letter, a key story item.
+  </Step>
+  <Step num="4" title="Dark Ocean Endgame">
+    The final gate is the Golden Boat (8,000g). Here, you will find the 2,000m Angler, the most valuable catch in the game.
+  </Step>
+</Steps>
+
+| Biome | Required Boat | Entry Cost | Depth Range | Top Target |
+| :--- | :--- | :--- | :--- | :--- |
+| **Calm Ocean** | Regular Old Boat | 0g | 50m - 300m | Angler (10,000g) |
+| **Rocky Ocean** | Regular Boat | 1,500g | 100m - 600m | Angler (13,000g) |
+| **Turbulent Ocean** | Reinforced Boat | 5,000g | 50m - 1,000m | Shark (24,000g) |
+| **Dark Ocean** | Golden Boat | 8,000g | 50m - 2,000m | Angler (45,000g) |
+
+</Section>
+
+<Section icon={Swords} title="Equipment and Gear Upgrade Priorities">
+
+Your equipment determines which creatures will even acknowledge your lure. The shop sells three categories of items: Boats, Hooks, and Gifts. While Boats unlock new areas, Hooks and Gifts act as "keys" for specific special creatures. For example, a Diamond Ring might attract a Mermaid in one ocean but require a Super Hook to work in a deeper biome.
+
+<CardGrid cols={3}>
+  <Card title="Hook Upgrades">
+    - **Drill Hook**: Essential for Kappa.
+    - **Anal Beads Hook**: Required for Octopus.
+    - **Omega Hook**: The ultimate endgame tool.
+  </Card>
+  <Card title="Special Gifts">
+    - **Diamond Ring**: Early game staple.
+    - **Striped Pantie**: Attracts Sharks/Whales.
+    - **Vibrant Rose**: Used for high-tier Anglers.
+  </Card>
+  <Card title="Boat Tiers">
+    - **Regular**: Basic stability.
+    - **Reinforced**: Mid-depth durability.
+    - **Golden**: Maximum depth access.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Hook Mechanics">
+Hooks are not always "better" as they get more expensive; they are often "different." Some creatures specifically require a lower-tier hook even in late-game areas.
+</Callout>
+
+| Hook Name | Best Used For | Typical Depth |
+| :--- | :--- | :--- |
+| **Regular Hook** | Mermaid / Angler | 50m - 300m |
+| **Good Hook** | Calm Ocean Shark | 200m |
+| **Double Shielded** | Octopus / Whale | 100m - 200m |
+| **Reinforced Hook** | Anemone / Mermaid | 300m - 600m |
+| **Super Hook** | Deep Shark / Mermaid | 800m - 900m |
+| **Omega Hook** | Endgame Angler | 2,000m |
+
+</Section>
+
+<Section icon={Target} title="Catch Requirements for Special Creatures">
+
+To complete your Fishipedia and unlock all character scenes, you must know the exact "recipe" for each special encounter. A creature will only spawn if you have the correct Hook and Gift equipped before you enter the water. If you descend to 500m looking for a Kappa but have a Diamond Ring equipped instead of a Pearl Necklace, the Kappa will never appear.
+
+| Creature | Biome | Depth | Required Hook | Required Gift | Value |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Mermaid** | Calm | 50m | Regular Hook | Diamond Ring | 300g |
+| **Shark** | Calm | 200m | Good Hook | Striped Pantie | 2,000g |
+| **Angler** | Calm | 300m | Regular Hook | Box of Chocolates | 10,000g |
+| **Octopus** | Rocky | 100m | Double Shielded | Mighty Dildo | 1,500g |
+| **Kappa** | Rocky | 500m | Drill Hook | Pearl Necklace | 7,500g |
+| **Whale** | Turbulent | 50m | Double Shielded | Striped Pantie | 2,500g |
+| **Anemone** | Dark | 1,000m | Hearty Hook | Piece of Cake | 25,000g |
+
+<Callout type="success" title="High-Value Farming">
+The Calm Ocean Angler is the best early-game farm. For a small investment in a Box of Chocolates, you earn 10,000g, which covers your next boat and several hook upgrades.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Gallery Completion and Scene Unlocks">
+
+For many players, the ultimate goal of the **exquisite fishing gameplay** loop is to unlock the full gallery of mature scenes. These scenes are triggered by catching specific creatures under "perfect" conditions. Each biome has its own set of unique unlocks, and some creatures appear in multiple biomes with different scene variations.
+
+<Checklist
+  id="gallery-goals"
+  title="Essential Scene Milestones:"
+  items={[
+    "Unlock the Calm Ocean Mermaid (Diamond Ring + Regular Hook)",
+    "Capture the Rocky Ocean Octopus (Mighty Dildo + Double Shielded)",
+    "Retrieve Grandpa's Letter at 1,000m in the Turbulent Ocean",
+    "Unlock the Dark Ocean Kappa (Striped Pantie + Anal Plug Hook)",
+    "Complete the 2,000m Angler scene (Diamond Ring + Omega Hook)"
+  ]}
+/>
+
+<Callout type="tip" title="Spoiler Warning">
+Grandpa's Letter does not have a specific gift requirement, but reaching the 1,000m depth in the Turbulent Ocean is a challenge that requires the Reinforced Boat and careful lure guidance to avoid depth-limit resets.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I earn gold fast in the early game?",
+    answer: "Focus on catching the Angler in the Calm Ocean at 300m. It requires a Box of Chocolates and a Regular Hook, and it rewards you with 10,000g, which is enough to bypass most early-game grinding."
+  },
+  {
+    question: "What happens if I use the wrong hook/gift combination?",
+    answer: "The special creature simply won't appear at its designated depth. You will only see generic fish silhouettes. Always check the Fishipedia or a guide before starting a dive."
+  },
+  {
+    question: "Where can I find my save file for Exquisite Fishing?",
+    answer: "On Windows PC, the save files are typically located in AppData/LocalLow/PinkySoul/Exquisite Fishing. It is recommended to back this folder up before trying to transfer progress."
+  },
+  {
+    question: "Is there a way to reach 2,000m without the Golden Boat?",
+    answer: "No. Each boat tier has a hard depth limit. Attempting to go deeper than your boat allows will result in an automatic line break or a forced return to the surface."
+  }
+]} />
+
+</Section>

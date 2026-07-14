@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Exquisite Fishing Tips: Efficient Progression & Catch Guide",
+  description: "Master the ocean depths with our Exquisite Fishing tips. Learn the best bait, hook, and boat upgrades to maximize your gold and unlock rare scenes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Exquisite+Fishing+Guide",
+  date: "2026-07-14",
+  author: "exquisite fishing Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Exquisite Fishing tips** focus on matching specific equipment combinations to target depths for maximum gold efficiency.
+- **Prioritize boat upgrades** early to unlock new biomes, as deeper waters hold the most valuable creatures.
+- **Maintain a consistent loadout** for each creature; successful catches require the exact hook and gift pairing.
+- **Avoid wasteful spending** on non-essential items before securing your next boat to ensure smooth progression.
+</Callout>
+
+<Section icon={Map} title="Mastering the Fishing Loop">
+
+The core gameplay loop involves casting, attracting, and reeling. To succeed, you must understand that different creatures require specific gear. 
+
+**Video Highlights:**
+- Basic casting and lure guidance mechanics
+- How to manage the hook meter for successful catches
+- Early game strategies for gold accumulation
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Exquisite Fishing Gameplay Overview" />
+
+Effective fishing requires patience. Once a creature becomes interested, keep the lure steady until the hook meter is full. If you run out of time or the target loses interest, you waste energy and time.
+
+| Gear Category | Purpose | Upgrade Priority |
+| :--- | :--- | :--- |
+| **Boat** | Unlocks new biomes | Highest |
+| **Hook** | Allows deeper fishing | High |
+| **Gifts** | Attracts specific targets | Medium |
+
+<Callout type="tip" title="Pro Tip">
+Always check the Fishipedia after a successful catch. It provides essential data on target depths and rarity, which helps refine your future loadouts.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progression Strategy">
+
+Progression is gated by gold and boat access. Follow this structured approach to ensure you are never stuck in a low-yield area for too long.
+
+<Steps>
+  <Step num="1" title="Calm Ocean Farming">
+    Start by targeting the Mermaid at 50m to build your initial bankroll, then move to the Shark at 200m using the Good Hook.
+  </Step>
+  <Step num="2" title="Rocky Ocean Transition">
+    Save 1,500g for the Regular Boat. Once inside, focus on the Octopus and Anemone to generate enough gold for the Reinforced Boat.
+  </Step>
+  <Step num="3" title="Deep Sea Exploration">
+    With the Reinforced and Golden boats, move into the Turbulent and Dark oceans to capture high-value targets like the 2,000m Angler.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Budget Management">
+Do not buy every hook available in the shop. Only purchase the specific hook and gift combinations required for your next target creature to maximize gold efficiency.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipment and Catch Requirements">
+
+Success in the deep ocean depends on your loadout. Using the wrong hook or gift will result in a failed catch. Use this table to plan your next trip.
+
+| Creature | Depth | Required Hook | Required Gift |
+| :--- | :--- | :--- | :--- |
+| **Mermaid** | 50m | Regular Hook | Diamond Ring |
+| **Shark** | 200m | Good Hook | Striped Pantie |
+| **Angler** | 300m | Regular Hook | Box of Chocolates |
+| **Octopus** | 100m | Double Shielded | Mighty Dildo |
+| **Kappa** | 500m | Drill Hook | Pearl Necklace |
+
+<CardGrid cols={3}>
+  <Card title="Early Game">
+    - Focus: Calm Ocean
+    - Target: Mermaid & Shark
+    - Goal: 1,500g for boat
+  </Card>
+  <Card title="Mid Game">
+    - Focus: Rocky Ocean
+    - Target: Octopus & Kappa
+    - Goal: 5,000g for boat
+  </Card>
+  <Card title="Late Game">
+    - Focus: Dark Ocean
+    - Target: Angler & Whale
+    - Goal: 8,000g for boat
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Gallery and Scene Unlocks">
+
+Unlocking all scenes requires precise execution. Every scene is tied to a specific creature, depth, and equipment set.
+
+<Checklist
+  id="unlock-checklist"
+  title="Progression Milestones:"
+  items={[
+    "Successfully catch the Calm Ocean Mermaid",
+    "Acquire the Regular Boat for Rocky Ocean access",
+    "Retrieve Grandpa's Letter at 1,000m in Turbulent Ocean",
+    "Complete the Fishipedia with all deep-sea catches"
+  ]}
+/>
+
+<Callout type="success" title="Success Note">
+The deepest creatures in the Dark Ocean offer the highest rewards. Ensure your Omega Hook is ready before attempting the 2,000m Angler.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best way to earn gold quickly?",
+    answer: "Focus on special catches like the Shark and Angler rather than standard fish. Always use the specific gift required for the target to ensure the highest payout."
+  },
+  {
+    question: "Do I need to buy every boat?",
+    answer: "Yes, each boat is a necessary gate for exploring deeper ocean biomes where more valuable creatures reside."
+  },
+  {
+    question: "Where can I find Grandpa's Letter?",
+    answer: "This story collectible is located at a depth of 1,000m within the Turbulent Ocean. You will need the Reinforced Boat to reach this depth."
+  }
+]} />
+
+</Section>

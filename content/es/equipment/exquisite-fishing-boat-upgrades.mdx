@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mejoras de Barcos en Exquisite Fishing: Guía de Progresión y Costos",
+  description: "Domina las mejoras de barcos en Exquisite Fishing con nuestra guía detallada sobre costos, requisitos de biomas oceánicos y rutas eficientes para farmear oro en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boat+Upgrades+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Exquisite Fishing",
+  keywords: "mejoras de barcos, guía de progresión, costos, biomas oceánicos, farmeo de oro"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Progresión Principal**: Comienza con el **Bote Viejo Común** (Regular Old Boat) y ahorra 1,500g para la primera mejora importante.
+- **Acceso al Océano**: Cada nivel de barco desbloquea un bioma oceánico específico, desde el **Océano Calmo** hasta el **Océano Oscuro**.
+- **Prioridad de Oro**: Enfócate en capturar al **Angler** a 300m en el área inicial para financiar el equipo del juego temprano.
+- **Límites de Profundidad**: Las mejoras de barco son esenciales para alcanzar los 2,000m de profundidad requeridos para las capturas del final del juego.
+- **Sinergia**: Siempre combina las mejoras de barco con **Anzuelos** y **Regalos** para desbloquear escenas especiales de criaturas.
+</Callout>
+
+<Section icon={Map} title="Progresión Principal del Barco y Descripción de Niveles">
+
+Navegar por las aguas de esta aventura de pixel-art requiere una comprensión sólida de las **mejoras de barcos en Exquisite Fishing**. Tu embarcación es el principal guardián para acceder a biomas más profundos, peces de mayor valor y las escenas de personajes maduros del juego. La progresión es lineal pero requiere una inversión significativa de oro, por lo que es crucial saber exactamente cuándo gastar tu moneda ganada con tanto esfuerzo.
+
+**Puntos destacados del video:**
+- **Ciclo de Pesca**: Demuestra la mecánica principal de lanzar y recoger el sedal.
+- **Interfaz de la Tienda**: Muestra dónde comprar barcos y equipo.
+- **Transición de Biomas**: Visualiza el cambio del Océano Calmo al Rocoso.
+
+<YouTubeEmbed videoId="r1aja9_vSdg" title="Exquisite Fishing Gameplay and Upgrades" />
+
+Los niveles de barcos se dividen en cuatro categorías distintas, cada una sirviendo como requisito previo para el siguiente bioma oceánico. Sin mejorar tu barco, te encontrarás atrapado en aguas poco profundas, incapaz de acceder a los objetivos de alto valor que se encuentran en los océanos Turbulento y Oscuro.
+
+| Nivel de Barco | Costo | Bioma Principal | Hito de Profundidad Máxima |
+| :--- | :--- | :--- | :--- |
+| **Bote Viejo Común** | 0g | Océano Calmo | 300m (Angler) |
+| **Bote Común** | 1,500g | Océano Rocoso | 600m (Angler) |
+| **Barco Reforzado** | 5,000g | Océano Turbulento | 1,000m (Carta del Abuelo) |
+| **Barco Dorado** | 8,000g | Océano Oscuro | 2,000m (Angler de las Profundidades) |
+
+<Callout type="tip" title="Estrategia de Gasto">
+No malgastes oro en artículos misceláneos de la tienda hasta que hayas asegurado el **Bote Común**. El salto en el potencial de ganancia de oro en el Océano Rocoso supera con creces los beneficios de los regalos del juego temprano.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Biomas Oceánicos y Requisitos de Profundidad">
+
+Cada mejora del barco se correlaciona directamente con un nuevo bioma oceánico. Estos biomas no son solo cambios visuales; representan aumentos significativos en dificultad y recompensa. Cuanto más profundo vayas, más especializado debe ser tu equipamiento. Comprender el rango de profundidad de tu embarcación actual ayuda a prevenir "lanzamientos vacíos" donde buscas criaturas que simplemente no pueden existir en tu área actual.
+
+<CardGrid cols={2}>
+  <Card title="Océanos Calmo y Rocoso">
+    - **Costo de Entrada**: 0g a 1,500g
+    - **Objetivos Clave**: Sirena, Tiburón, Pulpo
+    - **Enfoque**: Construir una base de oro para anzuelos de mitad de juego.
+  </Card>
+  <Card title="Océanos Turbulento y Oscuro">
+    - **Costo de Entrada**: 5,000g a 8,000g
+    - **Objetivos Clave**: Ballena, Kappa, Angler de las Profundidades
+    - **Enfoque**: Recuperar objetos de la historia y completar la Fishipedia.
+  </Card>
+</CardGrid>
+
+La transición entre biomas a menudo está bloqueada por algo más que el barco mismo. Si bien el barco te permite entrar al océano, aún necesitarás anzuelos específicos para sobrevivir al proceso de recuperación en profundidades extremas.
+
+| Bioma Oceánico | Barco Requerido | Tarifa de Entrada | Captura Profunda Notable |
+| :--- | :--- | :--- | :--- |
+| **Océano Calmo** | Bote Viejo Común | 0g | Angler (300m) |
+| **Océano Rocoso** | Bote Común | 1,500g | Kappa (500m) |
+| **Océano Turbulento** | Barco Reforzado | 5,000g | Tiburón (900m) |
+| **Océano Oscuro** | Barco Dorado | 8,000g | Angler (2,000m) |
+
+<Callout type="warning" title="Advertencia de Profundidad">
+Alcanzar una profundidad no garantiza una captura. Si tu anzuelo no está calificado para la fuerza de la criatura, la línea se romperá, desperdiciando tu tiempo y oro potencial.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sinergia de Equipo: Anzuelos y Regalos">
+
+Mejorar tu barco es solo la mitad de la batalla. Para utilizar con éxito las **mejoras de barcos en Exquisite Fishing**, debes sincronizar tu embarcación con los **Anzuelos** y **Regalos** apropiados. Cada criatura especial tiene un "equipamiento perfecto" que asegura que se sientan atraídas por tu señuelo y sean recogidas con éxito.
+
+Por ejemplo, el **Barco Dorado** te permite alcanzar los 2,000m en el Océano Oscuro, pero sin el **Omega Hook** y un **Diamond Ring**, el legendario Angler de las Profundidades permanecerá fuera de tu alcance. Del mismo modo, el **Pulpo** en el Océano Rocoso requiere un **Mighty Dildo** y un **Double Shielded Hook**.
+
+| Criatura Objetivo | Anzuelo Requerido | Regalo Requerido | Valor |
+| :--- | :--- | :--- | :--- |
+| **Sirena (Calmo)** | Regular Hook | Diamond Ring | 300g |
+| **Tiburón (Calmo)** | Good Hook | Striped Pantie | 2,000g |
+| **Angler (Calmo)** | Regular Hook | Box of Chocolates | 10,000g |
+| **Kappa (Rocoso)** | Drill Hook | Pearl Necklace | 7,500g |
+| **Ballena (Turbulento)** | Double Shielded Hook | Striped Pantie | 2,500g |
+| **Pulpo (Oscuro)** | Anal Beads Hook | Mighty Dildo | 35,000g |
+
+<Callout type="success" title="Farmeo de Alto Valor">
+El **Angler del Océano Calmo** es el objetivo más eficiente del juego temprano. Otorga 10,000g y solo requiere el **Regular Hook** inicial y una **Box of Chocolates**. Usa esto para financiar rápidamente la mejora de tu Barco Reforzado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ruta de Mejora Paso a Paso">
+
+Para llegar al final del juego de manera eficiente, sigue este orden de compra optimizado. Este camino minimiza el tiempo de inactividad y asegura que siempre tengas el oro necesario para el siguiente paso de progresión.
+
+<Steps>
+  <Step num="1" title="La Base de los 10k">
+    Comienza en el **Océano Calmo**. Compra la **Box of Chocolates** y usa tu **Regular Hook** para atrapar al **Angler** a 300m. Esto proporciona una ganancia inesperada de 10,000g.
+  </Step>
+  <Step num="2" title="Entrada al Océano Rocoso">
+    Compra el **Bote Común** (1,500g). Apunta inmediatamente al **Kappa** a 500m usando el **Drill Hook** y el **Pearl Necklace** para mantener tu flujo de oro.
+  </Step>
+  <Step num="3" title="Escalado a Mitad de Juego">
+    Invierte 5,000g en el **Barco Reforzado**. Esto desbloquea el **Océano Turbulento**. Tu objetivo principal aquí es el **Tiburón de 900m**, que paga 24,000g por captura.
+  </Step>
+  <Step num="4" title="Maestría del Final del Juego">
+    Compra el **Barco Dorado** (8,000g) y el **Omega Hook**. Enfócate en las profundidades de 2,000m del **Océano Oscuro** para completar tu Fishipedia y desbloquear las escenas finales.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota del Coleccionista">
+No olvides recoger la **Carta del Abuelo** a 1,000m en el Océano Turbulento. Aunque no tiene valor en oro, es un objeto clave de la historia necesario para la completitud total.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de Verificación y Objetivos del Final del Juego">
+
+Una vez que hayas dominado por completo las **mejoras de barcos en Exquisite Fishing**, tu enfoque cambia de la supervivencia a la finalización. Usa esta lista para asegurarte de haber desbloqueado todo lo que el juego ofrece a través de los cuatro biomas.
+
+<Checklist
+  id="endgame-completion"
+  title="Objetivos de Finalización del Juego:"
+  items={[
+    "Comprar el Barco Dorado por 8,000g",
+    "Desbloquear el Omega Hook para recuperaciones a 2,000m",
+    "Recoger la Carta del Abuelo del Océano Turbulento",
+    "Recoger con éxito el Angler del Océano Oscuro de 45,000g",
+    "Desbloquear todas las escenas de personajes 18+ en la galería",
+    "Completar la Fishipedia al 100%"
+  ]}
+/>
+
+El éxito en el juego tardío depende en gran medida de reutilizar regalos. Muchos objetivos de alto valor en el Océano Oscuro, como la **Ballena** y el **Kappa**, usan los mismos regalos (**Lovely Ribbon**, **Striped Pantie**) que compraste para biomas anteriores. Siempre verifica los requisitos antes de comprar nuevos artículos.
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo el Océano Rocoso?",
+    answer: "Debes comprar el Bote Común por 1,500g en la tienda del juego. Esta embarcación proporciona la integridad estructural necesaria para navegar por el bioma del Océano Rocoso."
+  },
+  {
+    question: "¿Cuál es el mejor barco para farmear oro?",
+    answer: "El Barco Dorado es el mejor por el valor absoluto de oro, pero el Barco Reforzado es el más eficiente para el farmeo a mitad de juego al apuntar al Tiburón de 24,000g en el Océano Turbulento."
+  },
+  {
+    question: "¿Dónde puedo encontrar mi archivo de guardado para respaldar mis mejoras?",
+    answer: "Tus datos de guardado se encuentran en AppData/LocalLow/PinkySoul/Exquisite Fishing. Se recomienda encarecidamente respaldar esta carpeta antes de realizar compras importantes en la tienda."
+  },
+  {
+    question: "¿Las mejoras de barco aumentan la velocidad de recogida?",
+    answer: "Las mejoras de barco desbloquean principalmente nuevos biomas y límites de profundidad. La velocidad de recogida y la durabilidad de la línea se mejoran comprando mejoras específicas de Anzuelos en la tienda."
+  }
+]} />
+
+</Section>
